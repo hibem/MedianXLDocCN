@@ -5,6 +5,8 @@
 // @description  实用工具
 // @author       黑本
 // @match        https://docs.median-xl.com/doc/items/*
+// @updateURL    https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @downloadURL  https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
 // @grant        none
 // ==/UserScript==
 (function() {
