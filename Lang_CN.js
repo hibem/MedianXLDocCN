@@ -59,6 +59,7 @@
     .replace(/ Blink/g, ' Blink（闪烁 -瞬移，晕眩）')
     .replace(/ Arrow Swarm/g, ' Arrow Swarm（箭群 -多重射击）')
     .replace(/ Wraith Arrow/g, ' Wraith Arrow（幽灵箭 ）')
+    .replace(/ Frozen Soul/g, ' Frozen Soul（冰冻之魂）')
 
 
     //怪物
