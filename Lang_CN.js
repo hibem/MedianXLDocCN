@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         魔电官网文档中文化
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/hibem/MedianXLDocCN
 // @version      0.1
-// @description  实用工具
+// @description  神符之语/装备库
 // @author       黑本
 // @match        https://docs.median-xl.com/doc/items/*
 // @updateURL    https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
