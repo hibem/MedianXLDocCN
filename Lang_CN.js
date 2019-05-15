@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         魔电官网文档中文化
-// @namespace    https://github.com/hibem/MedianXLDocCN
+// @name         魔电官网文档中文化插件
+// @description  汉化了官网文档中的神符之语、装备等内容
+// @copyright    2019 黑本 
 // @version      0.1
-// @description  神符之语/装备库
 // @author       黑本
-// @match        https://docs.median-xl.com/doc/items/*
-// @updateURL    https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
-// @downloadURL  https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @license      MIT
+// @homepageURL  https://space.bilibili.com/12221554
+// @match        https://docs.median-xl.com/doc/*
+// @require      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 (function() {
