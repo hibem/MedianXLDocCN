@@ -62,6 +62,7 @@
     .replace(/ Arrow Swarm/g, ' Arrow Swarm（箭群 -多重射击）')
     .replace(/ Wraith Arrow/g, ' Wraith Arrow（幽灵箭 ）')
     .replace(/ Frozen Soul/g, ' Frozen Soul（冰冻之魂）')
+    .replace(/Bloodspeaker's Mark/g, 'Bloodspeaker\'s Mark（鲜血议长的标记）')
 
 
     //怪物
