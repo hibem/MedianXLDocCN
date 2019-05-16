@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化插件
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本 
-// @version      0.2.2
+// @version      0.2.3
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -15,6 +15,7 @@
 (function() {
     'use strict';
 
+    document.body.innerHTML = document.body.innerHTML
 //角色技能    
     //亚马逊
     .replace(/SUN STRIKE/g, 'SUNSTRIKe<br>炎阳击')
@@ -28,7 +29,6 @@
     
 
     //技能
-    document.body.innerHTML = document.body.innerHTML
     .replace(/ to Divine Apparition/g, 'Divine Apparition（神圣显现 -瞬移，冰冻）')
     .replace(/ Mark of the Wild/g, 'Mark of the Wild（野性印记 -增伤）')
     .replace(/ to Hamstring/g, 'Hamstring（断筋 -近战、晕眩）')
