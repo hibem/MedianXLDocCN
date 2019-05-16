@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         魔电官网文档中文化插件
+// @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本 
 // @version      0.2.3
@@ -209,7 +209,7 @@
     .replace(/Cannot be Unsocketed/g, '无法取出镶嵌物')
 
 
-    //装备属性词条
+  //装备属性词条
     .replace(/ Bonus Elemental Damage /g, ' 增加元素伤害')
     .replace(/Drains 2% Life per Second/g, '每秒流失2%的生命')
     .replace(/Amazing Grace/g, '奇异恩典')
