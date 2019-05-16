@@ -7,7 +7,8 @@
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
 // @match        https://docs.median-xl.com/doc/*
-// @require      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @downloadURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @updateURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
