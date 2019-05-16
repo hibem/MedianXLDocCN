@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化插件
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本 
-// @version      0.1.1
+// @version      0.1.2
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
