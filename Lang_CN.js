@@ -15,7 +15,17 @@
 (function() {
     'use strict';
 
-//符文
+//角色技能    
+    //亚马逊
+    .replace(/SUN STRIKE/g, 'SUNSTRIKe<br>炎阳击')
+    .replace(/Effect: shoots a piercing fire arrow that leaves a trail behind/g, '投射物 - 射出一只可穿透的火箭并留下火焰')
+    .replace(/BARRAGE/g, 'BARRAGe<br>弹幕')
+    .replace(/Effect: shoots arrows in random directions/g, '投射物 - 密集箭矢的旋转射击')
+    .replace(/PHALANX/g, 'PHALANx<br>方阵')
+    .replace(/Effect: summons a line of spirit archers/g, '投射物 - 召唤一排弓箭手射向下方')
+    .replace(/DRAGONLORE/g, 'DRAGONLORe<br>巨龙传说')
+    .replace(/Passive devotion effect: adds elemental damage and magic damage if you have elemental and magic items/g, '被动 - 强化你的冰火电伤害')
+    
 
     //技能
     document.body.innerHTML = document.body.innerHTML
@@ -423,9 +433,7 @@
     .replace(/Boots/g, '鞋子')
     .replace(/Helms/g, '头盔')
     
-//角色技能（基于Caimiao汉化版本）    
-    //亚马逊
-    .replace(/SUN STRIKE/g, 'SUN-STRIKE<br>炎阳击')
+
 
 //菜单
     .replace(/CUBE RECIPES/g, '合成公式')
