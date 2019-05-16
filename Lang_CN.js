@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化插件
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本 
-// @version      0.1.2
+// @version      0.2
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -80,8 +80,30 @@
     .replace(/ Plague Avatar/g, 'Plague Avatar（瘟疫化身 -小范围持续毒伤）')
     .replace(/ to Amatoxin/g, 'Amatoxin（武器淬毒 -被动）')
     .replace(/ Countdown/g, 'Countdown（法术 -大范围冰伤）')
+    .replace(/ Arachnomancy /g, 'Arachnomancy （蛛卜术 -毒伤）')
+    .replace(/ Lightning Shield/g, 'Lightning Shield（闪电护盾）') 
+    .replace(/ Supernova/g, 'Supernova（超新星 -大范围电伤）')
+    .replace(/ Lightning Wall/g, 'Lightning Wall（闪电墙 -晕眩）')
+    .replace(/ Lionheart/g, 'Lionheart（狮心 -增益 丐版的龙之心）')
+    .replace(/ to Bloodstar/g, 'Bloodstar（血星 -缓慢移动的火伤）')
+    .replace(/ Rapture/g, 'Rapture（狂喜 -增益，加全速）')
+    .replace(/ to Shatter the Flesh/g, 'Shatter the Flesh（撕碎血肉 -尸爆冷冻）')
+    .replace(/ Rust Storm/g, 'Rust Storm（腐蚀风暴 -诅咒减防）')
+    .replace(/ Cataclysm/g, ' Cataclysm（突变 -火球环形散射）')
+    .replace(/ to Summon Avalanche/g, 'Summon Avalanche（召唤雪怪 -冰伤并增加召唤物法伤）')
+    .replace(/ Forked Lightning/g, 'Forked Lightning（分叉闪电）')
+    .replace(/ to Magic Missiles/g, ' Magic Missiles（魔法飞弹）')
+    .replace(/ Parasite/g, 'Parasite（寄生虫 -近战弹射）')
+    .replace(/ Kraken Stance/g, 'Kraken Stance（海妖姿态 -增加冰火电伤）')
+    .replace(/ Stampede/g, 'Stampede（涌动 -多重投掷）')
+    .replace(/ Lorenado/g, 'Lorenado（知识旋风 -毒伤）')
+    .replace(/ Fairy Ring/g, 'Fairy Ring（）')
+    .replace(//g, '')
+    
+    
 
     //怪物
+    .replace(/ Flesh Clan/g, 'Flesh Clan（羊头人战士）')
     .replace(/ Necrobot/g, 'Necrobot（死灵机器人）')
     .replace(/ Venom Fiend/g, 'Venom Fiend（毒魔）')
     .replace(/ Condemned/g, 'Condemned（火人）')
@@ -153,13 +175,13 @@
     .replace(/Krys Rune/g, '54# Krys')
     .replace(/Auhe Rune/g, '55# Auhe')
     .replace(/Shaad Rune/g, '56# Shaad')
-    .replace(/Ma Rune/g, '魔法符文')
-    .replace(/Po Rune/g, '毒素符文')
-    .replace(/Fi Rune/g, '火焰符文')
-    .replace(/Ea Rune/g, '大地符文')
-    .replace(/Co Rune/g, '寒冰符文')
-    .replace(/Li Rune/g, '闪电符文')
-    .replace(/Xis Rune/g, '卡布符文')
+    .replace(/Ma Rune/g, '魔法')
+    .replace(/Po Rune/g, '毒素')
+    .replace(/Fi Rune/g, '火焰')
+    .replace(/Ea Rune/g, '大地')
+    .replace(/Co Rune/g, '寒冰')
+    .replace(/Li Rune/g, '闪电')
+    .replace(/Xis Rune/g, '卡布')
 
 
 //其他
@@ -179,6 +201,7 @@
 
 
     //装备属性词条
+    .replace(/ Bonus Elemental Damage /g, ' 增加元素伤害')
     .replace(/Drains 2% Life per Second/g, '每秒流失2%的生命')
     .replace(/Amazing Grace/g, '奇异恩典')
     .replace(/ second Cooldown to Blade Spirits/g, ' 秒刀刃之灵冷却时间')
@@ -400,6 +423,10 @@
     .replace(/Belts/g, '腰带')
     .replace(/Boots/g, '鞋子')
     .replace(/Helms/g, '头盔')
+    
+//角色技能（基于Caimiao汉化版本）    
+    //亚马逊
+    .replace(/SUN STRIKE/g, 'SUN-STRIKE<br>炎阳击')
 
 //菜单
     .replace(/CUBE RECIPES/g, '合成公式')
