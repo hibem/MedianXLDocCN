@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
-// @copyright    2019 黑本 
-// @version      0.2.3
+// @copyright    2019 黑本
+// @version      0.2.4
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -16,7 +16,41 @@
     'use strict';
 
     document.body.innerHTML = document.body.innerHTML
-//角色技能    
+
+//任务
+    //等级挑战
+    .replace(/After killing the Infernal Contraption in Normal difficulty, enter the portal to access Tran Athulua, here begins Level Challenge 1./g, '普通难度下杀死炼狱装置（Act 5 巴尔前最后一波怪），开启红门后进入阿图卢阿城（妹子岛 伪）。 ')
+    .replace(/Find and defeat the three Priestesses. Each will drop a shard of her respective element./g, '找到并杀死三个祭司，分别会掉落火焰、冰冷和闪电碎片。')
+    .replace(/Cube all three shards below level 60 to create the Sunstone./g, '将三枚元素碎片合成得到太阳石（60级以内）')
+    .replace(/Sunstone of the Twin Seas/g, 'Sunstone of the Twin Seas<br>双子海的太阳石')
+    .replace(/Although the level can be accessed at level 45, you cannot cube the shards together until at least level 50./g, '该场景最低进入等级为45级，但合成需要等级为50级。')
+    .replace(/If you are past level 59, you can still do the challenge, but with the added penalty of 2 Arcane Crystals per 10 levels./g, '<br>如果你已经超过了59级，虽然可以继续挑战并合成，但每超过10级，合成时就需要花费额外2枚奥术水晶。')
+    //恩奈德挑战
+    .replace(/MINIMUM LEVEL 80/g, '挑战需要等级 80')
+    .replace(/Access this challenge through killing Mephisto in Nightmare Difficulty, and kill an Ennead Necromancer boss to obtain a/g, '噩梦难度下杀死 Act3 Boss 墨菲斯托，开启红门后进入库拉斯特3000BA（k3k 伪），杀死任意一个恩奈德死灵法师（分别在地图中3个边缘处）会掉落一个')
+    .replace(/Heroic Torch/g, '英雄火炬')
+    .replace(/Place this torch in the Horadric Cube and transmute to receive your class charm./g, '将火炬单独合成，将得到你的角色护身符')
+    .replace(/Your class charm adds the following bonuses depending on your class:/g, '各职业角色护符属性如下：')
+    .replace(/Unlocks your Ennead Skill/g, '解锁你的恩奈德技能')
+    .replace(/Your free bonus skill/g, '解锁你的新技能')
+    .replace(/Keep in Inventory to Gain Bonus/g, '护身符 - 放入背包生效')
+    .replace(/<\/u>: uses /g, '专属<\/u>: ')
+    .replace(/Sacred Sunstone/g, '神圣太阳石 Sacred Sunstone')
+    .replace(/Shadow Vortex/g, '暗影涡流 Shadow Vortex')
+    .replace(/Worldstone Orb/g, '世界之石之球 Worldstone Orb')
+    .replace(/Caoi Dulra Fruit/g, '草杜拉的水果 Caoi Dulra Fruit')
+    .replace(/Soulstone Shard/g, '灵魂石碎片 Soulstone Shard')
+    .replace(/Eye of Divinity/g, '圣力之眼 Eye of Divinity')
+    .replace(/Nexus Crystal/g, '枢纽水晶 Nexus Crystal')
+    .replace(/This skill can be found at the top left of your first skill tab. When you/g, '该技能位于技能书奖励标签的左上角。')
+    .replace(/complete the Ennead Challenge and receive your class charm and keep it in your/g, '完成挑战并将得到的角色护符放在背包内，')
+    .replace(/inventory. This allows you to put skill points into the skill./g, '即可解锁技能。')
+    .replace(/Ennead Challenge/g, '恩奈德挑战')
+    .replace(/Reward:/g, '奖励：')
+    .replace(/Level Challenge /g, '等级挑战')
+    .replace(/MINIMUM LEVEL 45/g, '挑战需要等级 45')
+
+//角色技能
     //亚马逊
     .replace(/SUN STRIKE/g, 'SUNSTRIKe<br>炎阳击')
     .replace(/Effect: shoots a piercing fire arrow that leaves a trail behind/g, '投射物 - 射出一只可穿透的火箭并留下火焰')
@@ -26,7 +60,7 @@
     .replace(/Effect: summons a line of spirit archers/g, '投射物 - 召唤一排弓箭手射向下方')
     .replace(/DRAGONLORE/g, 'DRAGONLORe<br>巨龙传说')
     .replace(/Passive devotion effect: adds elemental damage and magic damage if you have elemental and magic items/g, '被动 - 强化你的冰火电伤害')
-    
+
 
     //技能
     .replace(/ to Divine Apparition/g, 'Divine Apparition（神圣显现 -瞬移，冰冻）')
@@ -79,7 +113,7 @@
     .replace(/ to Tantrum/g, 'Tantrum（暴怒 -小范围的冲击）')
     .replace(/ Meteor Shower/g, 'Meteor Shower（陨石雨 -大范围火伤）')
     .replace(/ Rune of Fire/g, 'Rune of Fire（火焰符文 -原地放置）')
-    .replace(/ Rune of Ice/g, 'Rune of Ice（冰冻符文 -原地放置）')    
+    .replace(/ Rune of Ice/g, 'Rune of Ice（冰冻符文 -原地放置）')
     .replace(/ Doom/g, 'Doom（末日 -减抗诅咒）')
     .replace(/ Singularity/g, 'Singularity（奇点 -范围法术）')
     .replace(/ to Silver Dart/g, 'Silver Dart（银镖 -追踪穿透）')
@@ -91,7 +125,7 @@
     .replace(/ to Amatoxin/g, 'Amatoxin（武器淬毒 -被动）')
     .replace(/ Countdown/g, 'Countdown（法术 -大范围冰伤）')
     .replace(/ Arachnomancy /g, 'Arachnomancy （蛛卜术 -毒伤）')
-    .replace(/ Lightning Shield/g, 'Lightning Shield（闪电护盾）') 
+    .replace(/ Lightning Shield/g, 'Lightning Shield（闪电护盾）')
     .replace(/ Supernova/g, 'Supernova（超新星 -大范围电伤）')
     .replace(/ Lightning Wall/g, 'Lightning Wall（闪电墙 -晕眩）')
     .replace(/ Lionheart/g, 'Lionheart（狮心 -增益 丐版的龙之心）')
@@ -108,8 +142,8 @@
     .replace(/ Stampede/g, 'Stampede（涌动 -多重投掷）')
     .replace(/ Lorenado/g, 'Lorenado（知识旋风 -毒伤）')
     .replace(/ Fairy Ring/g, 'Fairy Ring（）')
-    
-    
+
+
 
     //怪物
     .replace(/ Flesh Clan/g, 'Flesh Clan（羊头人战士）')
@@ -222,6 +256,7 @@
     .replace(/ on Kill/g, ' 当杀死怪物')
     .replace(/ Enhanced damage/g, ' 增强伤害（ED）')
     .replace(/ Bonus to Attack Rating/g, ' 额外准确率（AR）')
+    .replace(/ Bonus to All Attributes /g, ' 所有属性')
     .replace(/ to All Attributes/g, ' 所有属性')
     .replace(/ Gold Find/g, ' 更多金币')
     .replace(/ to Light Radius/g, ' 照亮范围')
@@ -241,7 +276,8 @@
     .replace(/ to All Skills/g, ' 所有技能')
     .replace(/ to Minimum Damage/g, ' 最小伤害')
     .replace(/Stun Attack/g, '晕眩攻击')
-    .replace(/ to Summoned Minion Life/g, '召唤物生命')
+    .replace(/ Bonus to Summoned Minion Life/g, ' 召唤物生命')
+    .replace(/ to Summoned Minion Life/g, ' 召唤物生命')
     .replace(/ to Strength/g, ' 力量')
     .replace(/ Bonus to Energy Factor/g, ' 增加精力因子')
     .replace(/ to Energy/g, ' 精力')
@@ -276,6 +312,7 @@
     .replace(/ Combat Speeds/g, ' 所有战斗速度')
     .replace(/ Increased Healing Rate from Apples/g, '增加食用苹果的恢复效率')
     .replace(/ Chance of Uninterruptable Attack/g, ' 不间断攻击（UA）')
+    .replace(/Total Character Defense Plus/g, '角色整体防御增加 ')
     .replace(/Total Character Defense /g, '角色整体防御 ')
     .replace(/ to Enemy Cold Resistance/g, ' 敌人冰冷抗性')
     .replace(/ to Enemy Poison Resistance/g, ' 敌人毒素抗性')
@@ -310,16 +347,14 @@
     .replace(/Elemental Resists /g, '元素抗性 ')
     .replace(/ Deadly Strike/g, ' 致命一击（DS）')
     .replace(/ to Summoned Minion Resistances/g, ' 召唤物抗性')
-    .replace(/ to Summoned Minion Damage/g, '召唤物伤害')
-    .replace(/ to Summoned Minion Attack Rating/g, '召唤物准确率')
+    .replace(/ Bonus to Summoned Minion Damage/g, ' 召唤物伤害')
+    .replace(/ to Summoned Minion Damage/g, ' 召唤物伤害')
+    .replace(/ to Summoned Minion Attack Rating/g, ' 召唤物准确率')
     .replace(/ to Maximum Barbarian Minions/g, ' 野蛮人召唤物数量')
-    .replace(/ to Maximum Necromancer Minions/g, '死灵法师召唤物数量')
-    .replace(/ Damage to Undead/g, '对不死生物的伤害（DTU）')
+    .replace(/ to Maximum Necromancer Minions/g, ' 死灵法师召唤物数量')
+    .replace(/ Damage to Undead/g, ' 对不死生物的伤害（DTU）')
     .replace(/ Defense vs. Missile/g, ' 对飞弹的防御')
     .replace(/Ignore Target's Defense/g, '忽视目标防御')
-    .replace(/ Enhanced Defense/g, '增强防御')
-    .replace(/ Defense/g, ' 防御值')
-    .replace(/ Skill Levels/g, '技能等级')
     .replace(/ to Druid/g, ' 德鲁伊')
     .replace(/ to Assassin/g, ' 刺客')
     .replace(/ to Barbarian/g, ' 野蛮人')
@@ -351,15 +386,18 @@
     .replace(/Attacker Takes Fire Damage of /g, '攻击者受到火焰伤害')
     .replace(/ Bonus Elemental Damage to Bloodlust/g, ' 增加嗜血的元素伤害')
     .replace(/You may Only use Melee, Summon and Support Skills/g, '仅可使用近战，召唤和支援技能')
-    .replace(/ Base Block Chance/g, '基础格挡值')
+    .replace(/ Base Block Chance/g, ' 基础格挡值')
     .replace(/ Bonus to Poison Skill Duration/g, ' 增加毒素技能持续时间')
-    .replace(/Poison Length Reduced by /g, '中毒时间减少 ')
-    .replace(/Lion Stance Damage Bonus /g, '狮子姿态伤害增加 ')
-    .replace(/ Slower Block Rate/g, '降低格挡速度')
-    .replace(/Cold Absorb /g, '冰冷吸收')
-    .replace(/Fire Absorb /g, '火焰吸收')
-    .replace(/Lightning Absorb /g, '闪电吸收')
-    .replace(/Poison Absorb /g, '毒素吸收')
+    .replace(/Poison Length Reduced by /g, ' 中毒时间减少 ')
+    .replace(/Lion Stance Damage Bonus /g, ' 狮子姿态伤害增加 ')
+    .replace(/ Slower Block Rate/g, ' 降低格挡速度')
+    .replace(/Cold Absorb /g, ' 冰冷吸收')
+    .replace(/Fire Absorb /g, ' 火焰吸收')
+    .replace(/Lightning Absorb /g, ' 闪电吸收')
+    .replace(/Poison Absorb /g, ' 毒素吸收')
+    .replace(/ Fire Damage/g, ' 火焰伤害')
+    .replace(/ Lightning Damage /g, ' 闪电伤害')
+    .replace(/ Cold Damage /g, ' 冰冷伤害')
     .replace(/ Chance to Avoid Damage/g, ' 躲避伤害')
     .replace(/Druid Morph/g, '德鲁伊形态')
     .replace(/Based on Blessed Life Skill Level/g, '基于 Blessed Life 的等级')
@@ -376,9 +414,10 @@
     .replace(/Dexterity Damage Bonus/g, '敏捷伤害加成')
     .replace(/ per Strength/g, ' 每点力量')
     .replace(/ per Dexterity/g, ' 每点敏捷')
-    .replace(/Socketed /g, '孔数 ')
-    .replace(/ to Mana/g, ' 法力值')
     .replace(/Orb Effects Applied to this Item are Doubled/g, '双倍神秘之球奖励')
+    .replace(/ Life regenerated per second/g, ' 每秒生命恢复')
+    .replace(/ Curse Length Reduction/g, ' 减少诅咒时间')
+    .replace(/ to Defense per Socketed Rune/g, ' 每颗已镶嵌的符文增强防御')
 
 //装备
     .replace(/Weapons<br>/g, '武器<br>')
@@ -432,10 +471,11 @@
     .replace(/Belts/g, '腰带')
     .replace(/Boots/g, '鞋子')
     .replace(/Helms/g, '头盔')
-    
+    .replace(/Gloves/g, '手套')
 
 
-//菜单
+
+//菜单及基础单词
     .replace(/CUBE RECIPES/g, '合成公式')
     .replace(/Cube Recipes/g, '合成公式')
     .replace(/GEMS AND RUNES/g, '宝石和符文')
@@ -450,9 +490,24 @@
     .replace(/Sacred Uniques/g, '神圣暗金装备')
     .replace(/TIERED UNIQUES/g, '品级暗金装备')
     .replace(/SACRED UNIQUES/g, '神圣暗金装备')
-    .replace(/Gloves/g, '手套');
+    .replace(/Amazon/g, '亚马逊')
+    .replace(/Assassin/g, '刺客')
+    .replace(/Barbarian/g, '野蛮人')
+    .replace(/Druid/g, '德鲁伊')
+    .replace(/Necromancer/g, '死灵法师')
+    .replace(/Paladin/g, '圣骑士')
+    .replace(/Sorceress/g, '法师')
+    .replace(/ Skills<br>/g, '技能<br>')
+    .replace(/<p>See <a/g, '<p>点击 <a')
+    .replace(/>THIS PAGE</g, '>这个页面<')
+    .replace(/> for more information about /g, '> 查看更多信息关于 ')
+    .replace(/Socketed /g, '孔数 ')
+    .replace(/ to Mana/g, ' 法力值')
+    .replace(/ Enhanced Defense/g, '增强防御')
+    .replace(/ Defense/g, ' 防御值')
+    .replace(/ Skill Levels/g, '技能等级')
 
-})
+;})
 
 ();
 
