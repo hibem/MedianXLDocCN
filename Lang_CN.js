@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.3.2
+// @version      0.3.3
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -595,7 +595,9 @@
     .replace(/ Bonus to Buff\/Debuff\/Cold Skill Duration/g, '延长Buff/Debuff/冰冻技能的效果时间')
     .replace(/ Energy Factor to Spell Damage/g, ' 精力因子至法术伤害')
     .replace(/ to Enemy Elemental Resistances/g, ' 敌人元素抗性')
+    .replace(/ to All Maximum Resistances/g, ' 最大元素抗性')
     .replace(/Maximum Elemental Resists/g, '最大元素抗性')
+    .replace(/ to all vendor prices/g, ' 所有商品价格')
     .replace(/Elemental Resists /g, '元素抗性 ')
     .replace(/ Deadly Strike/g, ' 致命一击（DS）')
     .replace(/ to Summoned Minion Resistances/g, ' 召唤物抗性')
