@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.3.3
+// @version      0.3.9
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -16,6 +16,181 @@
     'use strict';
 
     document.body.innerHTML = document.body.innerHTML
+//合成公式
+    .replace(/Far from being the interesting magical gimmick you may be used to, the Median XL cube is a powerful weapon of war./g, '跟原版里无足轻重的公式不同，赫拉迪克宝箱在魔电里起到了极为重要的作用。')
+    .replace(/These reagents can be found by killing the appropriate monster:/g, '获取方式')
+    .replace(/Catalyst of Disenchantment: kill the Smith on Normal difficulty/g, '分解催化剂 Catalyst of Disenchantment：普通难度下消灭铁匠（A1 军营）')
+    .replace(/Catalyst of Learning: kill Izual on Nightmare difficulty/g, '学习催化剂 Catalyst of Learning：噩梦难度下消灭衣卒尔（A4 绝望平原）')
+    .replace(/>Oils</g, '>油剂 Oils<')
+    .replace(/These reagents can be bought from a vendor in each town, except Oil of Conjuration which must be found./g, '每一关的有特定商人出售：<br>Act1 基德 Gheed<br>Act2 卓格南 Drognan<br>Act3 艾柯 Alkor<br>Act4 哈尔布Halbu<br>Act5 拉祖克 Larzuk')
+    .replace(/>Arcane Shards</g, '>奥术碎片 Arcane Shards<')
+    .replace(/This reagent is obtained by disenchanting unique items./g, '由分解暗金装备获取')
+    .replace(/>Arcane Crystal</g, '>奥术水晶 Arcane Crystal<')
+    .replace(/This reagent is created by cubing Arcane Shards in sets of five./g, '由奥术碎片X5合成')
+    .replace(/>Arcane Cluster</g, '>奥术簇群 Arcane Cluster<')
+    .replace(/This reagent is created by cubing an Arcane Crystal with an Oil of Craft./g, '由奥术水晶加锻造油合成（用于堆叠大量奥术水晶）')
+    .replace(/>Mystic Orbs</g, '>通灵宝珠（神秘之球） Mystic Orbs<')
+    .replace(/These reagents can be bought from any magic items vendor. Note that the strongest Mystic Orbs are not for sale.../g, '仍由上面的特定商人处出售，每颗15000，用于和装备合成，提升属性。<br>每合成1颗，装备需求等级+4，每件物品同一神秘之球最多合成5颗（通常叫做一组，增加需求等级20）。')
+    .replace(/>Shrines</g, '>圣坛 Shrines<')
+    .replace(/Orange crucifixes that drop in late Nightmare and in Hell difficulty. They enable you to create and bless items, see below./g, '噩梦后期开始掉落，用于制作圣坛手工装备')
+    .replace(/>Mark of Infusion</g, '>注入标记 Mark of Infusion<')
+    .replace(/This reagent is obtained by killing Shenk, the Overseer on any difficulty./g, '消灭任意难度的督军山克（Act5 第一个小站往回走）')
+    .replace(/DISASSEMBLE ITEMS INTO RESOURCES/g, '将无用的装备分解成战略物资')
+    .replace(/Arcane Shards, Crystals and Clusters/g, '奥术碎片/水晶和簇群 Arcane Shards, Crystals and Clusters')
+    .replace(/Destroy up to 10 spare unique items to create Arcane Shards and combine those into Arcane Crystals, which are required for other cube recipes./g, '')
+    .replace(/Any unique item \+ Catalyst of Disenchantment \→ Arcane Shards \+ Catalyst of Disenchantment/g, '暗金装备 + 分解催化剂 → 奥术碎片 + 分解催化剂（一次最多放10件装备）')
+    .replace(/Arcane Shards x5 \→ Arcane Crystal/g, '奥术碎片 x5 → 奥术水晶')
+    .replace(/You can also create an Arcane Cluster for easier Arcane Crystal safekeeping/g, '使用下列公式制造奥术簇群来储存大量的奥术水晶')
+    .replace(/Arcane Crystal \+ Oil of Craft \→ Arcane Cluster/g, '奥术水晶 + 锻造油 → 奥术簇群（1）</div></p><p><div class="reagent" style="max-width: 750px">奥术簇群（n） + 奥术水晶 x X → 奥术簇群（n + X）</div></p>')
+    .replace(/>Signets of Learning</g, '>学识图章 Signets of Learning<')
+    .replace(/Destroy up to 25 spare sacred unique or set items to create Signets of Learning. Click the signet to gain 1 attribute point permanently./g, '分解神圣暗金或者套装装备来获得学识图章，一次最多放25件<br>右击学识图章可以得到永久的额外属性点。')
+    .replace(/Any sacred unique\/set item \+ Catalyst of Learning \→ Signet of Learning \+ Catalyst of Learning/g, '神圣 暗金/套装 物品 + 学习催化剂 → 学识图章 + 学习催化剂')
+    .replace(/Each character can use a maximum of 400 Signets of Learning./g, '每个角色通过学识图章获得的额外属性点最多为400。')
+    .replace(/>ITEM QUALITY RECIPES/g, '装备品质更改公式')
+    .replace(/CHANGE THE QUALITY LEVEL OF YOUR ITEMS/g, '')
+    .replace(/Upgrade to Non-magical Item/g, '非魔法装备（白色/灰色带孔）')
+    .replace(/Upgrade any item to regular quality or a regular item to superior. This also rerolls the socket count on the item./g,
+             '重置任何品质装备为非魔法装备，并随机打孔（0 - 最大），用于制作神符之语底材以及利用A1铁匠任务奖励升级黄金。')
+    .replace(/Low quality weapon\/armor \+ Oil of Enhancement \→ reroll item as regular/g, '低品质 武器/护具 + 强化油 → 重置物品为 普通')
+    .replace(/Any quality weapon\/armor \+ Oil of Renewal \→ reroll item as superior/g, '任意品质 武器/护具 + 翻新油 → 重置物品为 超强')
+    .replace(/Upgrade to Magical Item/g, '魔法物品（蓝色）')
+    .replace(/Upgrade a plain superior item \(white or grey\) to a basic magical item./g, '')
+    .replace(/Superior weapon\/armor \+ Oil of Enhancement \→ reroll item as magic/g, '白/灰 武器/护具 + 强化油 → 升级物品为 魔法物品')
+    .replace(/Reroll Magic to Honorific/g, '荣耀物品（绿色）')
+    .replace(/Honorific items are blank items that receive a double bonus from Mystic Orbs. This enables you to create your own custom items from scratch, provided you have some money to spend on the ingredients and the Mystic Orbs./g,
+        '')
+    .replace(/Magic weapon\/armor \+ Mark of Infusion \→ return item as honorific/g, '蓝色武器/护具 + 注入标记 → 升级物品为 荣耀物品')
+    .replace(/Honorific items have no modifiers, but have maximum sockets and receive a double bonus from Mystic Orbs./g,
+             '荣耀物品是一件没有词缀的装备，它强大的地方在于可以获得通灵珠宝的双倍加成和对应装备品阶的最大孔数。')
+    .replace(/Reroll any Item to Unique/g, '暗金装备')
+    .replace(/This powerful recipe uses the reagents obtained by disenchanting other uniques to turn any tiered item of your choosing into a unique. But choose wisely, because the crystals are precious and costly to replace./g,
+             '暗金装备属性词条拥有变量，可以通过多次重置来达到最佳变量，建议用在使用周期最长的品阶4物品上。')
+    .replace(/Any non-sacred item \+ Oil of Enhancement \+ Arcane Crystal x2 \→ reroll item as unique/g, '任意非神圣物品 + 强化油 + 奥术水晶 x2 → 重置物品为暗金')
+    .replace(/Reroll Modifiers/g, '属性重置')
+    .replace(/These recipes reroll the properties and socket count on any superior item. This is useful to try and get better the superior bonuses on your item before making a runeword./g,
+             '该公式重置超强物品（白/灰）的词条属性和孔数。<br>通过反复使用该公式，达到想要的ED数值/最大孔/0孔，配合成功应用幸运油，真香，啪，真贵！<br>用于制作强大的神符之语底材。')
+    .replace(/Superior item \+ Oil of Renewal \→ reroll item/g, '超强的 武器/护具 + 翻新油 → 刷新属性')
+    .replace(/This recipe keeps the item level the same - unless it's over 99, in which case it reduces it to 99./g, '该公式保持原有物品等级（iLv），但是iLv超过99级的话会降低到99。')
+    .replace(/Rare Downlevel/g, '黄金物品降级')
+    .replace(/This recipe allows you to create yourself some baseline items. These items can be helpful to craft low-level items with space for Mystic Orbs./g,
+             '初期时为物品降级，为通灵珠宝留下更多等级空间，用途不大。')
+    .replace(/Rare weapon\/armor \+ rare amulet \+ rare ring \→ reroll item as level 1 rare item/g,
+             '黄金武器/护具 + 黄金项链 + 黄金戒指 → 重置物品等级为 1')
+    .replace(/UPTIER RECIPE/g, '品级升级公式')
+    .replace(/UPGRADE ITEMS TO THE NEXT HIGHER TIER/g, '提升装备品级至更高一阶')
+    .replace(/item tiers./g, '装备品级。')
+    .replace(/Uptiering an item increases its base statistics and maximum sockets but also increases requirements. These recipes cannot create Sacred items./g,
+             '提升装备的品阶和最大孔数，同时装备穿戴需求也会增加。这个公式无法创造神圣物品')
+    .replace(/This recipe works for tiered items of all qualities. If the item is unique, its stats will be upgraded to match the next tier on the/g,
+             '该公式作用于所有品级装备，包括暗金，在暗金装备升阶时，各条属性同样会得到提升，可以参考')
+    .replace(/\<\/a> page./g, '</a> 这个页面。')
+    .replace(/Non-sacred weapon\/armor \+ Arcane Crystal \→ reroll as next higher tier/g, '任意非神圣 武器/护具 + 奥术水晶 → 品级升阶')
+    .replace(/AFFIX RECIPES/g, '物品词条配方')
+    .replace(/ENHANCE YOUR ITEMS WITH EXTRA MAGICAL BONUSES/g, '给装备添加大量魔法属性')
+    .replace(/Mystic Orbs add a magical bonus to an item at the cost of a higher required level to use the item. There are many known types sold by vendors, but rumours persist of lost ancient orbs with miraculous powers.../g,
+             '商人处出售的通灵宝珠可以增加装备的固定属性，代价是提升的装备的等级需求，另外世界还会掉落一些商人处无法购买的强大宝珠。')
+    .replace(/Any equippable item \+ regular Mystic Orb \→ add orb bonus and \+4 required level/g,
+             '任意可装备物品 + 通灵宝珠 → 装备附加宝珠词条且需求等级+4')
+    .replace(/You can only apply up to 5 of the same type of regular Mystic Orb to your item./g, '同一属性宝珠在一件装备上最多可以使用 5 次。')
+    .replace(/The level requirement penalty is applied after taking into account both the base item required level and the level of any socket fillers. /g,
+             '通灵宝珠对装备的等级提升是基于装备的需求的等级，包括镶嵌物。<br>')
+    .replace(/This means for example if you have a belt with required level 20, add five orbs \(level penalty \+20\) and socket a Rha rune \(required level 100\), you get a belt with required level 100\+20 \= 120. /g,
+             '举个例子，你的腰带等级需求是20，然后MO了5颗通灵宝珠（等级要求增加20），然后又镶嵌了一枚Rha符文（需要等级100），那么腰带的等级要求为 100 + 20 = 120级。<br>')
+    .replace(/For that reason, to avoid going over required level 140 on accident, always add the socket fillers before adding orbs./g,
+             '这就意味着，你在MO装备时得计算好镶嵌之后的等级。')
+    .replace(/Socket Punch/g, '打孔公式')
+    .replace(/Use this recipe to add extra sockets to an item. The more jewels you feed this recipe, the more sockets it will create./g, '')
+    .replace(/Non-socketed item \+ jewel x\[1-6\] \→ returns item with \[1-6\] sockets/g,
+             '无孔装备 + 珠宝 [ 1 - 6 ] → 装备 [ 1 - 6 孔 ]')
+    .replace(/>Warning! </g, '>警告！ <')
+    .replace(/This recipe will not go over the max natural sockets an item can have. Lower tier items have a lower socket count. Excess jewels are wasted. You also cannot add more sockets to an item that already has some./g,
+             '装备根据类型和品级，最大孔数不同，投入超出最大孔数的珠宝，并不能打出更多的孔，并且多出的珠宝不会返还。<br>你无法在已经有孔的装备上使用这个公式。')
+    .replace(/>Lucky Bonus/g, ' id="luckyb">幸运加成')
+    .replace(/This recipe grants one chance to add a minor extra bonus to an item. Any item that has been transmuted with this recipe will show up as/g,
+             '该公式可以为装备增加一个额外的词条。<br>任何使用过该公式的装备会增加一个')
+    .replace(/ class\=\"brightgreen\"\>Already upgraded\!\</g, ' style="color:#02c109;"> 已升级！<')
+    .replace(/. Items marked as such cannot be used for this recipe./g, '的词条，被标记的装备无法再次使用同类升级公式。')
+    .replace(/Any item \+ Oil of Luck \→ returns item, may add bonuses/g, '任意装备 + 幸运油 → 装备附加词条')
+    .replace(/This recipe has 20% chance to add any of the following bonuses:/g, '该公式只有20%的成功几率，附加词条如下：')
+    .replace(/Magical Bonus/g, '魔法加成')
+    .replace(/In some of the more powerful areas, you might find the Oil of Conjuration, which is a concoction highly sought after by many mages. Any item that has been transmuted with this recipe will show up as/g,
+             '在一些危险的区域，你会发现一种戏法之油 Oil of Conjuration，它是法师们的最爱。<br>任何使用过该公式的装备会增加一个')
+    .replace(/Any weapon \+ Oil of Conjuration \→ returns item, may add bonus/g, '任意武器 + 戏法之油 → 装备附加词条')
+    .replace(/This recipe has 40% chance to add the following bonus:/g, '该公式只有40%的成功几率，附加词条如下：')
+    .replace(/Adventurers say they have heard of powerful evil monsters creating these in locations such as the Icy Cellar, Abaddon, Pit of Acheron and Infernal Pit./g,
+             '危险区域：Icy Cellar（冰窖）, Abaddon（阿巴顿）, Pit of Acheron（阿切尔龙穴） 和 Infernal Pit（炼狱洞穴）。')
+    .replace(/Lottery Bonus/g, '超级加成')
+    .replace(/This recipe works exactly like the lucky upgrade one, but it has only a 5% chance of adding the bonus. Any item that has been transmuted with this recipe will show up as/g,
+             '跟上面两个公式一样，不过它更加强大，更加难得,需要与BOSS掉落的护符合成。<br>任何使用过该公式的装备会增加一个')
+    .replace(/Any Unique\/Set Weapon \+ Legacy of Blood/g, '暗金或套装武器 + 血之遗产')
+    .replace(/Any Unique\/Set Armor \+ Idol of Vanity/g, '暗金或套装护甲 + 虚荣雕像')
+    .replace(/Any Unique Amulet \+ Moon of the Spider/g, '暗金项链 + 蜘蛛之月')
+    .replace(/Any Unique Ring \+ Spirit Trance Herb/g, '暗金戒指 + 灵魂出窍药草')
+    .replace(/Any Unique Quiver \+ Azmodan's Heart/g, '暗金箭袋 + 阿兹莫丹之心')
+    .replace(/Any Unique Jewel \+ Sunstone of the Gods/g, '暗金珠宝 + 诸神的太阳石')
+    .replace(/returns item, may add bonuses/g, '装备附加词条')
+    .replace(/This recipe has 5% chance to add any of the following bonuses:/g, '该公式只有5%的成功几率，附加词条如下：')
+    .replace(/Any Unique\/Set Weapon \+ Legacy of Blood/g, '暗金或套装武器 + 血之遗产')
+    .replace(/Any Unique\/Set Armor \+ Idol of Vanity/g, '暗金或套装护甲 + 虚荣雕像')
+    .replace(/Any Unique Amulet \+ Moon of the Spider/g, '暗金项链 + 蜘蛛之月')
+    .replace(/Any Unique Ring \+ Spirit Trance Herb/g, '暗金戒指 + 灵魂出窍药草')
+    .replace(/Any Unique Quiver \+ Azmodan's Heart/g, '暗金箭袋 + 阿兹莫丹之心')
+    .replace(/Any Unique Jewel \+ Sunstone of the Gods/g, '暗金珠宝 + 诸神的太阳石')
+    .replace(/SHRINES AND CRAFTING/g, '圣坛和手工')
+    .replace(/CALL ON DIVINE FORCES TO CRAFT YOUR OWN ITEMS/g, '为自己创造独一无二的物品')
+    .replace(/In Nightmare and Hell difficulty, you may find blessed relics from the ancient labyrinth beneath Tristram, stolen before its collapse./g,
+             '')
+    .replace(/During those dark days the holy shrines in the cathedral's catacombs offered salvation to some adventurers and damnation to others; removed from their sockets, the enchanted crosses cannot permanently affect humans anymore, but their divine powers can/g,
+             '')
+    .replace(/be applied to items./g, '')
+    .replace(/There are 16 types of shrines with eldritch names. Beware, results may vary depending on divine will./g, '总共有16种不同的圣坛，它们提供了不同的属性加成')
+    .replace(/The following shrines exist:/g, '圣坛列表：')
+	.replace(/Abandoned Shrine/g, '废弃圣坛 Abandoned Shrine ')
+	.replace(/Creepy Shrine/g, '惊悚圣坛 Creepy Shrine')
+	.replace(/Eerie Shrine/g, '可怖圣坛 Eerie Shrine')
+	.replace(/Enchanted Shrine/g, '强化圣坛 Enchanted Shrine')
+	.replace(/Fascinating Shrine/g, '迷人圣坛 Fascinating Shrine')
+	.replace(/Hidden Shrine/g, '隐藏圣坛 Hidden Shrine')
+	.replace(/Intimidating Shrine/g, '威吓圣坛 Intimidating Shrine')
+	.replace(/Magical Shrine/g, '魔法圣坛 Magical Shrine')
+	.replace(/Ornate Shrine/g, '华丽圣坛 Ornate Shrine')
+	.replace(/Quiet Shrine/g, '静谧圣坛 Quiet Shrine')
+	.replace(/Sacred Shrine/g, '神圣圣坛 Sacred Shrine')
+	.replace(/Shimmering Shrine/g, '微光圣坛 Shimmering Shrine')
+	.replace(/Spiritual Shrine/g, '精神圣坛 Spiritual Shrine')
+	.replace(/Tainted Shrine/g, '污秽圣坛 Tainted Shrine')
+	.replace(/Trinity Shrine/g, '三位一体圣坛 Trinity Shrine')
+	.replace(/Weird Shrine/g, '怪异圣坛 Weird Shrine')
+    .replace(/Each shrine comes with 10 charges. Each use in the cube will drain one charge. When you use up the last charge, it disappears./g,
+             '每个圣坛掉落时都有10点能量，每次合成消耗一点，消耗完毕时，该圣坛便会消失。')
+    .replace(/Experiment, learn and create some of the most powerful items in all of Sanctuary./g, '')
+    .replace(/Shrine Vessels/g, '圣坛容器')
+    .replace(/Carrying many holy relics can be a burden. Store your full shrines into a corresponding holy vessel that can hold up to 1000 shrines:/g,
+             '使用下列公式将相同容器堆叠，以免占用太多仓库容量，最高堆叠上限：1000')
+    .replace(/Shrine \(10\) \+ Oil of Craft \→ Shrine Vessel/g, '圣坛（10）+ 锻造油 → 圣坛容器')
+    .replace(/Shrine Vessel \+ any amount of Shrines \(10\) \→ Shrine Vessel \(adds shrines\)/g, '圣坛容器（n） + 圣坛（10）x X → 圣坛容器（n + X）')
+    .replace(/Shrine Vessel \→ Shrine Vessel \(-1\) \+ Shrine/g, '圣坛容器（ X ） → 圣坛容器（X - 1）+ 圣坛（10）')
+    .replace(/Shrine Crafting/g, '圣坛手工')
+    .replace(/Use a shrine to turn any sacred item into a powerful crafted item. The crafted item comes with several random rare modifiers and additional preset modifiers based on shrine type. The preset modifiers may stack with the rare modifiers, creating some very powerful items./g,
+             '使用圣坛创造的手工物品，拥有随机添加的词条（基于物品iLv）和圣坛固定的词条加成，因为随机的性质，它可能会变得非常强大。')
+    .replace(/Rare\/Crafted Sacred item \+ Shrine \→ reroll item as crafted \+ Shrine \(-1 charge\)/g,
+        '黄金/手工 神圣装备 + 圣坛（n） → 重置手工装备属性 + 圣坛（n - 1）')
+    .replace(/Crafted items always have maximum sockets./g, '手工装备拥有装备最大孔数。')
+    .replace(/Shrine Blessing/g, '圣坛洗礼')
+    .replace(/A variant of shrine crafting, this recipe allows you to impart the blessings of the shrine unto an existing sacred item. This adds to the item the same preset shrine modifiers as the shrine crafting recipe and also subtracts 1 charge. You can only use this recipe once per item, so choose your shrine wisely./g,
+             '除了制作手工神圣物品，圣坛还可以给神圣物品祝福，将圣坛的固定词条添加到装备上，装备只能使用一次圣坛祝福。')
+    .replace(/Rare\/Crafted\/Honorific Sacred item \+ Shrine \+ 2x Arcane Crystal \→ add shrine bonuses \+ Shrine \(-1 charge\)/g,
+        '黄金/手工/荣耀 神圣装备 + 圣坛 + 奥术水晶 x2 → 装备增加圣坛词条 + 圣坛（次数 -1）')
+    .replace(/JEWELCRAFTING/g, '手工珠宝')
+    .replace(/CREATE YOUR OWN JEWELS/g, '')
+    .replace(/Jewelcrafting/g, '')
+    .replace(/You can craft jewels as well, for an even higher degree of customizing your items./g, '手工珠宝可以通过符文增加固定词条，从而更好的定制你的装备属性。<br>')
+    .replace(/The crafted jewel comes with a few random rare modifiers and always gets all preset modifiers based on the used rune./g, '除了符文带来的固定词条外，还会增加随机词条，这将可能造就非常鬼酷的属性。<br>')
+    .replace(/The preset modifiers may stack with the rare modifiers, creating some very powerful jewels./g, '不像圣坛装备，做手工珠宝使用的符文不会被消耗掉，另外，镶嵌前别忘了使用对它使用<a href="#luckyb">幸运油</a>。')
+    .replace(/Jewel \+ Rune \+ Oil of Craft \+ Arcane Crystal\/Shards \→/g, '珠宝 + 符文 + 锻造油 + 奥术碎片/水晶 →')
+    .replace(/Rune \+ Arcane Shards \(-1\) \+ Crafted Jewel with added bonuses/g, '符文 + 奥术碎片（-1）+ 手工珠宝')
+    .replace(/Every time you craft a Jewel, its item level is reduced by 5%, rounded up and capped at 1 and 99./g, '')
+    .replace(/The preset modifiers on the jewel depend on the rune used, as follows:/g, '')
 
 //任务
     //等级挑战
@@ -504,6 +679,7 @@
     .replace(/ Hit Recovery/g, ' 快速打击恢复（FHR）')
     .replace(/ Block Speed/g, ' 格挡速度（FBR）')
     .replace(/ on Kill/g, ' 当杀死怪物')
+    .replace(/ Enhanced Damage/g, ' 增强伤害（ED）')
     .replace(/ Enhanced damage/g, ' 增强伤害（ED）')
     .replace(/ Bonus to Attack Rating/g, ' 额外准确率（AR）')
     .replace(/ Bonus to All Attributes /g, ' 所有属性')
@@ -548,6 +724,7 @@
     .replace(/Cold Resist /g, '冰冷抗性（cr）')
     .replace(/Lightning Resist /g, '闪电抗性（lr）')
     .replace(/Poison Resist /g, '毒素抗性（lr）')
+    .replace(/Damage Reduced by /g, '物理抗性 ')
     .replace(/Physical Resist /g, '物理抗性 ')
     .replace(/Physical Damage Reduced by /g, '物理伤害降低（dr） ')
     .replace(/Elemental\/Magic Damage Reduced by /g, '元素/魔法伤害降低')
@@ -576,9 +753,10 @@
     .replace(/ Life Regenerated per Second/g, ' 每秒生命恢复')
     .replace(/ Life on Striking/g, ' 击中时恢复生命')
     .replace(/ Mana on Striking/g, ' 击中时恢复法力')
-    .replace(/ Life on Attack/g, '打击时恢复生命')
-    .replace(/ Life after each Kill/g, '杀死怪物获取生命（LAEK）')
-    .replace(/ Mana after each Kill/g, '杀死怪物获取法力（MAEK）')
+    .replace(/ Life on Attack/g, ' 打击时恢复生命')
+    .replace(/ Mana on Attack/g, ' 打击时恢复法力')
+    .replace(/ Life after each Kill/g, ' 杀死怪物获取生命（LAEK）')
+    .replace(/ Mana after each Kill/g, ' 杀死怪物获取法力（MAEK）')
     .replace(/Target Takes Additional Damage of /g, '目标受到额外伤害 ')
     .replace(/Indestructible/g, '无法破坏')
     .replace(/ Movement Speed/g, ' 移动速度')
@@ -791,6 +969,25 @@
     .replace(/>Lore/g, '>背景故事')
     .replace(/>Strategy/g, '>关卡特性')
     .replace(/>Reward/g, '>Uber奖励')
+    .replace(/>Reagents</g, '>基础原料<')
+    .replace(/>Catalysts</g, '>催化剂 Catalysts<')
+    .replace(/>DISENCHANTING/g, '>分解配方')
+    .replace(/Unique\/Set Weapon/g, '暗金或套装武器')
+    .replace(/Unique\/Set Armour/g, '暗金或套装护甲')
+    .replace(/Unique Amulet/g, '暗金项链')
+    .replace(/Unique Ring/g, '暗金戒指')
+    .replace(/Unique Quiver/g, '暗金箭袋')
+    .replace(/Unique Jewel/g, '暗金珠宝')
+    .replace(/>Weapon:/g, '>武器：')
+    .replace(/>Armour:/g, '>防具：')
+    .replace(/>Amulet:/g, '>项链：')
+    .replace(/>Ring:/g, '>戒指：')
+    .replace(/>Quiver:/g, '>箭袋：')
+    .replace(/>Jewel:/g, '>珠宝：')
+    .replace(/maximum sockets.</g, '最大孔数。<')
+    .replace(/See \<a/g, '<a')
+    .replace(/ preset shrine modifiers./g, '<span style="color:#c3841b">圣坛固定词条</span>。')
+    .replace(/ random rare modifiers \(affixes\)./g, '<span style="color:#f5e83a">随机词条</span>。')
 
 ;})
 
