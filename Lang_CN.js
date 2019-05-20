@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.4.0
+// @version      0.4.1
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -800,7 +800,8 @@
     .replace(/Target Takes Additional Damage of /g, '目标受到额外伤害 ')
     .replace(/Indestructible/g, '无法破坏')
     .replace(/ Movement Speed/g, ' 移动速度')
-    .replace(/ Magic Find/g, ' 魔法物品获取（MF）')
+    .replace(/ Better Chance of Getting Magic Items/g, ' 更高几率获取魔法物品（MF）')
+    .replace(/ Magic Find/g, ' 更高几率获取魔法物品（MF）')
     .replace(/Enhanced Weapon Damage /g, '增强武器伤害 ')
     .replace(/ to Vitality/g, ' 体力')
     .replace(/Hit Causes Monster to Flee /g, '击中使怪物逃跑')
@@ -808,6 +809,7 @@
     .replace(/Half Freeze Duration/g, '冰冻时间减半')
     .replace(/Cannot Be Frozen/g, '无法冰冻')
     .replace(/Maximum Mana /g, '增加法力值 ')
+    .replace(/Increase Maximum Life /g, '增加生命值 ')
     .replace(/Maximum Life /g, '增加生命值 ')
     .replace(/Regenerate Mana /g, '法力恢复速度 ')
     .replace(/ Bonus to Buff\/Debuff\/Cold Skill Duration/g, '延长Buff/Debuff/冰冻技能的效果时间')
@@ -816,6 +818,7 @@
     .replace(/ to All Maximum Resistances/g, ' 最大元素抗性')
     .replace(/Maximum Elemental Resists/g, '最大元素抗性')
     .replace(/ to all vendor prices/g, ' 所有商品价格')
+    .replace(/All Resists /g, '元素抗性 ')
     .replace(/Elemental Resists /g, '元素抗性 ')
     .replace(/ Deadly Strike/g, ' 致命一击（DS）')
     .replace(/ to Summoned Minion Resistances/g, ' 召唤物抗性')
