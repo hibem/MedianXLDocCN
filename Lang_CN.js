@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.3.9
+// @version      0.4.0
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -130,12 +130,6 @@
     .replace(/Any Unique Jewel \+ Sunstone of the Gods/g, '暗金珠宝 + 诸神的太阳石')
     .replace(/returns item, may add bonuses/g, '装备附加词条')
     .replace(/This recipe has 5% chance to add any of the following bonuses:/g, '该公式只有5%的成功几率，附加词条如下：')
-    .replace(/Any Unique\/Set Weapon \+ Legacy of Blood/g, '暗金或套装武器 + 血之遗产')
-    .replace(/Any Unique\/Set Armor \+ Idol of Vanity/g, '暗金或套装护甲 + 虚荣雕像')
-    .replace(/Any Unique Amulet \+ Moon of the Spider/g, '暗金项链 + 蜘蛛之月')
-    .replace(/Any Unique Ring \+ Spirit Trance Herb/g, '暗金戒指 + 灵魂出窍药草')
-    .replace(/Any Unique Quiver \+ Azmodan's Heart/g, '暗金箭袋 + 阿兹莫丹之心')
-    .replace(/Any Unique Jewel \+ Sunstone of the Gods/g, '暗金珠宝 + 诸神的太阳石')
     .replace(/SHRINES AND CRAFTING/g, '圣坛和手工')
     .replace(/CALL ON DIVINE FORCES TO CRAFT YOUR OWN ITEMS/g, '为自己创造独一无二的物品')
     .replace(/In Nightmare and Hell difficulty, you may find blessed relics from the ancient labyrinth beneath Tristram, stolen before its collapse./g,
@@ -189,8 +183,54 @@
     .replace(/The preset modifiers may stack with the rare modifiers, creating some very powerful jewels./g, '不像圣坛装备，做手工珠宝使用的符文不会被消耗掉，另外，镶嵌前别忘了使用对它使用<a href="#luckyb">幸运油</a>。')
     .replace(/Jewel \+ Rune \+ Oil of Craft \+ Arcane Crystal\/Shards \→/g, '珠宝 + 符文 + 锻造油 + 奥术碎片/水晶 →')
     .replace(/Rune \+ Arcane Shards \(-1\) \+ Crafted Jewel with added bonuses/g, '符文 + 奥术碎片（-1）+ 手工珠宝')
-    .replace(/Every time you craft a Jewel, its item level is reduced by 5%, rounded up and capped at 1 and 99./g, '')
-    .replace(/The preset modifiers on the jewel depend on the rune used, as follows:/g, '')
+    .replace(/Every time you craft a Jewel, its item level is reduced by 5%, rounded up and capped at 1 and 99./g, '每洗一次属性,珠宝的iLv会降低 5%，由于词条和iLv有关，所以洗几次没有好属性，就可以换珠宝了。')
+    .replace(/The preset modifiers on the jewel depend on the rune used, as follows:/g, '符文带来的固定词条属性如下：')
+    .replace(/MISCELLANEOUS RECIPES/g, '其他配方')
+    .replace(/EVERYTHING ELSE/g, '')
+    .replace(/Gem Upgrade/g, '宝石升级')
+    .replace(/You can upgrade gems to the higher quality levels. Note that unlike classic Diablo II, this recipe only requires two gems, not three./g,
+             '你可以将宝石升级到更高一级。跟原版不一样的是，只需要两颗相同等级的即可升级，而不用三颗。')
+    .replace(/Same gem x2 \→ next higher gem quality/g, '相同宝石 x2 → 更高一级的宝石')
+    .replace(/Rune Upgrade\/Downgrade/g, '符文升级和降级')
+    .replace(/You can upgrade or downgrade runes to the next higher or lower rune. This is useful when you need a certain exact rune to create a runeword./g,
+             '符文可以升级和降级,这个公式便于你得到你需要的。')
+    .replace(/Same rune x2 \→ rune one level higher/g, '相同的符文 x2 → 符文升级')
+    .replace(/Same rune x4 \→ rune two levels higher/g, '相同的符文 x4 → 符文升2级')
+    .replace(/Same rune x2 \+ rune one level higher \→ rune two levels higher/g, '相同的符文 x2 + 更高一级的符文 → 符文升2级')
+    .replace(/Rune \→ rune one level lower/g, '符文 → 符文降级')
+    .replace(/These recipes do not allow you to obtain or downgrade:/g, '你无法将此配方应用于下列符文上（超过50号）：')
+    .replace(/Great Runes/g, '超强符文')
+    .replace(/Elemental Runes/g, '元素符文')
+    .replace(/Unsocket Recipe/g, '取出镶嵌物')
+    .replace(/These recipes separate the socket fillers \(gems, jewels, runes\) from an item and return both the item and the socket fillers./g,
+             '该公式允许玩家取出装备中的镶嵌物（珠宝、宝石和符文），并保留装备。')
+    .replace(/Magical, Rare, Set, Unique, Crafted or Honorific:/g, '魔法，黄金，套装，暗金，手工或者荣耀装备：')
+    .replace(/Socketed item \+ Oil of Disjunction \→ separate item and socket fillers/g, '已镶嵌装备 + 分离油 → 未镶嵌装备 + 镶嵌物')
+    .replace(/Non-magical:/g, '灰色装备：')
+    .replace(/Socketed item \+ Oil of Disjunction \+ perfect gem x3 \→ separate item and socket fillers/g, '已镶嵌装备 + 分离油 → 未镶嵌装备 + 镶嵌物')
+    .replace(/Non-magical socketed items are grey, and therefore include runewords. The price is higher for these items to prevent unhealthy amounts of runeword rerolling./g,
+             '灰色物品通常用于神符之语，所以增加了宝石需求，使重置神符之语变量的难度提高。')
+    .replace(/R.I.P. Recipe/g, 'R.I.P. 配方（杀死怪物恢复平静）')
+    .replace(/If you went wild with reanimate items and now you can\'t see the forest for the reanimated Ents, this recipe can help. It adds the \'R.I.P.\' modifier to an item, causing your kills to stay dead instead of rising up to get in your way. This should help out players with slower computers./g,
+             '使用该公式，将不会复生任何怪物，关爱老旧电脑，人人有责。')
+    .replace(/Any item \+ Oil of Renewal \+ Arcane Crystal \→ returns item with R.I.P. modifier/g,
+             '任意装备 + 翻新油 + 奥术水晶 → 装备增加 R.I.P.词条')
+    .replace(/This recipe adds the following bonus:/g, 'R.I.P.词条的含义是：')
+    .replace(/Slain Monsters Rest in Peace/g, '杀死怪物恢复平静（超度尸体，无法使用复生、尸爆等技能）')
+    .replace(/Do not forget the Arcane Crystal or you will destroy more than you bargained for./g, '<span style="color:red;">千万别忘了放奥术水晶，否则你会直接将装备重置为非魔法（引起舒适）</span>。')
+    .replace(/Cow Level Portal/g, '秘密奶牛关卡')
+    .replace(/Moo! You need to stand in the Rogue Encampment in Hell difficulty to use this recipe. Be careful, the cows have been beefed up compared to the regular Diablo II./g,
+             '哞哞哞！在地狱难度下的罗格营地使用该配方。<br>注意！这里的牛都经过了强化。')
+    .replace(/Wirt's Leg \→ Cow Level portal/g, '维特之腿 → 奶牛关红门')
+    .replace(/Killing the Cow King does not disable this recipe./g, '奶牛之王随便杀，不影响你开门。')
+    .replace(/Want to show the common rabble in your game how rich and powerful you are\? This recipe consumes some of the rarest trophies in the game and returns a completely useless item that grants you a glowing red aura. Show it to friends and strangers so they know that you are strong, powerful and wealthy enough to waste trophies on a worthless item./g,
+             '这个公式消耗了几件极难获得的奖杯来制造一个没有任何属性的物品，带着这件物品会使你发出红色的光芒，去别人的房间里展示吧，你这个超级肝帝！')
+    .replace(/See the Uberquests section for more information./g, '')
+    .replace(/Archbishop Lazarus Trophy \+ Kabraxis Trophy \+ Uldyssian Trophy \+ Vial of Elder Blood \→ I Am Rich Gem/g,
+             '大主教拉扎鲁斯的奖杯 + 卡布拉西斯的奖杯 + 乌迪贤的奖杯 + 长老之血 → 我他妈贼有钱之石')
+    .replace(/I Am Rich/g, '马云公式')
+    .replace(/This recipe is inspired by the \$1000 iPhone application that does nothing./g, '灵感来源于价值1000美元屁用都没的APP。')
+
 
 //任务
     //等级挑战
@@ -988,6 +1028,7 @@
     .replace(/See \<a/g, '<a')
     .replace(/ preset shrine modifiers./g, '<span style="color:#c3841b">圣坛固定词条</span>。')
     .replace(/ random rare modifiers \(affixes\)./g, '<span style="color:#f5e83a">随机词条</span>。')
+    .replace(/ and </g, ' 以及 <')
 
 ;})
 
