@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.4.2
+// @version      0.4.3
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -16,6 +16,21 @@
     'use strict';
 
     document.body.innerHTML = document.body.innerHTML
+//物品文字
+
+    .replace(/Median XL features the familiar item types from classic LoD, as well as many new exotic class-specific items./g,
+             '魔电XL和原版暗黑2有着类似的装备体系，额外增加了一些特殊的专用装备种类。')
+    .replace(/Item tiers/g, '装备品级')
+    .replace(/Each item has 4 \'tiers\' or quality levels. Higher tiers of the same item have better stats but higher requirements. The tier number of an item is displayed in brackets behind the item name. You may be able to find even more powerful \'Sacred\' items.../g,
+             '魔电的的装备没有扩展和精华的概念，每件装备都拥有4个品级和品质等级（QLv）。同一装备的高品级版本拥有更高的属性和更高的佩戴需求。<br>判断装备的品级为几阶，需要看装备名称后面括号里的数字，比如“短剑（1）”就是品级为一阶的短剑。<br>在游戏后期，还有脱离品级的更强装备，它们被标注为（神圣）。')
+    .replace(/Some class-specific weapons come with their own built-in attack modifier, adding an extra effect to your attacks. There are 4 attack modifiers in the game:/g,
+             '部分角色专属武器有用特殊的攻击手段，这些武器的普通攻击会触发额外的效果。魔电里一共有4中特殊攻击')
+    .replace(/All tiered and sacred items have a 25-50% chance to spawn with a random number of sockets \(0 to item max\). Uniques, sets, crafted and honorific items spawn with max sockets./g,
+             '所有品级和神圣装备掉落时都有 25-50% 的机会随机打孔（0 -最大）。暗金，套装，手工和荣耀装备天生拥有最大孔数。')
+    .replace(/Mage characters \(druids, necromancers, sorceresses\) cast their spells faster when using a staff. The cast animation has 25% fewer frames when a staff is used. This bonus is multiplicative with faster cast rate items./g,
+             '法术角色（法师，德鲁伊，死灵法师）在使用双手法杖时可以获得额外 25% 的施法速度加成，这个加成在计算 FCR 时是相乘而不是相加。')
+    .replace(/Boots of all qualities \(magic, rare, unique, etc..\) roll between 0-40% movement speed./g,
+             '所有类型的鞋子，不管是魔法，黄金，暗金还是套装等等，移速都不固定，它的变量在 0-40% 之间生成。')
 //合成公式
     .replace(/Far from being the interesting magical gimmick you may be used to, the Median XL cube is a powerful weapon of war./g, '跟原版里无足轻重的公式不同，赫拉迪克宝箱在魔电里起到了极为重要的作用。')
     .replace(/These reagents can be found by killing the appropriate monster:/g, '获取方式')
@@ -708,10 +723,25 @@
 
 
   //装备属性词条
+    .replace(/Area Effect Attack/g, '范围攻击<br>Area Effect Attack')
+    .replace(/100% Chance to Cast on Attack<br>/g, '')
+    .replace(/100% Chance to Cast on Attack:/g, '')
+    .replace(/Deals 100% normal attack damage in a radius of 5 yards./g, '攻击时在 5 码范围内造成 100% 的普通伤害')
+    .replace(/Thunderfury/g, '雷霆之怒<br>Thunderfury')
+    .replace(/50% Chance to Cast on Attack<br>/g, '攻击时有 50% 的机会施放 充能弹<br>')
+    .replace(/50% Chance to Cast on Attack:/g, '攻击时有 50% 的机会施放 充能弹:')
+    .replace(/Emits charged bolts that do 75% normal attack damage as lightning./g, '充能弹为闪电伤害，伤害值是普通攻击的 75%')
+    .replace(/25% Chance to Cast on Attack<br>/g, '攻击时有 25% 的机会施放<br>')
+    .replace(/5% Chance to Cast on Attack<br>/g, '攻击时有 5% 的机会施放<br>')
+    .replace(/25% Chance to Cast on Attack:/g, '攻击时有 25% 的机会施放:')
+    .replace(/5% Chance to Cast on Attack:/g, '攻击时有 5% 的机会施放:')
+    .replace(/Grants 100% damage avoidance for 1.6 seconds./g, '躲避所有伤害 1.6 秒')
+    .replace(/Reduces target physical resistance by -25% for 2 seconds./g, '降低目标物抗 2 秒')
+    .replace(/Amazing Grace/g, '奇异恩典<br>Amazing Grace')
+    .replace(/Mega Impact/g, '百万冲击<br>Mega Impact')
     .replace(/Less Gold from Monsters/g, '减少金币掉落')
     .replace(/ Bonus Elemental Damage /g, ' 增加元素伤害')
     .replace(/Drains 2% Life per Second/g, '每秒流失2%的生命')
-    .replace(/Amazing Grace/g, '奇异恩典')
     .replace(/ second Cooldown to Blade Spirits/g, ' 秒刀刃之灵冷却时间')
     .replace(/ over 2 seconds/g, '2秒内')
     .replace(/ Increased Mana Pulse Duration/g, ' 提升法力波动持续时间')
@@ -917,6 +947,7 @@
     .replace(/Sceptres/g, '权杖')
     .replace(/Paladin Helms/g, '圣骑士专属头盔')
     .replace(/Paladin Clubs, Paladin Maces, Paladin Hammers/g, '圣骑士专属钝器')
+    .replace(/Paladin Blunt Weapons/g, '圣骑士专属钝器')
     .replace(/Barbarian Swords/g, '野蛮人专属剑')
     .replace(/Barbarian One-Handed Axes/g, '野蛮人单手斧')
     .replace(/Barbarian Two-Handed Axes/g, '野蛮人双手斧')
@@ -933,6 +964,7 @@
     .replace(/Amazon Javelins/g, '亚马逊专属标枪')
     .replace(/Javelins/g, '标枪')
     .replace(/Barbarian Helms/g, '野蛮人头盔')
+    .replace(/Barbarian Weapons/g, '野蛮人专属武器')
     .replace(/Staves/g, '长柄法杖')
     .replace(/Crossbows/g, '十字弓')
     .replace(/Druid Bows/g, '德鲁伊专属弓')
@@ -967,6 +999,20 @@
     .replace(/>Sacred Uniques/g, '>神圣暗金装备')
     .replace(/TIERED UNIQUES/g, '品级暗金装备')
     .replace(/SACRED UNIQUES/g, '神圣暗金装备')
+    .replace(/Tier 1/g, '品级 1 阶')
+    .replace(/Tier 2/g, '品级 2 阶')
+    .replace(/Tier 3/g, '品级 3 阶')
+    .replace(/Tier 4/g, '品级 4 阶')
+    .replace(/Attack Modifiers/g, '特殊攻击')
+    .replace(/FULL ITEM LIST/g, '装备列表')
+    .replace(/WEAPONS LIST/g, '武器列表')
+    .replace(/>Swords</g, '>剑<')
+    .replace(/>Axes</g, '>斧<')
+    .replace(/>Two-Handed Axes</g, '>双手斧<')
+    .replace(/></g, '><')
+    .replace(/></g, '><')
+    .replace(/></g, '><')
+    .replace(/></g, '><')
     .replace(/>Quests/g, '>新增任务')
     .replace(/>Challenges/g, '>前期挑战')
     .replace(/>Dungeons<\/p>/g, '>Boss挑战<\/p><p>本页面挑战都在地狱难度下进行</p>')
@@ -991,8 +1037,16 @@
     .replace(/> for more information about /g, '> 查看更多信息关于 ')
     .replace(/Socketed /g, '孔数 ')
     .replace(/ to Mana/g, ' 法力值')
+    .replace(/Speed: /g, '基础攻速: ')
+    .replace(/Range: /g, '攻击距离: ')
+    .replace(/Damage Bonus: /g, '伤害加成: ')
+    .replace(/Sockets \(/g, '最大孔数 (')
+    .replace(/>Sockets</g, '>孔数<')
+    .replace(/>Channelling</g, '>快速施法<')
+    .replace(/Quality level: /g, 'QLv: ')
     .replace(/ Enhanced Defense/g, '增强防御')
     .replace(/ Defense/g, ' 防御值')
+    .replace(/Defense: /g, '防御: ')
     .replace(/ Skill Levels/g, '技能等级')
     .replace(/Bonus /g, '加成')
     .replace(/>REQUIRED LEVEL/g, '>需求等级')
@@ -1033,10 +1087,6 @@
     .replace(/ random rare modifiers \(affixes\)./g, '<span style="color:#f5e83a">随机词条</span>。')
     .replace(/ and </g, ' 以及 <')
     //装备名称
-    .replace(/Tier 1/g, '品级 1 阶')
-    .replace(/Tier 2/g, '品级 2 阶')
-    .replace(/Tier 3/g, '品级 3 阶')
-    .replace(/Tier 4/g, '品级 4 阶')
     .replace(/Short Sword/g, ' 短剑 Short Sword')
     .replace(/Scimitar/g, ' 弯刀 Scimitar')
     .replace(/Saber/g, ' 军刀 Saber')
@@ -1118,6 +1168,9 @@
     .replace(/Amazon Javelins/g, '亚马逊专属标枪')
     .replace(/Maiden Javelin/g, ' 女士标枪 Maiden Javelin')
     .replace(/\(Katar\)/g, '( 拳剑 Katar)')
+    .replace(/>Scissors Katar</g, '>剪咬刀 Scissors Katarr<')
+    .replace(/>Katar</g, '>拳剑 Katar<')
+    .replace(/>Claws</g, '>爪 Claws<')
     .replace(/Wrist Blade/g, ' 腕刃 Wrist Blade')
     .replace(/Hatchet Hands/g, ' 斧手 Hatchet Hands')
     .replace(/Cestus/g, ' 腰刀 Cestus')
@@ -1150,6 +1203,7 @@
     .replace(/Trebuchet/g, ' 投石机 Trebuchet')
     .replace(/Necromancer Wands/g, '死灵法师手杖')
     .replace(/\(Wand\)/g, '( 手杖 Wand)')
+    .replace(/>Wand</g, '>手杖 Wand<')
     .replace(/Yew Wand/g, ' 紫衫之杖 Yew Wand')
     .replace(/Bone Wand/g, ' 骨杖 Bone Wand')
     .replace(/Grim Wand/g, ' 残酷魔杖 Grim Wand')
@@ -1178,12 +1232,12 @@
     .replace(/Chain Mail/g, ' 锁子甲 Chain Mail')
     .replace(/Breast Plate/g, ' 胸甲 Breast Plate')
     .replace(/Splint Mail/g, ' 板甲 Splint Mail')
-    .replace(/Plate Mail/g, ' 铠甲 Plate Mail')
     .replace(/Field Plate/g, ' 实战铠甲 Field Plate')
     .replace(/Light Plate/g, ' 轻型装甲 Light Plate')
     .replace(/Gothic Plate/g, ' 歌德战甲 Gothic Plate')
-    .replace(/Full Plate Mail/g, '高级战甲 Full Plate Mail')
-    .replace(/Ancient Armor/g, '古代装甲')
+    .replace(/>Full Plate Mail</g, '>高级战甲 Full Plate Mail<')
+    .replace(/>Plate Mail</g, ' >铠甲 Plate Mail<')
+    .replace(/Ancient Armor/g, '古代装甲 Ancient Armor')
 ;})
 
 ();
