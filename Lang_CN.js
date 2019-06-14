@@ -2,14 +2,14 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.4.8
+// @version      0.4.9
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
 // @match        https://docs.median-xl.com/*
+// @downloadURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @updateURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
 // @run-at       document-end
-// @grant        none
-// @namespace https://greasyfork.org/users/301775
 // ==/UserScript==
 (function() {
     'use strict';
