@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  汉化了官网文档中的神符之语、装备等内容
 // @copyright    2019 黑本
-// @version      0.5.1
+// @version      0.5.2
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -600,7 +600,6 @@
     .replace(/ to Iron Spiral/g, 'Iron Spiral（铁螺旋）')
     .replace(/ Winter Avatar/g, 'hb1 凛冬化身hb2"https://vignette.wikia.nocookie.net/median-xl/images/7/70/Winter_Avatar.gif/revision/latest?cb=20190218213457"hb3（Winter Avatar）<br>短暂召唤可以施放冰霜新星的化身hb4')
     .replace(/ Plague Avatar/g, 'hb1 瘟疫化身hb2"https://vignette.wikia.nocookie.net/median-xl/images/2/27/Plague_Avatar.gif/revision/latest?cb=20180206025306"hb3（Plague Avatar）<br>短暂召唤可以施放剧毒雾气的化身hb4')
-    .replace(/ Ice Lance/g, 'Ice Lance（冰枪）')
     .replace(/ to Deathgaze/g, 'Deathgaze（死亡凝视）')
     .replace(/Glacial Nova/g, 'hb1冰川新星hb2"https://vignette.wikia.nocookie.net/median-xl/images/7/77/Glacial_Nova.gif/revision/latest?cb=20171012171406"hb3（Glacial Nova）冰伤 - 施放一个超大范围冰封2秒的寒冰新星hb4')
     .replace(/ Lifeblood/g, 'Lifeblood（命脉 -生命回复）')
@@ -626,7 +625,6 @@
     .replace(/ Abyss/g, 'Abyss（深渊 -法师冰法术）')
     .replace(/ Frozen Crown/g, 'Frozen Crown（冰冻王冠 -法术）')
     .replace(/ to Vanquish/g, 'Vanquish（征服 -3秒增伤BUFF）')
-    .replace(/ Flamefront/g, 'Flamefront（烈焰前线 -法术）')
     .replace(/ Crucify/g, 'hb1 处刑hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/fd/Crucify.gif/revision/latest?cb=20180207033326"hb3（Crucify）<br> 近战时施放快速回击的尖刺hb4')
     .replace(/ Charm/g, 'Charm（魅惑）')
     .replace(/ Gift of Inner Fire/g, 'Gift of Inner Fire（内燃之礼 -群体回血）')
@@ -723,6 +721,14 @@
     .replace(/Mana Sweep/g, 'hb1法力扫荡hb2"https://vignette.wikia.nocookie.net/median-xl/images/0/0f/Mana_Sweep.gif/revision/latest?cb=20180206211127"hb3（Mana Sweep）<br>基于失去的法力，伤害附近的敌人并汲取法力hb4')
     .replace(/Jitan's Gate/g, 'hb1吉坦之门hb2"https://vignette.wikia.nocookie.net/median-xl/images/0/09/Jitan%27s_Gate.gif/revision/latest?cb=20180402183705"hb3（Jitan\'s Gate）<br>传送到目标位置并在短时间内增加防御hb4')
     .replace(/ Vizjerei Rage/g, 'hb1 维兹杰雷狂怒hb5（Vizjerei Rage）<br>大范围的伤害技能hb4')
+    .replace(/ Ice Lance/g, 'hb1 冰枪hb5（Ice Lance）<br>发射可以穿透敌人的冰枪hb4')
+    .replace(/ Stormblast/g, 'hb1 暴风爆hb2"https://vignette.wikia.nocookie.net/median-xl/images/1/1f/Stormblast.gif/revision/latest?cb=20180131200240"hb3（Stormblast）攻击时对前面一条线上的敌人造成闪电伤害<br>hb4')
+    .replace(/ Thunder Hammer/g, 'hb1 雷锤hb5（Thunder Hammer）<br>未确定，盲猜是射出闪电伤害的锤子hb4')
+    .replace(/Sun Strike/g, 'hb1炎阳击hb2"https://vignette.wikia.nocookie.net/median-xl/images/7/76/Sun_Strike.gif/revision/latest?cb=20180716020442"hb3（Sun Strike）<br>射出留下灼热火焰的箭矢hb4')
+    .replace(/ Spore Shot/g, 'hb1 孢子击hb5（Spore Shot）<br>射出不断分裂的箭矢hb4')
+    .replace(/ Cascade/g, 'hb1 群射hb5（Cascade）<br>射击范围内的所有目标hb4')
+    .replace(/ Drakemaw/g, 'hb1 龙颚击hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/9b/Drakemaw.gif/revision/latest?cb=20180409215557"hb3（Drakemaw）<br>施放穿刺地面前进的爪击对敌人造成魔法伤害hb4')
+    .replace(/ Flamefront/g, 'hb1 烈焰前线hb2"https://vignette.wikia.nocookie.net/median-xl/images/0/03/Flamefront.gif/revision/latest?cb=20180206205359"hb3（Flamefront）<br>向前投射出爆炸的火箭hb4')
 
     //怪物
     //普通
@@ -741,14 +747,17 @@
     .replace(/ Zombie/g, '<span style="color:gray;"> 僵尸（Zombie）</span>')
     .replace(/ Infernal Lord/g, '<span style="color:gray;"> 炼狱领主（Infernal Lord）</span>')
     .replace(/ Crystal Lord/g, '<span style="color:gray;"> 水晶领主（Crystal Lord）</span>')
+    .replace(/ Frozen Lord/g, '<span style="color:gray;"> 寒冰领主（Frozen Lord）</span>')
 
 
     //未分类
     .replace(/ Veil Terror/g, ' 恐惧帷幕（Veil Terror）')
+    .replace(/ Asatruar/g, ' 阿萨特鲁信徒（Asatruar）')
 
 
     //精英
     .replace(/ Void Archon/g, '<span style="color:yellow;">  虚空执政官（Void Archon）</span>')
+    .replace(/ Buzzsaw/g, '<span style="color:yellow;">  把子骚（Buzzsaw）</span>')
 
     //Uber
     .replace(/ Slain Soul/g, '<span style="color:#c70000;"> 失魂者（ Slain Soul）</span>')
@@ -760,6 +769,11 @@
 
    
 //其他
+    .replace(/If You Have at Least 1000 Strength, Knockback Enemies/g, '力量≥1000时，攻击附带击退效果')
+    .replace(/Adds 100% of Your Fire Spell Damage as Bonus Weapon Physical Damage/g, '100% 的火焰法术伤害 加成至 武器物理伤害')
+    .replace(/Adds 100% of Your Physical\/Magic Spell Damage as Bonus Weapon Physical Damage/g, '100%的物理/魔法法术伤害 加成至 武器物理伤害')
+    .replace(/ Shoots 1 Projectile/g, ' 仅射出一支')
+    .replace(/Gives the following stats per each socketed Great Rune, and 0.7 per Elemental Rune./g, '镶嵌的符文作用于灰色属性，高级符文100%，元素符文70%')
     .replace(/Life after each Demon Kill/g, '生命于杀死恶魔型怪物时')
     .replace(/ Cooldown Cannot be Reduced Below/g, ' 的冷却时间无法低于')
     .replace(/Based on Character Level/g, '基于角色等级')
@@ -795,6 +809,7 @@
 
 
   //装备属性词条
+    .replace(/Slower Stamina Drain/g, '降低耐力消耗')
     .replace(/ Cooldown Reduced by/g, ' 冷却时间缩短')
     .replace(/ Weapon Damage Added/g, ' 武器伤害加成')
     .replace(/ Converted to Physical/g, ' 转换为 物理伤害')
@@ -877,10 +892,15 @@
     .replace(/ to Maximum Cold Damage/g, ' 最大冰冷伤害 ')
     .replace(/ to Maximum Lightning Damage/g, ' 最大闪电伤害 ')
     .replace(/ to Maximum Poison Damage/g, ' 最大毒素伤害 ')
-    .replace(/ Enemy Fire Resist /g, ' 敌人火焰抗性 ')
-    .replace(/ Enemy Cold Resist /g, ' 敌人冰敌人冷抗性 ')
-    .replace(/ Enemy Lightning Resist /g, ' 敌人闪电抗性 ')
-    .replace(/ Enemy Poison Resist /g, ' 敌人毒素抗性 ')
+    .replace(/ Enemy Fire Resistance/g, ' 敌人火焰抗性')
+    .replace(/ Enemy Cold Resistance/g, ' 敌人冰敌人冷抗性')
+    .replace(/ Enemy Lightning Resistance/g, ' 敌人闪电抗性')
+    .replace(/ Enemy Poison Resistance/g, ' 敌人毒素抗性')
+    .replace(/ Enemy Fire Resist/g, ' 敌人火焰抗性')
+    .replace(/ Enemy Cold Resist/g, ' 敌人冰敌人冷抗性')
+    .replace(/ Enemy Lightning Resist/g, ' 敌人闪电抗性')
+    .replace(/ Enemy Poison Resist/g, ' 敌人毒素抗性')
+    .replace(/ Enemy Fire and Lightning Resistsance/g, '敌人火焰和闪电抗性')
     .replace(/ Enemy Fire and Lightning Resists/g, '敌人火焰和闪电抗性')
     .replace(/Fire Resist /g, '火焰抗性 ')
     .replace(/Slow Target /g, '减慢目标 ')
@@ -2042,8 +2062,10 @@
     .replace(/b>Variations/g, 'b style="color:#fff;">SU、SSU 和 SSSU')
     .replace(/eg\. /g, '例如 ')
     .replace(/Like the /g, '类似于')
-    //.replace(/ to /g, ' - ')
+    .replace(/Gematria	/g, '字数对应法')
+    //.replace(/ to /g, ' 至 ')
 
+    .replace(/ per Base Level in the Bow Tree/g, '（基于投入弓系的技能点）')
     .replace(/ per Base Level/g, ' 每基础等级')
     .replace(/ per /g, ' 每 ')
     .replace(/ Base Level/g, ' 基础等级')
@@ -2053,6 +2075,7 @@
     .replace(/Reduces /g, '降低 ')
     .replace(/Deals /g, '造成 ')
 //格式化
+    .replace(/ Arrow/g, 'hb1 箭hb5（Arrow）<br>就是射出去一支箭hb4')
     .replace(/ Elemental/g, 'hb1 元素击hb2"https://vignette.wikia.nocookie.net/median-xl/images/e/e5/Elemental.gif/revision/latest?cb=20180131213345"hb3（Elemental）<br>法术 - 发射直线奔跑并在撞击敌人时爆炸的火元素hb4')
    // .replace(/ Nova/g, 'hb1 闪电新星hb2"https://vignette.wikia.nocookie.net/diablo/images/6/65/D2nova.jpg/revision/latest/scale-to-width-down/320?cb=20150728184705"hb3（Nova）<br>原版法术 - 向外扩散并造成闪电伤害的中型圆环hb4')
     .replace(/hb1/g, '<span class="dropup"><span class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">')
