@@ -7,8 +7,8 @@
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
 // @match        https://docs.median-xl.com/*
-// @downloadURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
-// @updateURL      https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @downloadURL  https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
+// @updateURL    https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
 // @run-at       document-end
 // ==/UserScript==
 (function() {
@@ -604,8 +604,8 @@
     .replace(/Glacial Nova/g, 'hb1冰川新星hb2"https://vignette.wikia.nocookie.net/median-xl/images/7/77/Glacial_Nova.gif/revision/latest?cb=20171012171406"hb3（Glacial Nova）冰伤 - 施放一个超大范围冰封2秒的寒冰新星hb4')
     .replace(/ Lifeblood/g, 'Lifeblood（命脉 -生命回复）')
     .replace(/ Gamma Field/g, 'Gamma Field（毒伤）')
+    .replace(/Noctule/g, 'hb1山蝠hb2"https://vignette.wikia.nocookie.net/median-xl/images/2/21/Noctule.gif/revision/latest?cb=20180322021404"hb3（Noctule）<br>攻击时召唤蝙蝠撕咬敌人hb4')
     .replace(/ to Dragon Wyrms/g, 'Dragon Wyrms（翼龙 -陷阱）')
-    .replace(/ to Noctule/g, 'Noctule（山蝠 -近战）')
     .replace(/ Apocalypse/g, 'Apocalypse（天启 -火伤）')
     .replace(/ to Hammertime/g, 'Hammertime（锤子时间）')
     .replace(/ Nightmare/g, 'Nightmare（噩梦 -诅咒，减速）')
@@ -640,7 +640,7 @@
     .replace(/ Rune of Fire/g, 'Rune of Fire（火焰符文 -原地放置）')
     .replace(/ Rune of Ice/g, 'Rune of Ice（冰冻符文 -原地放置）')
     .replace(/ Doom/g, 'Doom（末日 -减抗诅咒）')
-    .replace(/ Singularity/g, 'Singularity（奇点 -范围法术）')
+    .replace(/Singularity/g, 'hb1奇点hb2"https://vignette.wikia.nocookie.net/median-xl/images/5/5b/Singularity.gif/revision/latest?cb=20180208043132"hb3（Singularity）<br>法术 - 创造一个黑洞旋涡对敌人造成伤害hb4')
     .replace(/ to Silver Dart/g, 'Silver Dart（银镖 -追踪穿透）')
     .replace(/ Thunderstone/g, 'Thunderstone（雷电石 -法术）')
     .replace(/ Cluster Bomb/g, 'Cluster Bomb（子母弹 -火伤陷进）')
@@ -664,7 +664,8 @@
     .replace(/ Kraken Stance/g, 'Kraken Stance（海妖姿态 -增加冰火电伤）')
     .replace(/ Stampede/g, 'Stampede（涌动 -多重投掷）')
     .replace(/ Lorenado/g, 'Lorenado（知识旋风 -毒伤）')
-    .replace(/ Fairy Ring/g, 'Fairy Ring（）')
+    .replace(/Sacrifices/g, 'hb1活祭品hb2"https://vignette.wikia.nocookie.net/median-xl/images/8/8b/Sacrifices.gif/revision/latest?cb=20180131195910"hb3（Sacrifices）<br>召唤手无寸铁的祭品，立刻处死以获得尸体hb4')
+    .replace(/Fairy Ring/g, 'hb1精灵之环hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/9d/Fairy_Ring.gif/revision/latest?cb=20180716020438"hb3（Fairy Ring）<br>法术 - 将尸体变成一圈射击敌人的骨制雕像hb4')
     .replace(/ to Summon Shadows/g, ' Summon Shadows（召唤影子）')
     .replace(/ Earthquake/g, 'hb1 地震hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/ad/Earthquake.gif/revision/latest?cb=20180123021229"hb3（Earthquake）近战攻击时施放一个造成80%武器伤害的冲击波hb4')
     .replace(/ Time Wave/g, 'hb1 延时波hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/6d/Time_Wave.gif/revision/latest?cb=20171016160117"hb3（Time Wave）延时打击群体版 - 附近的每个敌人都会受到延时打击hb4')
@@ -693,10 +694,10 @@
     .replace(/ Lava Pit/g, 'hb1 熔岩坑hb5（Lava Pit）<br>法术 - 撕碎目标脚下的地面，迸射的熔岩燃烧敌人hb4')
     .replace(/ Magnetic Field/g, 'hb1 磁场hb2"https://vignette.wikia.nocookie.net/median-xl/images/5/57/Magnetic_Field.gif/revision/latest?cb=20180716020440"hb3（Magnetic Field）<br>法术 - 在你的周围施放闪电破坏场hb4')
     .replace(/ Thundercrack/g, 'hb1 雷暴hb2"https://vignette.wikia.nocookie.net/median-xl/images/1/1c/Thundercrack.gif/revision/latest?cb=20180716020444"hb3（Thundercrack）<br>打击时迸射出多道闪电穿透敌人hb4')
-    .replace(/ Javelin Nova/g, ' 标枪新星 Javelin Nova')
+    .replace(/ Javelin Nova/g, ' 标枪新星')
     .replace(/ Trinity Beam/g, 'hb1 元素之光hb5（Trinity Beam）<br>发射造成冰火电三种元素伤害的光束hb4')
     .replace(/ Burning Veil/g, 'hb1 燃烧帷幕hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/62/Burning_Veil.gif/revision/latest?cb=20180207023515"hb3（Burning Veil）<br>创造一道可以强化队友的结界，穿过时增加物理和法术伤害hb4')
-    .replace(/ FLURRY OF JAVELINS/g, 'hb1 标枪乱射hb5（FLURRY OF JAVELINS）<br>沿着随机方向释放一连串标枪hb4')
+    .replace(/ Flurry of Javelins/g, 'hb1 标枪乱射hb5（FLURRY OF JAVELINS）<br>沿着随机方向释放一连串标枪hb4')
     .replace(/ APF-20 'Maelstrom' MkI/g, ' “旋涡”型一式飞弹 ')
     .replace(/ Rust Storm/g, 'hb1 腐蚀风暴hb5（Rust Storm）<br>诅咒 - 降低敌人的防御和战斗速度hb4')
     .replace(/ Guard Tower/g, 'hb1 警戒塔hb2"https://vignette.wikia.nocookie.net/median-xl/images/2/2d/Guard_Tower.gif/revision/latest?cb=20180402010851"hb3（Guard Tower）<br>临时召唤一个箭塔攻击敌人，堡垒技能的弱化版hb4')
@@ -729,7 +730,16 @@
     .replace(/ Cascade/g, 'hb1 群射hb5（Cascade）<br>射击范围内的所有目标hb4')
     .replace(/ Drakemaw/g, 'hb1 龙颚击hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/9b/Drakemaw.gif/revision/latest?cb=20180409215557"hb3（Drakemaw）<br>施放穿刺地面前进的爪击对敌人造成魔法伤害hb4')
     .replace(/ Flamefront/g, 'hb1 烈焰前线hb2"https://vignette.wikia.nocookie.net/median-xl/images/0/03/Flamefront.gif/revision/latest?cb=20180206205359"hb3（Flamefront）<br>向前投射出爆炸的火箭hb4')
-
+    .replace(/ Barrage/g, 'hb1 弹幕hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/a1/Barrage.gif/revision/latest?cb=20180716020436"hb3（Barrage）<br>在你的周围射出一圈圈箭矢hb4')
+    .replace(/ Spiral Dance/g, 'hb1 幽灵之舞hb2"https://vignette.wikia.nocookie.net/median-xl/images/5/5c/Spiral_Dance.gif/revision/latest?cb=20180318023358"hb3（Spiral Dance）<br>近战攻击释放出旋转的幽灵，在短暂延迟后造成伤害hb4')
+    .replace(/ Familiar/g, 'hb1 魔仆hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/97/Familiar_%28Skill%29.png/revision/latest?cb=20180206024152"hb3（Familiar）<br>召唤 - 小黑豹，为队伍提供增加精力、施法速度和技能等级的光环b4')
+    .replace(/Dragonlore/g, 'hb1巨龙传说hb5（Dragonlore）<br>被动 - 增强你的火焰，寒冷，闪电和魔法伤害hb4')
+    .replace(/Ecstatic Frenzy/g, 'hb1狂喜之怒hb2"https://vignette.wikia.nocookie.net/median-xl/images/e/e4/Ecstatic_Frenzy.gif/revision/latest?cb=20180122014142"hb3（Ecstatic Frenzy）<br>Buff - 增加攻速、移速和魔法伤害，但是防御变成0hb4')
+    .replace(/Rapid Wyrmshot/g, 'hb1迅捷翼龙击hb2"https://vignette.wikia.nocookie.net/median-xl/images/1/1a/Rapid_Wyrmshot.gif/revision/latest?cb=20190302180716"hb3（Rapid Wyrmshot）<br>射出口吐尖刺伤害附近敌人的飞龙hb4')
+    .replace(/Superbeast/g, 'hb1超级野兽hb5（Superbeast）<br>Buff - 变身成影兽，增加法术伤害hb4')
+    .replace(/Amplify Damage/g, 'hb1伤害加深hb5（Amplify Damage）<br>诅咒 - 增加敌人受到的伤害hb4')
+    .replace(/Rain of Fire/g, 'hb1火雨hb2"https://vignette.wikia.nocookie.net/median-xl/images/3/3a/Rain_of_Fire.gif/revision/latest?cb=20180206025706"hb3（Rain of Fire）<br>法术 - 将敌人作为目标，短暂延迟后降下扩散的火雨hb4')
+    .replace(/Hailstorm/g, 'hb1冰雹暴风hb2"https://vignette.wikia.nocookie.net/median-xl/images/d/df/Hailstorm.gif/revision/latest?cb=20171009183123"hb3（Hailstorm）<br>法术 - 将敌人作为目标，短暂延迟后降下冰霜尖刺hb4')
     //怪物
     //普通
     .replace(/ Blur/g, '<span style="color:gray;"> 小恶魔（Blur）</span>')
@@ -766,9 +776,17 @@
     .replace(/ Dark Templar/g, '<span style="color:#c70000;"> 黑暗圣堂（Dark Templar）</span>')
     .replace(/ Goliath/g, '<span style="color:#c70000;"> 巨人（Goliath）</span>')
     .replace(/ Horadric Mage/g, '<span style="color:#c70000;"> 赫拉迪克法师（Horadric Mage）</span>')
+    .replace(/ Philios, Priestess of Hefaetrus/g, '<span style="color:#c70000;"> 菲力奥斯, 赫法崔斯祭司</span>')
+    .replace(/ Lycander, Priestess of Zerae/g, '<span style="color:#c70000;"> 莱姗德, 泽瑞伊祭司</span>')
+    .replace(/ Skovos, Priestess of Karcheus/g, '<span style="color:#c70000;"> 斯科沃斯, 卡丘斯祭司</span>')
+    .replace(/ Ratfink/g, '<span style="color:#c70000;"> 芬克鼠（Ratfink）</span>')
 
-   
+
 //其他
+    .replace(/Damage Leeched as Life/g, '造成的伤害转化为生命')
+    .replace(/Targets to/g, '额外的目标至')
+    .replace(/While Dual Wielding This Weapon/g, '持有两件该装备时')
+    .replace(/Does Not Reduce Your/g, '不再降低你的')
     .replace(/If You Have at Least 1000 Strength, Knockback Enemies/g, '力量≥1000时，攻击附带击退效果')
     .replace(/Adds 100% of Your Fire Spell Damage as Bonus Weapon Physical Damage/g, '100% 的火焰法术伤害 加成至 武器物理伤害')
     .replace(/Adds 100% of Your Physical\/Magic Spell Damage as Bonus Weapon Physical Damage/g, '100%的物理/魔法法术伤害 加成至 武器物理伤害')
@@ -809,6 +827,7 @@
 
 
   //装备属性词条
+    .replace(/ Physical Resist/g, ' 物理抗性')
     .replace(/Slower Stamina Drain/g, '降低耐力消耗')
     .replace(/ Cooldown Reduced by/g, ' 冷却时间缩短')
     .replace(/ Weapon Damage Added/g, ' 武器伤害加成')
@@ -893,11 +912,11 @@
     .replace(/ to Maximum Lightning Damage/g, ' 最大闪电伤害 ')
     .replace(/ to Maximum Poison Damage/g, ' 最大毒素伤害 ')
     .replace(/ Enemy Fire Resistance/g, ' 敌人火焰抗性')
-    .replace(/ Enemy Cold Resistance/g, ' 敌人冰敌人冷抗性')
+    .replace(/ Enemy Cold Resistance/g, ' 敌人冰冷抗性')
     .replace(/ Enemy Lightning Resistance/g, ' 敌人闪电抗性')
     .replace(/ Enemy Poison Resistance/g, ' 敌人毒素抗性')
     .replace(/ Enemy Fire Resist/g, ' 敌人火焰抗性')
-    .replace(/ Enemy Cold Resist/g, ' 敌人冰敌人冷抗性')
+    .replace(/ Enemy Cold Resist/g, ' 敌人冰冷抗性')
     .replace(/ Enemy Lightning Resist/g, ' 敌人闪电抗性')
     .replace(/ Enemy Poison Resist/g, ' 敌人毒素抗性')
     .replace(/ Enemy Fire and Lightning Resistsance/g, '敌人火焰和闪电抗性')
@@ -911,11 +930,11 @@
     .replace(/Physical Resist /g, '物理抗性 ')
     .replace(/Physical Damage Reduced by /g, '物理伤害降低（dr） ')
     .replace(/Elemental\/Magic Damage Reduced by /g, '元素/魔法伤害降低')
-    .replace(/ to Poison Spell Damage/g, ' 至毒素法术伤害')
-    .replace(/ to Lightning Spell Damage/g, ' 至闪电法术伤害')
-    .replace(/ to Cold Spell Damage/g, ' 至冰冷法术伤害')
-    .replace(/ to Fire Spell Damage/g, ' 至火焰法术伤害')
-    .replace(/ to Physical\/Magic Spell Damage/g, ' 至物理/魔法伤害')
+    .replace(/ Poison Spell Damage/g, ' 毒素法术伤害')
+    .replace(/ Lightning Spell Damage/g, ' 闪电法术伤害')
+    .replace(/ Cold Spell Damage/g, ' 冰冷法术伤害')
+    .replace(/ Fire Spell Damage/g, ' 火焰法术伤害')
+    .replace(/ Physical\/Magic Spell Damage/g, ' 物理/魔法伤害')
     .replace(/ Strength Factor to Spell Damage/g, ' 力量因子至法术伤害')
     .replace(/ Energy Factor to Spell Damage/g, ' 法力因子至法术伤害')
     .replace(/ to Spell Damage/g, ' 至所有法术伤害')
@@ -940,6 +959,7 @@
     .replace(/ Life on Attack/g, ' 打击时恢复生命')
     .replace(/ Mana on Attack/g, ' 打击时恢复法力')
     .replace(/ Life after each Kill/g, ' 杀死怪物获取生命（LAEK）')
+    .replace(/ Life After Each Kill/g, ' 杀死怪物获取生命（LAEK）')
     .replace(/ Mana after each Kill/g, ' 杀死怪物获取法力（MAEK）')
     .replace(/Target Takes Additional Damage of /g, '目标受到额外伤害 ')
     .replace(/Indestructible/g, '无法破坏')
@@ -2063,7 +2083,6 @@
     .replace(/eg\. /g, '例如 ')
     .replace(/Like the /g, '类似于')
     .replace(/Gematria	/g, '字数对应法')
-    //.replace(/ to /g, ' 至 ')
 
     .replace(/ per Base Level in the Bow Tree/g, '（基于投入弓系的技能点）')
     .replace(/ per Base Level/g, ' 每基础等级')
@@ -2074,8 +2093,11 @@
     .replace(/Additional /g, '额外')
     .replace(/Reduces /g, '降低 ')
     .replace(/Deals /g, '造成 ')
+    .replace(/ Strength/g, ' 力量')
 //格式化
-    .replace(/ Arrow/g, 'hb1 箭hb5（Arrow）<br>就是射出去一支箭hb4')
+    .replace(/ Arrow 在/g, 'hb1 箭hb5（Arrow）<br>就是射出去一支箭hb4 在')
+    .replace(/ Bolt 在/g, 'hb1 飞弹hb5（Bolt）<br>就是射出去一颗飞弹hb4 在')
+    .replace(/ Javelin 在/g, 'hb1 标枪hb5（Javelin）<br>就是射出去一支标枪hb4 在')
     .replace(/ Elemental/g, 'hb1 元素击hb2"https://vignette.wikia.nocookie.net/median-xl/images/e/e5/Elemental.gif/revision/latest?cb=20180131213345"hb3（Elemental）<br>法术 - 发射直线奔跑并在撞击敌人时爆炸的火元素hb4')
    // .replace(/ Nova/g, 'hb1 闪电新星hb2"https://vignette.wikia.nocookie.net/diablo/images/6/65/D2nova.jpg/revision/latest/scale-to-width-down/320?cb=20150728184705"hb3（Nova）<br>原版法术 - 向外扩散并造成闪电伤害的中型圆环hb4')
     .replace(/hb1/g, '<span class="dropup"><span class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">')
@@ -2084,6 +2106,22 @@
     .replace(/hb4/g, '</li></ul></span>')
     .replace(/hb5/g, ' <span class="glyphicon glyphicon glyphicon-edit" aria-hidden="true"></span></span><ul class="dropdown-menu"><li>')
 
-;})
+
+.replace(/[0-9]\d* *to *[0-9]\d*/g , handleNumber)
+    .replace(/\) *to *\(/g , handleNumber)
+    .replace(/ *to *[\u4e00-\u9fa5]+/g,handleHanzi)
+    .replace(/ *to[<,>]/g,handleHanzi)
+
+;
+function handleNumber($1){
+    return $1.replace("to"," - ");
+  }
+  function handleHanzi($1){
+    return $1.replace("to","");
+  }
+
+
+
+})
 
 ();
