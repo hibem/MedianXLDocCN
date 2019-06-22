@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         魔电官网文档中文化脚本
-// @description  汉化了官网文档中的神符之语、装备等内容
+// @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.3
+// @version      0.5.4
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -2254,7 +2254,8 @@
 .replace(/[0-9]\d* *to *[0-9]\d*/g , handleNumber)
     .replace(/\) *to *\(/g , handleNumber)
     .replace(/ *to *[\u4e00-\u9fa5]+/g,handleHanzi)
-    .replace(/ *to[<,>]/g,handleHanzi)
+   .replace(/ *to *[<,>]/g,handleHanzi)
+
 
 ;
 
