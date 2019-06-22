@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.4
+// @version      0.5.5
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -1242,15 +1242,15 @@
     .replace(/>Gems and Runes/g, '>hbd 宝石和符文')
     .replace(/>Base Items/g, '>hbd 基础装备')
     .replace(/BASE ITEMS/g, '基础装备')
-    .replace(/>Items /g, '>hbd 物品  ')
-    .replace(/>Runewords/g, '>hbd 神符之语')
+    .replace(/>Items /g, '>hbi 物品  ')
+    .replace(/>Runewords/g, '>hbi 神符之语')
     .replace(/Patch Notes/g, 'hbn 更新说明')
     .replace(/>Characters </g, '>hbn 角色资料 <')
     .replace(/>Mercenaries</g, '>雇佣兵<')
     .replace(/>Character Builder</g, '>技能分配器（不好用）<')
     .replace(/SETS/g, '绿色套装')
     .replace(/>Sets/g, '>hbi 绿色套装')
-    .replace(/>Tiered Uniques/g, '>hbd 品级暗金装备')
+    .replace(/>Tiered Uniques/g, '>hbi 品级暗金装备')
     .replace(/>Sacred Uniques/g, '>hbi 神圣暗金装备')
     .replace(/TIERED UNIQUES/g, '品级暗金装备')
     .replace(/SACRED UNIQUES/g, '神圣暗金装备')
