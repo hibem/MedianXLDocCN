@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.7
+// @version      0.5.8
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -700,7 +700,7 @@
 		.replace(/ Fairy Ring/g, 'hb1 精灵之环hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/9d/Fairy_Ring.gif/revision/latest?cb=20180716020438"hb3（Fairy Ring）<br>法术 - 将尸体变成一圈射击敌人的骨制雕像hb4')
 		.replace(/ to Summon Shadows/g, ' Summon Shadows（召唤影子）')
 		.replace(/ Earthquake/g, 'hb1 地震hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/ad/Earthquake.gif/revision/latest?cb=20180123021229"hb3（Earthquake）近战攻击时施放一个造成80%武器伤害的冲击波hb4')
-		.replace(/ Time Wave/g, 'hb1 延时波hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/6d/Time_Wave.gif/revision/latest?cb=20171016160117"hb3（Time Wave）延时打击群体版 - 附近的每个敌人都会受到延时打击hb4')
+		.replace(/ Time Wave/g, 'hb1 时空潮汐hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/6d/Time_Wave.gif/revision/latest?cb=20171016160117"hb3（Time Wave）延时打击群体版 - 附近的每个敌人都会受到延时打击hb4')
 		.replace(/ Timefield/g, 'hb1 时间力场hb2"https://vignette.wikia.nocookie.net/median-xl/images/3/36/Timefield.gif/revision/latest?cb=20180516195253"hb3（Timefield）诅咒 - 降低敌人 61% 的速度hb4')
 		.replace(/ Time Strike/g, 'hb1 延时打击hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/a5/Time_Strike.gif/revision/latest?cb=20180330002255"hb3（Time Strike）近战攻击随后是第二次延迟打击hb4')
 		.replace(/ Veil King Plague Grasp/g, 'hb1 帷幕之王的瘟疫之握hb5（Veil King Plague Grasp）造成小范围的AOE毒伤hb4')
