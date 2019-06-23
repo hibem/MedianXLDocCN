@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         魔电官网文档中文化脚本
-// @description  协助名单：在在在、唔喵
+// @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.6
+// @version      0.5.7
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -578,7 +578,7 @@
              '在竞技场废墟中央的祭坛处召唤出亚马逊女神。<br>她的射击带有极强的物理伤害，确保你能躲避她的暴怒技能以及附带晕眩并可以多次穿透的导引箭，否则你将马上被她困杀（打击恢复、格挡、闪避可以起到作用）。<br>小心她召唤的的鼠怪，这些老鼠会追逐你并在死亡时释放战栗。保持距离击杀它们来避免你受到战栗法术的影响，因为这种法术会大幅度地降低你的生命。<br>阿苏拉的另一个攻击技能是天空围杀，这个技能让她传送到你身边并创造一个巨大的灰尘之云，随着时间造成极强的物理伤害。请确保你能尽快离开这片区域。')
     .replace("Defeat Athulua, the Amazonian Godess on Hell difficulty to get the", '击败阿苏拉可获得')
     .replace("Weather Control</span>", '天气控制器</span>')
-    .replace("Weather Control", '天气控制器<br>Weather Control<br>（奖杯：+150 生命和法力）')
+    .replace("Weather Control", '天气控制器<br>Weather Control')
     .replace("Additionally, Athuluahas a 20% chance to spawn", '另外，阿苏拉还有 20% 的概率掉落')
     .replace("Deity's Bow + 6x Emblems → Valkyrie's Prime", '神性之弓 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_pain.png"> 苦痛 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_suffering.png">  苦难 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_terror.png">  恐惧 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_hatred.png">  憎恨 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_destruction.png">  毁灭 + <img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/cube/token_lies.png">  谎言 6 种纹章 → Valkyrie\'s Prime')
     .replace(/Deity\'s Bow/g, '神性之弓')
