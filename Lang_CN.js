@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.8
+// @version      0.5.9
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -50,14 +50,14 @@
              '所有神圣暗金装备拥有对应基础装备的最大孔数。')
     .replace("All set items come with the maximum allowed number of sockets for the item type.",
              '所有神圣套装拥有对应基础装备的最大孔数。')
-    .replace(/If an item has a skill bonus with no character class requirement/g, '如果装备拥有无职业限制的技能')
+    .replace("If an item has a skill bonus with no character class requirement", '如果装备拥有无职业限制的技能')
     .replace("All sacred uniques aside from jewelry come in 2 or 3 different variations.", '')
     .replace("Their position within the table dictates what variation they come as \(SU is leftmost, SSU is center \(rightmost in a 2 column arrangement\), ", '')
     .replace("and SSSU is rightmost \(in a 3 column arrangement\), jewelry not included\).", '')
     .replace("The SU variants are typically found beginning at Area Levels of 104 and beyond, SSU variants begin dropping in Area Level 117 areas, and SSSUs start dropping in Area Level 130 areas.", '')
     .replace("The Flamen staves and Marrow staves are an exception to this rule, both the ending staves being SSU.",
              '除了珠宝以外，所有神圣暗金装备都有2-3种的变体，下表中从左到右分别被称为SU，SSU，SSSU。<br>104+地图掉落SU，117+地图掉落SSU，130+地图掉落SSSU。<br>德鲁伊和死灵法师的专属双手杖是一个例外，它们的第二、三个变体都属于SSU，也就是没有SSSU版本。')
-    .replace(/then the bonus is an 'oskill', giving this skill to any class for free./g, '这个技能就叫做装备技能（oskill），任何职业都可以使用它。')
+    .replace("then the bonus is an 'oskill', giving this skill to any class for free.", '这个技能就叫做装备技能（oskill），任何职业都可以使用它。')
     .replace("The Sacred tier of items has, on average, two unique versions that are different from the tiered unique. Some items don't have a sacred variant. Sacred uniques can only drop in Hell difficulty. The best rings, amulets, jewels and quivers are also marked as sacred uniques.",
         '神圣的暗金装备独立于品级之外，平均下来，每件拥有两个形态，当然，也有些神圣装备没有暗金形态。<br>神圣暗金装备无法被制造，只能在地狱以后掉落。<br>虽然没有在游戏中被标注，但最屌的首饰、珠宝还有箭袋也属于神圣暗金。')
 //物品文字
@@ -450,7 +450,7 @@
     .replace("Light repel a percentage of all incoming attacks.", '在丛林的最东方，阿卡拉特带领他的信徒们驻扎于此，他有一个无敌BUFF，杀死他的白衣教众可以短暂的破除他的BUFF，你必须在几秒内杀死他，否则他会再次无敌并释放治疗法术快速恢复，如果伤害不够，可以试着雇佣Act 3的瘟疫法师协助你完成这个任务。')
     .replace("Defeat Akarat on Hell difficulty to get the", '击败阿卡拉特可获得')
     .replace("Visions of Akarat<\/span>.<\/p>", '阿卡拉特的视界</span>.</p>')
-    .replace("Visions of Akarat", '阿卡拉特的视界<br>Visions of Akarat<br>（奖杯：增加最大生命和法力值 5%）')
+    .replace('unique">Visions of Akarat', 'unique">阿卡拉特的视界<br>Visions of Akarat<br>（奖杯：增加最大生命和法力值 5%）')
     .replace("4>Lord Aldric Jitan", '4>领主艾德瑞克·吉坦')
     .replace("Driven mad by nightmares, the Western aristocrat Lord Aldric Jitan hopes to summon a terrible demon", '')
     .replace("and plunge the land into darkness. Stop him before he succeeds.", '略')
@@ -461,7 +461,7 @@
     .replace("for too long. Keep moving and the towers will vanish behind you.", '在丛林的中上位置，领主吉坦带着一群流浪的佣兵驻扎于此，这些敌人会施放箭塔技能，无数的箭塔可以造成巨量伤害，你可以选择逐步清理过去或者通过走位将小兵甩在身后，只是需要耗费一些时间。')
     .replace("Defeat Lord Aldric Jitan on Hell difficulty to get the", '击败吉坦领主可获得')
     .replace("Moon of the Spider<\/span>.<\/p>", '蜘蛛之月</span>.</p>')
-    .replace("Moon of the Spider", '蜘蛛之月<br>Moon of the Spider<br>（奖杯：增强武器伤害 25%）')
+    .replace('unique">Moon of the Spider', 'unique">蜘蛛之月<br>Moon of the Spider<br>（奖杯：增强武器伤害 25%）')
     .replace("4>Horazon\'s Sanctum", '4>霍拉松的圣所')
     .replace("Dimensional Sanctum \(Act 3: Caldeum\)", '次元圣殿 (Act 3 ➤ 库拉斯特下层门口杀死狗头怪头目 Vizier ➤ 红门进卡尔蒂姆(记得点开小站) ➤ 次元圣殿(东南角))')
     .replace("Horazon the Summoner, in his arcane sanctuary, summoned a mighty demon lord imbued by a power so strong that it was quickly able to overwhelm the sorcerer. ", '')
@@ -507,7 +507,7 @@
     .replace("you and are distracted by your suffering.", '在这个狭小的空间内，巴图克和他召唤的鲜血石磨们会对你输出巨量伤害，通常他们是无敌的，但在击中你时会偶尔进入忘我状态从而暴露弱点，在巴图克非无敌状态时迅速杀死他，不然死的就是你，注意，进入房间20秒后就会锁定关卡，如果你死了，需要建立新的游戏才能再次进入。')
     .replace("Defeat Bartuc on Hell difficulty to get the", '击败巴图克可获得')
     .replace("Legacy of Blood<\/span>.<\/p>", '血之遗产</span>.</p>')
-    .replace(">Legacy of Blood", '>血之遗产<br>Legacy of Blood<br>（奖杯：角色整体防御增加 15%）')
+    .replace('unique">Legacy of Blood', 'unique">血之遗产<br>Legacy of Blood<br>（奖杯：角色整体防御增加 15%）')
     .replace("4>Bull Prince Rodeo", '4>公牛王子罗迪欧')
     .replace("Corral of Corruption \(The Secret Cow Level\)", ' 腐化牛栏(秘密奶牛关卡 ➤ 击杀母牛王掉落另一条腿 ➤ 在奶牛关中将腿合成)')
     .replace("Defeat Bull Prince Rodeo on Hell difficulty to get the", '击败罗迪欧可获得')
@@ -526,7 +526,7 @@
     .replace("Act 3: Caldeum", ' (Act3 ➤ 卡尔蒂姆 ➤ 拉斯玛广场（小站北面）)')
     .replace("On Hell difficulty, Primus drops the", '击败普莱姆斯可获得')
     .replace("Spirit Trance Herb<\/span>.<\/p>", '灵魂出窍药草</span>.</p>')
-    .replace("Spirit Trance Herb", '灵魂出窍药草<br>Spirit Trance Herb<br>（奖杯：10% 不间断攻击（UA））')
+    .replace('unique">Spirit Trance Herb', 'unique">灵魂出窍药草<br>Spirit Trance Herb<br>（奖杯：10% 不间断攻击（UA））')
     .replace("Back in the days when Kurast was the centre of civilisation and black magic was not yet frowned upon,", '')
     .replace("this was where the priests of Rathma - the necromancers - practiced their art. The place was abandoned", '')
     .replace("when the religion of Zakarum took over the city and banned pagan magic, making it the perfect hiding", '')
@@ -544,7 +544,7 @@
     .replace("Cathedral of Vanity \(Library of Fate\)", ' ( Act4 ➤ 绝望平原击杀衣卒尔开启金刚大门 ➤ 银城（记得点亮小站） ➤ 命运图书馆 ➤ 虚荣大教堂 )')
     .replace("Defeat Inarius on Hell difficulty to get the", '击败伊纳瑞斯可获得')
     .replace("Idol of Vanity<\/span>.<\/p>", '虚荣雕像</span>.</p>')
-    .replace("Idol of Vanity", '虚荣雕像<br>Idol of Vanity<br>（奖杯：+10% 召唤物生命和伤害）')
+    .replace('unique">Idol of Vanity', 'unique">虚荣雕像<br>Idol of Vanity<br>（奖杯：+10% 召唤物生命和伤害）')
     .replace("According to religious myth, the mortal plane Sanctuary was created by the fallen angel Inarius and", '')
     .replace("the demon Lilith to serve as a refuge from the Eternal War. The two created a race of servants from the", '')
     .replace("earth which were to worship them for all eternity. However, humanity broke free from its shackles when", '')
@@ -566,12 +566,12 @@
     .replace("which can subdue his ranged attackers. Movement here is key.", '远离阿兹莫丹施放的堡垒，随时注意地面标记，他施放的烈焰一击足以秒杀任何人，附近还潜伏着隐形的火球怪，躲避他们的伤害，使用你的最强技能回城是最好的方法。')
     .replace("Defeat Azmodan on Hell difficulty to get", '击败阿兹莫丹可获得')
     .replace("Azmodan's Heart</span>.</p>", '阿兹莫丹之心</span>.</p>')
-    .replace("Azmodan's Heart", '阿兹莫丹之心<br>Azmodan\'s Heart<br>（奖杯：+150 生命和法力）')
+    .replace('unique">Azmodan\'s Heart', 'unique">阿兹莫丹之心<br>Azmodan\'s Heart<br>（奖杯：+150 生命和法力）')
     .replace("4>Twin Seas", '4>双子海')
     .replace(/Both areas contain a waypoint/g, '该区域有传送站')
-    .replace("Island of Skartara (Tran Athulua)", '斯卡达拉岛（阿苏拉城）')
+    .replace("Island of Skartara (Tran Athulua)", 'Act2 ➤ 死亡神殿底层 ➤ 击杀科斯莱 ➤ 斯卡达拉岛（阿苏拉城）')
     .replace("Kill Kethryes in the Halls of the Dead to open a portal to Tran Athulua and navigate to the Island.", '击杀位于死亡之殿的科斯莱以开启通往阿苏拉城的传送门，斯卡达拉岛坐落于城池的东方。')
-    .replace("Once at the island, use an Askari Scroll dropped by one of the Priestesses in Tran Athulua to summon her in the centerof the island.", '一旦到达岛屿，使用三个女祭祀掉落的召唤卷轴，在岛屿的中心召唤阿苏拉。')
+    .replace("Once at the island, use an Askari Scroll dropped by one of the Priestesses in Tran Athulua to summon her in the centerof the island.", '一旦到达岛屿，使用亚马逊祭祀掉落的召唤卷轴，在岛屿的中心召唤阿苏拉。')
     .replace("Athulua is the prime deity of the Amazon people. With her consort, Kethryes, she rules over the seasonsand the weather. The Amazon capital, Tran Athulua, is named so in her honour. Athulua is responsiblefor some of the most mysterious powers in an Amazon's arsenal. When a warrior has proven her devotionto Athulua through her brave deeds and exceptional skill in battle, the Goddess shows her favour by grantinga spiritual emissary to aid the Amazon. These emissaries of Athulua are called Valkyrie, and they arethe spirits of the greatest heroes from the Amazon people. The power to summon a Valkyrie is the greatesthonour that an Amazon warrior can receive. It is believed this gift is a sign that your place besidethe Goddess is assured when you pass from this world-perhaps even as a Valkyrie.",
              '阿苏拉是亚马逊人的主神。和配偶科斯莱一起，她控制着季节和天气。亚马逊的首都阿苏拉城就是以她的名称命名。阿苏拉拥有在亚马逊种族武装中最为神秘的力量。当一位战士通过她勇敢的行为和精湛的战斗技巧来证明她对阿苏拉的忠诚时，女神会授予一位精神使者来帮助亚马逊战士，并借此来展现女神的青睐。这些阿苏拉的使者们被称之为瓦尔基里或女武神，而她们是亚马逊人中最伟大的英雄的精神信仰。召唤女武神的力量是亚马逊战士能够获得的最伟大的荣誉。据说这份赠礼标志着，当你穿过这个世界，你在女神阿苏拉旁的位置是有保证的，甚至是自己成为女武神。')
     .replace("You can find the Amazon Goddess at the heart of the ruins. Her bow attacks deal heavy physical Damage- make sure to avoid her Tantrum ability up close and her stunning Guided Arrows or you will become trappedin her kill zone. She will summon killable rat minions, which chase you down and cast Tremor on death.Kill them from a distance so as to not get hit by this spell, which reduces your life significantly.Her other attack is Sky Siege. This teleports her to your location creating a large dust cloud, whichdeals heavy physical damage over time. Be sure to leave its area of effect as soon as you can.",
@@ -593,6 +593,25 @@
     .replace("when you Kill an Enemy", '当你杀死怪物')
     .replace(/to Sky Siege/g, '天空围杀')
     .replace("Sacred Bow", '神圣弓<br><img src="http://mxl.vn.cz/doc/docs_XVc_2.94_test/MXLU_vXVc_Doc_v2.94/images/baseitems/deitys_bow.png">')
+    .replace("4>Eve of Destruction", '4>毁灭的前夕')
+    .replace('Act 5: The Worldstone Chamber', 'Act 5 ➤ 世界之石大殿')
+    .replace("Much is known about Tor'Baalos, more commonly referred to as Baal, the Lord of Destruction: his battles during the Great Conflict, his bloodlust during the Sin Wars and his incinerating lust for revenge following the Dark Exile. Now all of the strife, devastation and horror he had wrought through the ages has been channeled into the Shard of Destruction. He seeks to fuse it with the Worldstone and reveal Sanctuary to the full onslaught of Hell once and for all. You must stop him before it is too late.",
+             '著名的特巴罗，也就是大家熟知的毁灭之王 巴尔。他以大冲突时期的战斗，原罪之战中的嗜血以及流放之后燃烧的复仇欲望而令众人惊惧。他多年来所经历的冲突、毁灭和恐怖都被注入在毁灭之刃中。现在，他试图融合世界之石并发起对避难所的全面猛攻以取得永远的胜利。你必须在成功之前阻止他。')
+    .replace('The Lord of Destruction prefers fighting in close quarters where his spells will be harder to dodge. Heroes which attempt to flee or hide behind walls will be punished for their cowardice. "Defile", his most dangerous ability, marks an area on the ground in pulsating darkness which explodes after a few seconds dealing heavy magic damage. Also Baal will often incinerate all mana from your hero with his "Inferno"; so having a way to recover it quickly is recommended. The Lord of Destruction may call on his minions to aid him in battle, which buff their master and so must be killed quickly. He may also rarely haunt your hero with "Visions of Evil" which inhibit your Nephalem powers and thus render him untouchable; free yourself of these evils as fast as you can, lest you be overwhelmed into madness. Your best chance of defeating Baal lies in staying on your feet; but beware, the larger your party the more horrors will rise up to defend their master.',
+             '毁灭之王巴尔更喜欢在狭窄的地方战斗，这样他的法术就更难被躲开。英雄们会因试图逃跑或躲在墙后面的懦弱而受到惩罚。“亵渎”是他最为危险的技能，这个技能用涌动的黑暗标记地上的一片区域，短暂延迟后降下多段打击的黑暗力量，造成非常强力的魔法伤害。巴尔也会经常使用他的技能“狱火”来吸干你的英雄的魔法，因此你需要提升一下快速回复魔法的能力。在战斗中，巴尔会召唤他的仆从来帮助他，这些仆从会给予他们的主人巴尔强力的增益效果，因此要快速击杀他们。巴尔也会使用“恶魔幻象”来干扰你的英雄，抑制你的奈非天之力，从而使你无法伤害到巴尔。尽快击杀这些恶魔幻象，不然你可能会疯掉。能站的住才有机会击败巴尔，但是请注意，你的队伍越庞大，他召唤的仆从就会越多。')
+    .replace('Defeat Baal on Hell difficulty to have a chance to get the <span class="unique">Spirit of Creation</span> charm. Not a guaranteed drop.</p>',
+             '击败巴尔将有机会获得 <span class="unique">创造之魂</span>，嗯，不是必掉。')
+    .replace("Spirit of Creation", '创造之魂<br>Spirit of Creation')
+
+    .replace("4>Quov Tsin", '4>阔夫•琴')
+    .replace('Vizjerei Temple (Caldeum)', 'Act 3 ➤ 卡尔蒂姆 ➤ 维兹杰雷神庙')
+    .replace("Hungry for power and misled by Diablo, the irritable Vizjerei mage Quov Tsin set out to find Ureh, the fabled ancient city that had supposedly ascended up to the Heavens. Aided by Kentril Dumon and his mercenary company, which included Gorst the infamous barbarian, they succeeded in their task. However what they discovered within the deepest ruins of the grand city was no portal to Heaven, but a twisted nightmare of horrors - the Kingdom of Shadow. They were never seen again. It is rumoured that their spirits still clings to realityin a place they once called home, and that the ancient Vizjerei lies in waiting for a suitable mortal vessel that will allow him to rise once more.",
+             '因渴望力量，加上迪亚波罗的误导，暴躁的维兹杰雷法师阔夫•琴开始寻找乌雷城，一座传说中可以通向天堂的古城。阔夫•琴受到肯特尔•杜蒙和他的雇佣兵队伍的帮助，其中包括臭名远扬的野蛮人哥斯特。当他们成功的抵达时，却他妈的发现乌雷城的废墟深处压根没有天堂之门，这里是阴影之国，遍布着扭曲的恐怖梦魇。至此，再也没有人见过阔夫•琴等人。据传言，他们的灵魂仍然坚守在曾被其称为家的地方，远古的维兹杰雷法师长眠此地，等待着一具合适的凡躯容器助他东山再起。')
+    .replace('As a former Vizjerei in life, Quov Tsin wields the elements. His most devastating attack is a streamingblast of fire, cold and lightning bolts powerful enough to annihilate any hero in a moment. He may cast the curse, Mythal,to reduce your resistances. He also uses a bone nova at a distance. Prepare for this battle by equipping resistance items, and try to find some absorb items to further cut the damage.His contingency spells protect him by teleporting him to safety when struck by any attack. Stay near cover in case he appears too close for comfort.',
+             '生前作为维兹杰雷法师的阔夫•琴拥有操纵元素的力量。他会施放混合冰、火、电三种元素的法术通道，这个强大的技能可以瞬间毁灭任何英雄。他的迷锁诅咒能够降低你的元素抗性。他在近身时还会施放白骨新星。你需要为这场战斗准备增加元素抗性和吸收的装备，来降低受到的伤害。阔夫•琴受到伤害时会释放法术来传送到随机位置，借此来保护自身的安全。保持适中的距离，防止他给你一个骑脸杀。')
+    .replace('Defeat Quov Tsin on Hell difficulty to get the <span class="unique">Silver Seal of Ureh</span>.',
+             '击败阔夫•琴将有机会获得 <span class="unique">乌雷的银印</span>。')
+    .replace('unique">Silver Seal of Ureh', 'unique">乌雷的银印<br>Silver Seal of Ureh<br>（奖杯：+8% 至所有法术伤害）')
 
 
 
@@ -719,7 +738,7 @@
 		.replace(/ This Fire Damage is Increased by 15\% per Wildfire Base Level/g, '该火焰伤害受到 Wildfire 的等级加成<br>每投入1的基础技能点增加 15% ')
 		.replace(/ Wildfire/g, 'hb1 野火hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/65/Wildfire.gif/revision/latest?cb=20180124030430"hb3（Wildfire）<br>近战攻击时发出扭曲的火焰燃烧面前的敌人hb4')
 		.replace(/ Snake Stance/g, 'hb1 蛇姿态hb5（Snake Stance）<br>光环 - 增加毒素伤害并减慢敌人hb4')
-		.replace(/ Whirlwind/g, 'hb1 剑刃风暴hb2"https://vignette.wikia.nocookie.net/diablo/images/2/29/SpinningBarb.jpg/revision/latest/scale-to-width-down/320?cb=20160108123546"hb3（Whirlwind）<br>原版技能 - 爱的魔力转圈圈hb4')
+		.replace(/ Whirlwind/g, 'hb1 旋风斩hb2"https://vignette.wikia.nocookie.net/diablo/images/2/29/SpinningBarb.jpg/revision/latest/scale-to-width-down/320?cb=20160108123546"hb3（Whirlwind）<br>原版技能 - 爱的魔力转圈圈hb4')
 		.replace(/ Phalanx/g, 'hb1 方阵hb2"https://vignette.wikia.nocookie.net/median-xl/images/3/37/Phalanx.gif/revision/latest?cb=20180716020441"hb3（Phalanx）<br>临时召唤亚马逊小队进行箭阵攻击hb4')
 		.replace(/ Balance/g, 'hb1 平衡hb5（Balance）<br>被动 - 增加防御hb4')
 		.replace(/ Lava Pit/g, 'hb1 熔岩坑hb5（Lava Pit）<br>法术 - 撕碎目标脚下的地面，迸射的熔岩燃烧敌人hb4')
@@ -957,13 +976,11 @@
     .replace(/of Vitality Added as Cold Damage to Weapon/g, '基于体力值的冰冷伤害加成至武器')
     .replace(/Deal no Fire, Lightning, Poison or Magic Damage/g, '火焰、闪电、毒素和魔法伤害无效化')
     .replace(/second Cooldown to/g, '秒的冷却时间至')
-    .replace(/Many runewords contain only one rune, but you can fill up the sockets /g, '许多神符之语仅需要一枚符文，但是你需要在镶嵌这枚符文')
-    .replace(/before/g, '之前')
-    .replace(/ the rune with jewels. To make a runeword in an item with 4 sockets, for example,/g, '用珠宝填满前面的孔，举个栗子，有一件装备有4个孔')
-    .replace(/you must/g, '你必须按顺序')
-    .replace(/ insert 3 jewels \+ 1 rune/g, '镶嵌 3枚珠宝和1枚符文')
-    .replace(/Grey items only!/g, '只能用于灰色装备！')
-    .replace(/Some people do not seem to know this. You can only make runewords in nonmagical socketed \(grey\) items!/g, '很多人看来不知道，你只能在普通带孔装备（灰色）上装备神符之语！')
+    .replace('Single rune runewords', '<span class="genflat">一枚符文的神符之语</span>')
+    .replace('Grey items only!', '<span class="genflat">只能用于灰色装备！</span>')
+    .replace('Many runewords contain only one rune, but you can fill up the sockets <u>before</u> the rune with jewels. To make a runeword in an item with 4 sockets, for example, <span class="item-red">you must</span> insert 3 jewels + 1 rune.</p>',
+             '许多神符之语仅需要一枚符文，但是你需要在镶嵌这枚符文之前，用珠宝填满前面的孔。<br>举个栗子，有一件装备有4个孔，你必须在<span class="item-red">镶嵌 3 枚珠宝之后，在最后一个孔里镶嵌入对应符文</span>。')
+    .replace("Some people do not seem to know this. You can only make runewords in nonmagical socketed \(grey\) items!", '很多人看来不知道，你只能在普通带孔装备（灰色）上装备神符之语！')
 
     .replace(/ contains 537 all-new runewords./g, ' 包含了 537 个全新的神符之语')
     .replace(/LIST OF RUNEWORDS/g, '神符之语图鉴')
@@ -1273,41 +1290,41 @@
 
 
 //菜单及基础单词
-    .replace(/CUBE RECIPES/g, '合成公式')
-    .replace(/>Cube Recipes/g, '>hbd 合成公式')
-    .replace(/GEMS AND RUNES/g, '宝石和符文')
-    .replace(/>Gems and Runes/g, '>hbd 宝石和符文')
-    .replace(/>Base Items/g, '>hbd 基础装备')
-    .replace(/BASE ITEMS/g, '基础装备')
-    .replace(/>Items /g, '>hbi 物品  ')
-    .replace(/>Runewords/g, '>hbi 神符之语')
-    .replace(/Patch Notes/g, 'hbn 更新说明')
-    .replace(/>Characters </g, '>hbn 角色资料 <')
-    .replace(/>Mercenaries</g, '>雇佣兵<')
-    .replace(/>Character Builder</g, '>技能分配器（不好用）<')
-    .replace(/SETS/g, '绿色套装')
-    .replace(/>Sets/g, '>hbi 绿色套装')
-    .replace(/>Tiered Uniques/g, '>hbi 品级暗金装备')
-    .replace(/>Sacred Uniques/g, '>hbi 神圣暗金装备')
-    .replace(/TIERED UNIQUES/g, '品级暗金装备')
-    .replace(/SACRED UNIQUES/g, '神圣暗金装备')
+    .replace("CUBE RECIPES", '合成公式')
+    .replace('e">Cube Recipes', 'e">hb0d 合成公式')
+    .replace("GEMS AND RUNES", '宝石和符文')
+    .replace(">Gems and Runes", '>hb0d 宝石和符文')
+    .replace(">Base Items", '>hb0d 基础装备')
+    .replace("BASE ITEMS", '基础装备')
+    .replace(">Items ", '>hb0i 物品  ')
+    .replace(">Runewords", '>hb0i 神符之语')
+    .replace("Patch Notes", 'hb0n 更新说明')
+    .replace(">Characters <", '>hb0n 角色资料 <')
+    .replace(">Mercenaries<", '>雇佣兵<')
+    .replace(">Character Builder<", '>技能分配器（不好用）<')
+    .replace("SETS", '绿色套装')
+    .replace(">Sets", '>hb0i 绿色套装')
+    .replace(">Tiered Uniques", '>hb0i 品级暗金装备')
+    .replace(">Sacred Uniques", '>hb0i 神圣暗金装备')
+    .replace("TIERED UNIQUES", '品级暗金装备')
+    .replace("SACRED UNIQUES", '神圣暗金装备')
+    .replace("FULL ITEM LIST", '装备图鉴')
+    .replace("WEAPONS LIST", '武器图鉴')
+    .replace('e">Quests', 'e">hb0i 新增任务')
+    .replace(">Challenges", '>hb0d 前期挑战')
+    .replace(">Dungeons</p>", '>Boss挑战</p><p>本页面挑战都在地狱难度下进行</p>')
+    .replace(">Rifts", '>hb0i Farm地图')
+    .replace(">Dungeons", '>hb0i Boss挑战')
+    .replace(" Skills<br>", '技能<br>')
     .replace(/Tier 1/g, '品级 1 阶')
     .replace(/Tier 2/g, '品级 2 阶')
     .replace(/Tier 3/g, '品级 3 阶')
     .replace(/Tier 4/g, '品级 4 阶')
     .replace(/>Sacred</g, '>神圣 Sacred<')
     .replace(/b>Attack Modifiers/g, 'b style="color:#fff;">特殊攻击')
-    .replace(/FULL ITEM LIST/g, '装备图鉴')
-    .replace(/WEAPONS LIST/g, '武器图鉴')
     .replace(/>Swords</g, '>剑<')
     .replace(/>Axes</g, '>斧<')
     .replace(/>Two-Handed Axes</g, '>双手斧<')
-    .replace(/>Quests/g, '>hbi 新增任务')
-    .replace(/>Challenges/g, '>hbd 前期挑战')
-    .replace(/>Dungeons<\/p>/g, '>Boss挑战<\/p><p>本页面挑战都在地狱难度下进行</p>')
-    .replace(/>Rifts/g, '>hbi Farm地图')
-    .replace(/>Dungeons/g, '>hbi Boss挑战')
-    .replace(/ Skills<br>/g, '技能<br>')
     .replace(/<p>See <a/g, '<p>点击 <a')
     .replace(/>THIS PAGE</g, '>这个页面<')
     .replace(/> for more information about /g, '> 查看更多信息关于 ')
@@ -1340,7 +1357,7 @@
     .replace(/>Location/g, '>位置')
     .replace(/>Lore/g, '>背景故事')
     .replace(/>Strategy/g, '>关卡特性')
-    .replace(/>Reward/g, '>Uber奖励')
+    .replace(/>Reward/g, '>挑战奖励')
     .replace(/>Reagents</g, '>基础原料<')
     .replace(/>Catalysts</g, '>催化剂<')
     .replace(/>DISENCHANTING/g, '>分解配方')
@@ -1362,10 +1379,13 @@
     .replace(/ random rare modifiers \(affixes\)./g, '<span style="color:#f5e83a">随机词条</span>。')
     .replace(/ and </g, ' 以及 <')
     .replace(/See the /g, '查阅 ')
-    .replace(/>Image</g, '>外观<')
-    .replace(/>Name</g, '>名称<')
-    .replace(/>Stats</g, '>属性加成<')
-    .replace(/>Level</g, '>等级需求<')
+        .replace(/<th>Name<\/th>/g, '<th>神符之语</th>')
+.replace(/<th>Level<\/th>/g, '<th>等级</th>')
+.replace(/<th>Images<\/th>/g, '<th>图示</th>')
+.replace(/<th>Runes<\/th>/g, '<th>符文</th>')
+.replace(/<th>Base Items<\/th>/g, '<th>底材</th>')
+.replace(/<th>Stats<\/th>/g, '<th>属性加成</th>')
+
     .replace(/>Weapons:</g, '>武器：<')
     .replace(/>Armor:</g, '>防具：<')
     .replace(/>Shields:</g, '>盾牌：<')
@@ -1446,7 +1466,7 @@
     .replace(/Ea Rune/g, '大地')
     .replace(/Co Rune/g, '寒冰')
     .replace(/Li Rune/g, '闪电')
-    .replace(/Xis Rune/g, '卡布Xis')
+    .replace(/Xis Rune/g, '卡布')
     //装备名称
     .replace(/>Short Sword</g, '>短剑 Short Sword<')
     .replace(/>Scimitar</g, '>弯刀 Scimitar<')
@@ -2131,7 +2151,7 @@
     .replace(/Kriss \(Sacred\)/g, '波形刀 Kriss (神圣)')
     .replace(/Blade \(Sacred\)/g, '短刀 Blade (神圣)')
     //装备分类
-    .replace(/Weaponsbr/g, '武器br')
+    .replace(/Weapons<br>/g, '武器<br>')
     .replace(/Throwing Knives/g, '飞刀')
     .replace(/Amazon Javelins/g, '亚马逊专属标枪')
     .replace(/Necromancer Wands/g, '死灵法师手杖')
@@ -2248,7 +2268,7 @@
     .replace(/ per /g, ' 每 ')
     .replace(/ Base Level/g, ' 基础等级')
     .replace(/\% of/g, '%的')
-    .replace(/ seconds/g, ' 秒')
+    //.replace(/ seconds/g, ' 秒')
     .replace(/Additional /g, '额外')
     .replace(/Reduces /g, '降低 ')
     .replace(/Deals /g, '造成 ')
@@ -2283,9 +2303,9 @@
     .replace(/hb5/g, ' <svg t="1561183488357" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13636" width="17" height="17"><path d="M928 161H699.2c-49.1 0-97.1 14.1-138.4 40.7L512 233l-48.8-31.3C422 175.1 373.9 161 324.8 161H96c-17.7 0-32 14.3-32 32v568c0 17.7 14.3 32 32 32h228.8c49.1 0 97.1 14.1 138.4 40.7l44.4 28.6c1.3 0.8 2.8 1.3 4.3 1.3s3-0.4 4.3-1.3l44.4-28.6C602 807.1 650.1 793 699.2 793H928c17.7 0 32-14.3 32-32V193c0-17.7-14.3-32-32-32zM324.8 721H136V233h188.8c35.4 0 69.8 10.1 99.5 29.2l48.8 31.3 6.9 4.5v462c-47.6-25.6-100.8-39-155.2-39z m563.2 0H699.2c-54.4 0-107.6 13.4-155.2 39V298l6.9-4.5 48.8-31.3c29.7-19.1 64.1-29.2 99.5-29.2H888v488z" p-id="13637" fill="#c1b59d"></path><path d="M396.9 361H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0.1-4.1-3.1-7.5-7-7.5zM620 368.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0-4.1-3.2-7.5-7.1-7.5H627.1c-3.9 0-7.1 3.4-7.1 7.5zM396.9 501H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0.1-4.1-3.1-7.5-7-7.5zM812.9 501H627.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0.1-4.1-3.1-7.5-7-7.5z" p-id="13638" fill="#c1b59d"></path></svg></span><ul class="dropdown-menu"><li>')
 
 
-    .replace(/hbn/g, '<svg t="1561182891914" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12705" width="17" height="17"><path d="M685.4 354.8c0-4.4-3.6-8-8-8l-66 0.3L512 465.6l-99.3-118.4-66.1-0.3c-4.4 0-8 3.5-8 8 0 1.9 0.7 3.7 1.9 5.2l130.1 155L340.5 670c-1.2 1.5-1.9 3.3-1.9 5.2 0 4.4 3.6 8 8 8l66.1-0.3L512 564.4l99.3 118.4 66 0.3c4.4 0 8-3.5 8-8 0-1.9-0.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z" p-id="12706" fill="#e6e6e6"></path><path d="M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65z m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" p-id="12707" fill="#e6e6e6"></path></svg>')
-    .replace(/hbi/g, '<svg t="1561181403683" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10360" width="17" height="17"><path d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27c40.9 17.3 77.7 42.1 109.3 73.8 9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47c-5.3 4.1-3.5 12.5 3 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l0.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8c-0.1 4.5 3.5 8.2 8 8.2h60c4.4 0 7.9-3.5 8-7.8zM924 512h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4S687 811.7 646 829c-42.4 17.9-87.4 27-133.9 27s-91.5-9.1-133.9-27c-40.9-17.3-77.7-42.1-109.3-73.8-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47c5.3-4.1 3.5-12.5-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-0.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8 0.1-4.5-3.5-8.2-8-8.2z" p-id="10361" fill="#f4ea2a"></path></svg>')
-    .replace(/hbd/g, '<svg t="1561181248012" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9924" width="17" height="17"><path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8c12.7 17.7 39 17.7 51.7 0l210.6-292c3.9-5.3 0.1-12.7-6.4-12.7z" p-id="9925" fill="#1afa29"></path><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" p-id="9926" fill="#1afa29"></path></svg>')
+    .replace(/hb0n/g, '<svg t="1561182891914" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12705" width="17" height="17"><path d="M685.4 354.8c0-4.4-3.6-8-8-8l-66 0.3L512 465.6l-99.3-118.4-66.1-0.3c-4.4 0-8 3.5-8 8 0 1.9 0.7 3.7 1.9 5.2l130.1 155L340.5 670c-1.2 1.5-1.9 3.3-1.9 5.2 0 4.4 3.6 8 8 8l66.1-0.3L512 564.4l99.3 118.4 66 0.3c4.4 0 8-3.5 8-8 0-1.9-0.7-3.7-1.9-5.2L553.5 515l130.1-155c1.2-1.4 1.8-3.3 1.8-5.2z" p-id="12706" fill="#e6e6e6"></path><path d="M512 65C264.6 65 64 265.6 64 513s200.6 448 448 448 448-200.6 448-448S759.4 65 512 65z m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" p-id="12707" fill="#e6e6e6"></path></svg>')
+    .replace(/hb0i/g, '<svg t="1561181403683" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10360" width="17" height="17"><path d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27c40.9 17.3 77.7 42.1 109.3 73.8 9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47c-5.3 4.1-3.5 12.5 3 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l0.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8c-0.1 4.5 3.5 8.2 8 8.2h60c4.4 0 7.9-3.5 8-7.8zM924 512h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4S687 811.7 646 829c-42.4 17.9-87.4 27-133.9 27s-91.5-9.1-133.9-27c-40.9-17.3-77.7-42.1-109.3-73.8-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47c5.3-4.1 3.5-12.5-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-0.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8 0.1-4.5-3.5-8.2-8-8.2z" p-id="10361" fill="#f4ea2a"></path></svg>')
+    .replace(/hb0d/g, '<svg t="1561181248012" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9924" width="17" height="17"><path d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8c12.7 17.7 39 17.7 51.7 0l210.6-292c3.9-5.3 0.1-12.7-6.4-12.7z" p-id="9925" fill="#1afa29"></path><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64z m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" p-id="9926" fill="#1afa29"></path></svg>')
 
 
 
