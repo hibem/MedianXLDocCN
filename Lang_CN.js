@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在
 // @copyright    2019 黑本
-// @version      0.5.9
+// @version      0.6.0
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -20,6 +20,7 @@
     .replace(/\n/g, '')
     .replace(/					/g, '')
     .replace(/				/g, '')
+    .replace(/			/g, '')
     .replace(/			/g, '')
     .replace("These three runes are very rare and can only be found in the Fauztinville uberlevel	on Destruction difficulty.",
              '这三个稀有高级符文仅掉落于 【弗兹坦维尔 Fauztinville】。')
@@ -369,6 +370,7 @@
     .replace(/This upgrade recipe adds the following bonuses:/g, '升级后会增加下列属性：')
     .replace(/to \[Your class\] Skill Levels/g, '[你的职业]技能等级')
 //Boss战
+    .replace("smallbonus", 'small bonus')
     .replace(/chance to drop a trophy on Hell difficulty. Cube the trophy with the charm for a small bonus./g, '的机会掉落一个奖杯，使用奖杯和该护符合成以得到额外的属性。')
     .replace(/Maximum Skill Level Increased by/g, '技能等级上限提高')
     .replace(">Horror Under Tristram", '>崔斯特姆地下的恐惧')
@@ -602,6 +604,7 @@
     .replace('Defeat Baal on Hell difficulty to have a chance to get the <span class="unique">Spirit of Creation</span> charm. Not a guaranteed drop.</p>',
              '击败巴尔将有机会获得 <span class="unique">创造之魂</span>，嗯，不是必掉。')
     .replace("Spirit of Creation", '创造之魂<br>Spirit of Creation')
+    .replace(/Bonus quest/g, '进阶挑战')
 
     .replace("4>Quov Tsin", '4>阔夫•琴')
     .replace('Vizjerei Temple (Caldeum)', 'Act 3 ➤ 卡尔蒂姆 ➤ 维兹杰雷神庙')
@@ -610,8 +613,26 @@
     .replace('As a former Vizjerei in life, Quov Tsin wields the elements. His most devastating attack is a streamingblast of fire, cold and lightning bolts powerful enough to annihilate any hero in a moment. He may cast the curse, Mythal,to reduce your resistances. He also uses a bone nova at a distance. Prepare for this battle by equipping resistance items, and try to find some absorb items to further cut the damage.His contingency spells protect him by teleporting him to safety when struck by any attack. Stay near cover in case he appears too close for comfort.',
              '生前作为维兹杰雷法师的阔夫•琴拥有操纵元素的力量。他会施放混合冰、火、电三种元素的法术通道，这个强大的技能可以瞬间毁灭任何英雄。他的迷锁诅咒能够降低你的元素抗性。他在近身时还会施放白骨新星。你需要为这场战斗准备增加元素抗性和吸收的装备，来降低受到的伤害。阔夫•琴受到伤害时会释放法术来传送到随机位置，借此来保护自身的安全。保持适中的距离，防止他给你一个骑脸杀。')
     .replace('Defeat Quov Tsin on Hell difficulty to get the <span class="unique">Silver Seal of Ureh</span>.',
-             '击败阔夫•琴将有机会获得 <span class="unique">乌雷的银印</span>。')
+             '击败阔夫•琴可获得 <span class="unique">乌雷的银印</span>。')
     .replace('unique">Silver Seal of Ureh', 'unique">乌雷的银印<br>Silver Seal of Ureh<br>（奖杯：+8% 至所有法术伤害）')
+
+    .replace("4>Judgement Day", '4>审判日')
+    .replace('Crystal Arch (Act 4: Silver Spire Level 2)', '水晶穹顶（Act 4 ➤ 银色尖塔第二层）')
+    .replace('Halls of Valor (Imperius)', '勇气大厅（英普瑞斯）')
+    .replace('Pools of Wisdom (Malthael)', '智慧之池（马萨伊尔）')
+    .replace("Kill Izual to open a Portal to the Diamond Gates and find your way to the Silver City. Therein lies the entrance to the first level of the Silver Spire.",
+             '击杀衣卒尔来开启通往金刚大门的传送点，并找到去往银色之城的路。在这里你可以找到通往银色尖塔第一层的传送点（铁匠旁边）。')
+    .replace("When Uldyssian sacrificed his life at the Cathedral of Vanity in the battle between angels anddemons, his soul was thought to be blown to the far reaches of the universe. But a maliciousspirit in the High Heavens, watching over the battle from afar, snatched Uldyssian and his edyremon their way to oblivion. Imperius, archangel and high warlord of the Crystal Arch, had his ownopinions about Sanctuary and the human vermin inhabiting it. This taint on creation had to beeradicated. But his side of the argument, despite the support of Malthael, lost out in the AngirisCouncil due to the intervention of Tyrael, and the ensuing blood pact with Mephisto preventedhim from intervening on the mortal plane at all. A puppet had to be found, and Uldyssian wasjust what he sought. After a thorough brainwashing, Imperius sent his harbinger Dark Uldyssianto Sanctuary with the mission to exact divine justice and destroy the world...",
+             '当乌迪西安在虚空大教堂那场正邪之战中牺牲时，他的灵魂飘散到遥远的宇宙深处。但在至高天，一股邪恶精神遥视着这场战斗，并在这条灵魂遗忘之路上捕获了乌迪西安和他的族人（被称作艾迪伦）们。<br>英普瑞斯，作为水晶穹顶的高阶天使和军官，对庇护所和人类的生存有着自己的看法，他认为必须消灭这种污点。然而，尽管拥有马萨伊尔的支持，随着天使泰瑞尔的介入，他的观点还是遭到了英格里斯议会的反对。接下来，与墨菲斯托签订的血之契约阻止了英普瑞斯介入凡人的位面。他必须找到一个傀儡、木偶，而乌迪西安恰好就是他所追求的人选。在经历了彻底的洗脑之后，英普瑞斯将黑暗乌迪西安送入了庇护所，以完成神圣审判和摧毁世界的任务……')
+    .replace('Once in the Crystal Arch, both locations to find Imperius and Malthael are created. Both Avatars can throw alchemical holy hand grenades packing the power of creationitself, summon homing magical bolts and summon more Fallen Edyrem at a rapid rate.',
+             '当你抵达水晶穹顶时，神秘人在消散的同时会创造两个分别通向勇气大厅（英普瑞斯）和智慧之池（马萨伊尔）的传送门。这两位天使有着强大的创造之力，可以召唤充满毒素的神圣爆炸冲击、自动追踪的魔法飞弹以及越来越多的堕落艾迪伦们。引走艾迪伦们，躲开技能，并快速接近BOSS，利用最强的攻击手段，迅速击杀他们是你唯一的机会。')
+    .replace('Defeat Imperius or Malthael on Hell difficulty to get the <span class="unique">Crystalline Flame Medallion</span>.',
+             '击败英普瑞斯或马萨伊尔可获得 <span class="unique">水晶烈焰勋章</span>。')
+    .replace('unique">Crystalline Flame Medallion', 'unique">水晶烈焰勋章<br>Crystalline Flame Medallion<br>（奖杯：+5% 所有属性）')
+    .replace("If you are exceptionally daring or suicidal, destroy them both within 60 seconds, then transmutethe Medallion in the cube to upgrade it.",
+             '击杀任一BOSS会给一个持续60秒的光环，两个光环同时存在时，在赫拉迪克方块中合成水晶烈焰勋章（仅需一枚）来升级它。')
+    .replace("Crystalline Flame Medallion → Crystalline Flame Medallion with added bonuses",
+             '水晶烈焰勋章 → 水晶烈焰勋章（增加属性）')
 
 
 
@@ -638,6 +659,7 @@
 
 
   //技能
+    .replace(/ Summon Edyrem/g, ' 召唤艾迪伦')
 		.replace(/ Mana Shield/g, 'hb1 法力护盾hb5（Mana Shield）<br>Buff - 15% 受到的伤害由法力值代替hb4')
 		.replace(/ Scattershot/g, 'hb1 裂帛击 hb2"https://vignette.wikia.nocookie.net/median-xl/images/7/72/Scattershot.gif/revision/latest?cb=20180317194321"hb3Scattershot<br>弓弩技能-范围打击-40%武器伤害hb4')
 		.replace(/ Wolf Stance/g, 'hb1 狼姿态 hb5Wolf Stance<br>姿态技能：增加攻击力，击回，战斗速度（除了施法速度）hb4')
