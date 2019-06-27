@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         魔电官网文档中文化脚本
-// @description  协助名单：在在在
+// @description  协助名单：在在在、唔喵王
 // @copyright    2019 黑本
-// @version      0.6.0
+// @version      0.6.1
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -373,8 +373,8 @@
     .replace("smallbonus", 'small bonus')
     .replace(/chance to drop a trophy on Hell difficulty. Cube the trophy with the charm for a small bonus./g, '的机会掉落一个奖杯，使用奖杯和该护符合成以得到额外的属性。')
     .replace(/Maximum Skill Level Increased by/g, '技能等级上限提高')
-    .replace(">Horror Under Tristram", '>崔斯特姆地下的恐惧')
-    .replace("Butcher's Lair \(Act 1: Tristram\)", '屠夫的巢穴 ( Act1 ➤ 石块旷野 ➤ 崔斯特瑞姆 ➤ 西北角的屋子内，无红门，鼠标移动到屋子内可见入口 )')
+    .replace("4>Horror Under Tristram", '4>崔斯特姆地下的恐惧')
+    .replace("Butcher's Lair \(Act 1: Tristram\)", '屠夫的巢穴 ( Act1 ➤ 石块旷野 ➤ 崔斯特瑞姆 ➤ 西北角的屋子内，无红门，鼠标移动到屋子内可见入口 )<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44318356/">av44318356</a>')
     .replace("A bloated and grotesque creature, the Butcher was a sadistic being that relished in the torture and pain of others. It hunted endlessly for fresh meat.", '')
     .replace("Although retellings of the Darkening of Tristram describe how the Butcher was defeated deep within the Labyrinth, the horrific culling of the city in recent times, following the Dark Wanderer's wake, seems to have stirred this malevolent spirit back to evil once more.", '略')
     .replace("The Butcher is a strong melee fighter. His tainted cleaver hits hard and just like in the Tristram Cathedral, he will hunt you down.", '屠夫是一个强大的狂战士，使用他的杀猪刀摧毁面前的一切事物。')
@@ -384,7 +384,7 @@
     .replace("The Butcher's Tooth<\/span>.<\/p>", '屠夫的牙齿</span>.</p>')
     .replace("The Butcher's Tooth", '屠夫的牙齿<br>The Butcher\'s Tooth')
     .replace(">Infernal Machine", '>炼狱生成器')
-    .replace("Infernal Cave \(Act 1: The Pit\)", '狱火洞穴  ( Act1 ➤ 泰摩高地 ➤ 洞穴 ➤ 狱火洞穴 )')
+    .replace("Infernal Cave \(Act 1: The Pit\)", '狱火洞穴  ( Act1 ➤ 泰摩高地 ➤ 洞穴 ➤ 狱火洞穴 )<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44318356/?p=2">av44318356</a>')
     .replace("Who knew the fallen clans were technologically adept? This rickety contraption contains wooden clockwork", '')
     .replace("mechanisms and the necessary runes to open a gateway to any location in the Burning Hells and protect", '')
     .replace("itself against any attackers. This enables it to summon hellish creatures at a rapid rate and strike", '')
@@ -395,7 +395,7 @@
     .replace("Optical Detector<\/span>.<\/p>", '光学检测器</span>.</p>')
     .replace("Optical Detector", '光学检测器<br>Optical Detector')
     .replace(">Death Projector", '>死亡发射器')
-    .replace("The Proving Grounds \(Swampy Pit - Flayer Jungle\)", '试验场 (Act3 ➤ 剥皮丛林 ➤ 沼泽地洞 ➤ 试验场)')
+    .replace("The Proving Grounds \(Swampy Pit - Flayer Jungle\)", '试验场 (Act3 ➤ 剥皮丛林 ➤ 沼泽地洞 ➤ 试验场)<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44318356/?p=3">av44318356</a>')
     .replace("The Swampy Pit serves as testing grounds for Mephisto\'s latest siege weapon. The Death Projector", '')
     .replace("slowly rotates, firing a devastating energy beam in a full circle, annihilating anything in its path.", '略')
     .replace("The siege tower is tended to by trained Zakarumite techpriests. Its magitech shield is impenetrable", '由一群专业萨卡兰姆技术人员维护的机器，会顺时针发射毁灭性的射线。')
@@ -408,7 +408,7 @@
     .replace("Laser Focus Crystal<\/span>.<\/p>", '激光对焦水晶</span>.</p>')
     .replace("Laser Focus Crystal", '激光对焦水晶<br>Laser Focus Crystal')
     .replace(">Assault on Mount Arreat", '>亚瑞特圣峰之战')
-    .replace("Arreat Summit \(Act 5: Arreat Summit\)", 'Act5 ➤ 远古之路 ➤ 亚瑞特山脉之巅')
+    .replace("Arreat Summit \(Act 5: Arreat Summit\)", 'Act5 ➤ 远古之路 ➤ 亚瑞特山脉之巅<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526">av44420526</a>')
     .replace("In ages past, Diablo himself attempted to invade Mount Arreat to destroy the Worldstone and was repelled", '')
     .replace("by the Bear tribe defenders and their king, the shaman Koth. This is a reenaction of that battle", '')
     .replace("on the peak of Mount Arreat, with you as Diablo.", '略')
@@ -421,7 +421,7 @@
     .replace("Sacred Worldstone Key", '神圣世界之石钥匙<br>Sacred Worldstone Key')
     .replace(">The Binding of Baal", '>巴尔的束缚')
     .replace("Act 2: Tal Rasha's Tomb", 'Act2 ➤ 都瑞尔的房间外')
-    .replace("Kill Zoltun Kulle to open a Portal to the old Canyon of the Magi.", '杀死佐顿库勒开启红门去回顾塔拉夏与巴尔的战斗')
+    .replace("Kill Zoltun Kulle to open a Portal to the old Canyon of the Magi.", '杀死佐顿库勒开启红门去回顾塔拉夏与巴尔的战斗<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526/?p=2">av44420526</a>')
     .replace("Reenact the capture and imprisonment of Baal by Tal Rasha and his Horadrim, with you playing the", '')
     .replace("role of Baal. To protect their leader, the Horadrim weave warding spells that make Tal Rasha immortal", '')
     .replace("until the last of his soldiers has died and their spirits have faded.", '略')
@@ -435,7 +435,7 @@
     .replace("Scroll of Kings<\/span>.<\/p>", '王者卷轴</span>.</p>')
     .replace("Scroll of Kings", '王者卷轴<br>Scroll of Kings')
     .replace("4>Akarat", '4>阿卡拉特')
-    .replace(/<br>Torajan Jungles/g, '<br>托拉然丛林（Act3 ➤ 营地内东南方铁匠下面红门 ➤ 托拉然丛林）')
+    .replace(/<br>Torajan Jungles/g, '<br>托拉然丛林（Act3 ➤ 营地内东南方铁匠下面红门 ➤ 托拉然丛林）<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526/?p=3">av44420526</a>')
     .replace("Akarat the Prophet is the name of the ascetic who founded the religion and customs of the Zakarum Church. ", '')
     .replace("It is said that he did so after the visit of Archangel Yaerius in his dreams. Moved by what he\'d seen, Akarat set out", '')
     .replace("on a grand journey to the cities of Kehjistan, intent on enlightening his fellow men about the divine Light he claimed", '')
@@ -465,7 +465,7 @@
     .replace("Moon of the Spider<\/span>.<\/p>", '蜘蛛之月</span>.</p>')
     .replace('unique">Moon of the Spider', 'unique">蜘蛛之月<br>Moon of the Spider<br>（奖杯：增强武器伤害 25%）')
     .replace("4>Horazon\'s Sanctum", '4>霍拉松的圣所')
-    .replace("Dimensional Sanctum \(Act 3: Caldeum\)", '次元圣殿 (Act 3 ➤ 库拉斯特下层门口杀死狗头怪头目 Vizier ➤ 红门进卡尔蒂姆(记得点开小站) ➤ 次元圣殿(东南角))')
+    .replace("Dimensional Sanctum \(Act 3: Caldeum\)", '次元圣殿 (Act 3 ➤ 库拉斯特下层门口杀死狗头怪头目 Vizier ➤ 红门进卡尔蒂姆(记得点开小站) ➤ 次元圣殿(东南角))<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526/?p=4">av44420526</a>')
     .replace("Horazon the Summoner, in his arcane sanctuary, summoned a mighty demon lord imbued by a power so strong that it was quickly able to overwhelm the sorcerer. ", '')
     .replace("Horazon, unable to defeat the demon without paying with his life, managed to trap the creature in the farthest reach of his sanctuary and split off the prison zone from the rest of the structure banishing it under the earth where it now sits in a containment dimension. Breaking in and defeating the demon may yield great rewards.", '略')
     .replace("Kill the Vizier in the Lower Kurast entrance and open a Portal to Caldeum", '')
@@ -476,7 +476,7 @@
     .replace("Horazon\'s Focus<\/span>.<\/p>", '霍拉松的瞩目</span>.</p>')
     .replace("Horazon\'s Focus", '霍拉松的瞩目<br>Horazon\'s Focus')
     .replace("4>Black Road", '4>黑暗之路')
-    .replace("Church of Dien-Ap-Sten \(Act 1: Bramwell - Rogue Encampment\)", '迪纳普斯登教堂 (Act 1 ➤ 瓦瑞夫旁边大车进布兰威尔 ➤ 迪纳普斯登教堂 Church of Dien-Ap-Sten)')
+    .replace("Church of Dien-Ap-Sten \(Act 1: Bramwell - Rogue Encampment\)", '迪纳普斯登教堂（Act 1 ➤ 瓦瑞夫旁边大车进布兰威尔 ➤ 迪纳普斯登教堂 Church of Dien-Ap-Sten）<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44511477">av44511477</a>')
     .replace("The now former acolyte of the Zakarum-priesthood Buyard Cholik, facing the limits of his own mortality, slowly", '')
     .replace("started despising the so called \"Religion of the Light\", regretting all the years he faithfully devoted to the Zakarum", '')
     .replace("order which was now exposing all of its frailty while confronting the wicked intents and machinations of the Lord of Hatred", '')
@@ -495,7 +495,7 @@
     .replace("The Black Road", '《黑暗之路》<br>The Black Road')
     .replace("Unlocks your Black Road Skill", '解锁黑暗之路技能')
     .replace("4>Legacy of Blood", '4>血之遗产')
-    .replace("Chamber of Blood \(Torajan Jungles\)", ' (Act3 ➤ 托拉然丛林小站 ➤ 往西走，位于丛林中下部 ➤ 鲜血之厅（入口是个地窖）)')
+    .replace("Chamber of Blood \(Torajan Jungles\)", ' (Act3 ➤ 托拉然丛林小站 ➤ 往西走，位于丛林中下部 ➤ 鲜血之厅（入口是个地窖）)<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44790105">av44790105</a>')
     .replace("Bartuc, the Warlord of Blood, was once Horazon\'s brother in the Vizjerei mage clan. Whereas Horazon", '')
     .replace("wanted to summon demons to enslave them, Bartuc chose to worship them and traded his soul for demonic", '')
     .replace("power. Their conflict eventually led to a civil war that shattered the mage clan. Although Bartuc", '')
@@ -511,7 +511,7 @@
     .replace("Legacy of Blood<\/span>.<\/p>", '血之遗产</span>.</p>')
     .replace('unique">Legacy of Blood', 'unique">血之遗产<br>Legacy of Blood<br>（奖杯：角色整体防御增加 15%）')
     .replace("4>Bull Prince Rodeo", '4>公牛王子罗迪欧')
-    .replace("Corral of Corruption \(The Secret Cow Level\)", ' 腐化牛栏(秘密奶牛关卡 ➤ 击杀母牛王掉落另一条腿 ➤ 在奶牛关中将腿合成)')
+    .replace("Corral of Corruption \(The Secret Cow Level\)", ' 腐化牛栏(秘密奶牛关卡 ➤ 击杀母牛王掉落另一条腿 ➤ 在奶牛关中将腿合成)<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44511477/?p=2">av44511477</a>、<a target="_blank" href="https://www.bilibili.com/video/av54119549">av54119549</a>')
     .replace("Defeat Bull Prince Rodeo on Hell difficulty to get the", '击败罗迪欧可获得')
     .replace("Fool\'s Gold<\/span>.<\/p>", '愚者金币</span>.</p>')
     .replace("Fool\'s Gold", '愚者金币<br>Fool\'s Gold')
@@ -525,7 +525,7 @@
     .replace("inflicting devastating hurt with their beaks if they connect. The chickens can be dodged by staying mobile.", '这个罗迪欧王子的牛栏，真是一个鸡飞狗跳可以形容，他自身会瞬移骑脸砍，施放全体击退僵直的冲击波，四处飞啄的鸡，犁过全屏的爆炸牛群。<br>好在他这个地方死了还可以再进来，那就说一个需要注意的地方，请在牛场红门旁边用另一只腿开启腐化牛栏的红门，这样你挂了后可更快的回来。')
     .replace("Killing Rodeo does <b>not<\/b> prevent you from entering the Cow Level again.", '击杀母牛王和罗迪欧不会影响你开启秘密奶牛关的红门。')
     .replace("4>Rathma Square", '4>拉斯玛广场')
-    .replace("Act 3: Caldeum", ' (Act3 ➤ 卡尔蒂姆 ➤ 拉斯玛广场（小站北面）)')
+    .replace("Act 3: Caldeum", ' (Act3 ➤ 卡尔蒂姆 ➤ 拉斯玛广场（小站北面）)<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44511477/?p=3">av44511477</a>')
     .replace("On Hell difficulty, Primus drops the", '击败普莱姆斯可获得')
     .replace("Spirit Trance Herb<\/span>.<\/p>", '灵魂出窍药草</span>.</p>')
     .replace('unique">Spirit Trance Herb', 'unique">灵魂出窍药草<br>Spirit Trance Herb<br>（奖杯：10% 不间断攻击（UA））')
@@ -543,7 +543,7 @@
     .replace("10 seconds, during which you can attempt to run away and ditch them.", '首先说一下，这个地图不锁定，BOSS普莱姆斯不回血，可以拖尸体过。<br>真正恐怖的不是BOSS，而是大量的爬行者，这些爬行者死后会点亮一个火把，10秒后原地复活，杀死怪物回复平静或者毁掉他们的尸体都无法阻止他们复活，所以你一定要快，快速的找到普莱姆斯，杀死他，捡起战利品，退出，否则你将被狗群淹没。')
 
     .replace("4>The Veiled Prophet", '4>蒙面先知')
-    .replace("Cathedral of Vanity \(Library of Fate\)", ' ( Act4 ➤ 绝望平原击杀衣卒尔开启金刚大门 ➤ 银城（记得点亮小站） ➤ 命运图书馆 ➤ 虚荣大教堂 )')
+    .replace("Cathedral of Vanity \(Library of Fate\)", ' ( Act4 ➤ 绝望平原击杀衣卒尔开启金刚大门 ➤ 银城（记得点亮小站） ➤ 命运图书馆 ➤ 虚荣大教堂 )<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44878164">av44878164</a>')
     .replace("Defeat Inarius on Hell difficulty to get the", '击败伊纳瑞斯可获得')
     .replace("Idol of Vanity<\/span>.<\/p>", '虚荣雕像</span>.</p>')
     .replace('unique">Idol of Vanity', 'unique">虚荣雕像<br>Idol of Vanity<br>（奖杯：+10% 召唤物生命和伤害）')
@@ -557,8 +557,9 @@
     .replace("The Crystal Ball is the last of the cathedral\’s magical defences. The tower exudes a holy invulnerability", '')
     .replace("shield to protect nearby revelers and casts searing beams of angelic lightning that destroys anything", '')
     .replace("it touches. Destroy the Crystal Ball to dispel the immortality from the other enemies.", '')
+
     .replace("4>Heart of Sin", '4>罪恶之心')
-    .replace("Realm of Sin \(Act 4: Chaos Sanctuary\)", ' (Act4 ➤ 混沌避难所 ➤ 击杀冈姆掉落钥匙 ➤ 右键点击钥匙打开通向罪恶之境的红门)')
+    .replace("Realm of Sin \(Act 4: Chaos Sanctuary\)", ' (Act4 ➤ 混沌避难所 ➤ 击杀冈姆掉落钥匙 ➤ 右键点击钥匙打开通向罪恶之境的红门)<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44902066">av44902066</a>')
     .replace("Kill Ghom to obtain a Key of Sin, right click it to open a portal to the Realm of Sin.", '')
     .replace("The Lord of Sin walks the earth. In his weakened state, he hides in the catacombs of Kurast, where his mere presence turned the surrounding area into a hellish landscape, feasting", '')
     .replace("on the dark rituals of Mephisto\'s chosen. Destroy him before he becomes a threat.", '略')
@@ -569,11 +570,12 @@
     .replace("Defeat Azmodan on Hell difficulty to get", '击败阿兹莫丹可获得')
     .replace("Azmodan's Heart</span>.</p>", '阿兹莫丹之心</span>.</p>')
     .replace('unique">Azmodan\'s Heart', 'unique">阿兹莫丹之心<br>Azmodan\'s Heart<br>（奖杯：+150 生命和法力）')
+
     .replace("4>Twin Seas", '4>双子海')
     .replace(/Both areas contain a waypoint/g, '该区域有传送站')
     .replace("Island of Skartara (Tran Athulua)", 'Act2 ➤ 死亡神殿底层 ➤ 击杀科斯莱 ➤ 斯卡达拉岛（阿苏拉城）')
     .replace("Kill Kethryes in the Halls of the Dead to open a portal to Tran Athulua and navigate to the Island.", '击杀位于死亡之殿的科斯莱以开启通往阿苏拉城的传送门，斯卡达拉岛坐落于城池的东方。')
-    .replace("Once at the island, use an Askari Scroll dropped by one of the Priestesses in Tran Athulua to summon her in the centerof the island.", '一旦到达岛屿，使用亚马逊祭祀掉落的召唤卷轴，在岛屿的中心召唤阿苏拉。')
+    .replace("Once at the island, use an Askari Scroll dropped by one of the Priestesses in Tran Athulua to summon her in the centerof the island.", '一旦到达岛屿，使用亚马逊祭祀掉落的召唤卷轴，在岛屿的中心召唤阿苏拉。<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44904057">av44904057</a>、<a target="_blank" href="https://www.bilibili.com/video/av49770397">av49770397</a>')
     .replace("Athulua is the prime deity of the Amazon people. With her consort, Kethryes, she rules over the seasonsand the weather. The Amazon capital, Tran Athulua, is named so in her honour. Athulua is responsiblefor some of the most mysterious powers in an Amazon's arsenal. When a warrior has proven her devotionto Athulua through her brave deeds and exceptional skill in battle, the Goddess shows her favour by grantinga spiritual emissary to aid the Amazon. These emissaries of Athulua are called Valkyrie, and they arethe spirits of the greatest heroes from the Amazon people. The power to summon a Valkyrie is the greatesthonour that an Amazon warrior can receive. It is believed this gift is a sign that your place besidethe Goddess is assured when you pass from this world-perhaps even as a Valkyrie.",
              '阿苏拉是亚马逊人的主神。和配偶科斯莱一起，她控制着季节和天气。亚马逊的首都阿苏拉城就是以她的名称命名。阿苏拉拥有在亚马逊种族武装中最为神秘的力量。当一位战士通过她勇敢的行为和精湛的战斗技巧来证明她对阿苏拉的忠诚时，女神会授予一位精神使者来帮助亚马逊战士，并借此来展现女神的青睐。这些阿苏拉的使者们被称之为瓦尔基里或女武神，而她们是亚马逊人中最伟大的英雄的精神信仰。召唤女武神的力量是亚马逊战士能够获得的最伟大的荣誉。据说这份赠礼标志着，当你穿过这个世界，你在女神阿苏拉旁的位置是有保证的，甚至是自己成为女武神。')
     .replace("You can find the Amazon Goddess at the heart of the ruins. Her bow attacks deal heavy physical Damage- make sure to avoid her Tantrum ability up close and her stunning Guided Arrows or you will become trappedin her kill zone. She will summon killable rat minions, which chase you down and cast Tremor on death.Kill them from a distance so as to not get hit by this spell, which reduces your life significantly.Her other attack is Sky Siege. This teleports her to your location creating a large dust cloud, whichdeals heavy physical damage over time. Be sure to leave its area of effect as soon as you can.",
@@ -621,7 +623,7 @@
     .replace('Halls of Valor (Imperius)', '勇气大厅（英普瑞斯）')
     .replace('Pools of Wisdom (Malthael)', '智慧之池（马萨伊尔）')
     .replace("Kill Izual to open a Portal to the Diamond Gates and find your way to the Silver City. Therein lies the entrance to the first level of the Silver Spire.",
-             '击杀衣卒尔来开启通往金刚大门的传送点，并找到去往银色之城的路。在这里你可以找到通往银色尖塔第一层的传送点（铁匠旁边）。')
+             '击杀衣卒尔来开启通往金刚大门的传送点，并找到去往银色之城的路。在这里你可以找到通往银色尖塔第一层的传送点（铁匠旁边）。<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av46195763">av46195763</a>')
     .replace("When Uldyssian sacrificed his life at the Cathedral of Vanity in the battle between angels anddemons, his soul was thought to be blown to the far reaches of the universe. But a maliciousspirit in the High Heavens, watching over the battle from afar, snatched Uldyssian and his edyremon their way to oblivion. Imperius, archangel and high warlord of the Crystal Arch, had his ownopinions about Sanctuary and the human vermin inhabiting it. This taint on creation had to beeradicated. But his side of the argument, despite the support of Malthael, lost out in the AngirisCouncil due to the intervention of Tyrael, and the ensuing blood pact with Mephisto preventedhim from intervening on the mortal plane at all. A puppet had to be found, and Uldyssian wasjust what he sought. After a thorough brainwashing, Imperius sent his harbinger Dark Uldyssianto Sanctuary with the mission to exact divine justice and destroy the world...",
              '当乌迪西安在虚空大教堂那场正邪之战中牺牲时，他的灵魂飘散到遥远的宇宙深处。但在至高天，一股邪恶精神遥视着这场战斗，并在这条灵魂遗忘之路上捕获了乌迪西安和他的族人（被称作艾迪伦）们。<br>英普瑞斯，作为水晶穹顶的高阶天使和军官，对庇护所和人类的生存有着自己的看法，他认为必须消灭这种污点。然而，尽管拥有马萨伊尔的支持，随着天使泰瑞尔的介入，他的观点还是遭到了英格里斯议会的反对。接下来，与墨菲斯托签订的血之契约阻止了英普瑞斯介入凡人的位面。他必须找到一个傀儡、木偶，而乌迪西安恰好就是他所追求的人选。在经历了彻底的洗脑之后，英普瑞斯将黑暗乌迪西安送入了庇护所，以完成神圣审判和摧毁世界的任务……')
     .replace('Once in the Crystal Arch, both locations to find Imperius and Malthael are created. Both Avatars can throw alchemical holy hand grenades packing the power of creationitself, summon homing magical bolts and summon more Fallen Edyrem at a rapid rate.',
@@ -633,6 +635,40 @@
              '击杀任一BOSS会给一个持续60秒的光环，两个光环同时存在时，在赫拉迪克方块中合成水晶烈焰勋章（仅需一枚）来升级它。')
     .replace("Crystalline Flame Medallion → Crystalline Flame Medallion with added bonuses",
              '水晶烈焰勋章 → 水晶烈焰勋章（增加属性）')
+
+    .replace("4>Banisher of Light", '4>光之放逐者')
+    .replace("The Path to Enlightenment (Bramwell", '启蒙之路（Act1 ➤ 瓦瑞夫旁边大车进布兰威尔）')
+    .replace('Church of Dien-Ap-Sten)', '迪纳普斯登 Dien-Ap-Sten 教堂）<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av46218302">av46218302</a>')
+    .replace('Kill Buyard Cholik and open a portal to the Path to Enlightenment.', '击杀拜耶德邱立克以开启通往启蒙之路的传送门')
+    .replace("The Thief of Hope and the Banisher of Light is a demon lord summoned long ago by a very powerful Vizjerei magi. He used his intelligence and power to form his cult and rule the lands. People followed his philosophy; 'walked' the Black Road he created, and soon his power grew so much that even the Prime Evils feared him. Thus they imprisoned him within the portal he came from, between the Sanctuary and the Burning Hells. It is whispered, among his remaining followers, that there is a way to release him from his centuries-long prison...",
+             '很久以前，一位拥有强大力量的维兹杰雷法师，召唤出了一只恶魔领主。这只恶魔被称为希望窃贼•光之放逐者，他就是卡布拉西斯。他用他的智慧和力量组建了邪教，并统治了这片大地，人们遵循他的教义：“走过”他创造的黑暗之路，很快，卡布拉西斯力量暴增的速度连恶魔巨头们都感到恐惧。因此，他们将他关押在他来的地方——介于庇护所和燃烧地狱之间的裂隙。然而，一个可以将卡布拉西斯从长期的关押中释放出来的方法，在他的残余的追随者间悄声流传……')
+    .replace('The Pillar of Skulls seals Kabraxis. Once you kill it, Kabraxis will be released. He will pounce onyou with various attacks, summon his skeleton army of followersand cast broadside or teleport when hit. Your best hope is to keep running and killing theskeletons as fast as you can, and not stand close to Kabraxis all the time.',
+             '骷髅巨柱封印着卡布拉西斯，一旦你击碎巨柱，卡布拉西斯将被释放出来。他会使用多种攻击方式突袭你，召唤他的骷髅大军的追随者，随时瞬移到你的身侧释放大范围的毒素攻击，以及旋转的大范围天谴。你最大的希望在于不断的保持移动并尽快击杀骷髅，控制好范围，永远不要过于接近或远离卡布拉西斯。')
+    .replace('Defeat Kabraxis, Thief of Hope on Hell difficulty to get the <span class="unique">Soul of Kabraxis</span>.',
+             '击败希望之窃贼•卡布拉西斯可获得 <span class="unique">卡布拉西斯之魂</span>。')
+    .replace('unique">Soul of Kabraxis', 'unique">卡布拉西斯之魂<br>Soul of Kabraxis<br>（奖杯：2% 复活为: 随机怪物 (包括精英)）')
+    .replace("If you're feeling like releasing more powerful beings, there are also 5 orb seals which used toseal Kabraxis once. Each seal is for one element: Fire, Cold, Lightning, Magic and Physical. When oneis destroyed, it will unseal an Ultra Elemental, along with some normal elementals. The Ultra Elementalspawns new elementals, fires a powerful spell and takes damage only from it's own element - so beprepared to have a source of damage for every one of the elements. Once defeated, each Ultra Elementalwill drop a Great Gem. Transmute all 5 Gems with <span class=\"unique\">The Black Road</span> obtained from Buyard Cholik to get additional bonuses.",
+             "如果你想释放更为强大的力量，这里也有5个曾经用来封印卡布拉西斯的封印球体。每个封印对应一种元素：火、冰、电、魔法和物理。当封印被打碎时会解封一个超级元素，以及一些普通元素。超级元素会召唤新的普通元素，释放强力的法术并且只承受自己的元素类型的伤害。所以请准备好每种不同的元素伤害来源来针对它们。每个超级元素死亡时会掉落一个巨大宝石。将5种巨大宝石与拜耶德邱立克掉落的<span class=\"unique\">黑暗之路</span>合成以获取额外的奖励。")
+    .replace("The Black Road + 5x Great Gems → The Black Road with added bonuses",
+             '黑暗之路 + 5 种巨大宝石 → 黑暗之路（增加属性）')
+    .replace("Cube with Rune to Open Time Rift", '与符文合成开启时间裂隙（Lv.125 浮兹坦维尔入口）')
+
+    .replace("4>Kingdom of Shadow", '4>阴影王国')
+    .replace("Ruins of Ureh (Vizjerei Temple - Caldeum)", '卡尔蒂姆 ➤ 维兹杰雷神庙（阔夫•琴） ➤ 乌雷废墟')
+    .replace("The mythical city of Ureh, where Diablo took the form of an angel and deceived the city wizards,tricking them into casting a spell that doomed the city. Ureh and everyone within are now trappedbetween the mortal plane and the Burning Hells, appearing in this world only once every two thousandyears, when the shadow of Mount Nymyr falls upon the ruins. Be there.",
+             '乌雷城，这座传说中的城市，迪亚布罗曾经在这里以伪装成天使的方式欺骗了城中的巫师们，并诱导他们释放了毁灭城市的法术。如今的乌雷城，以及城中每个人都被困在凡人与燃烧地狱的位面之间。每隔两千年，当尼米尔山的阴影笼罩着废墟的时候，它就会出现在我们的世界。去吧，勇士。')
+    .replace('The ghostly citizens are impossible to kill, but they are more than capable of killing you. Keepmoving at all costs to avoid the undead hordes.',
+             '鬼魂一般的城镇居民无法被击杀，而他们却能够杀死你。花费一切代价保持移动来避免这群不死之人。<br>堆高你的格挡几率、格挡速度、快速打击恢复以及移动速度，带上足够的血瓶。')
+    .replace("The plazas of Ureh are huge, the lighting is very dim and the mad King JurisKhan is located at the end of a precarious bridge to oblivion. Please run around like a damsel ina zombie film until you find the narrow ledge leading to the king. Juris Khan brings more minionsfrom beyond the grave, finish him quickly.",
+             '乌雷城十分巨大，光线十分阴暗，愤怒的乌雷国王居里斯可汗位于摇摇欲坠的遗忘之桥尽头。像僵尸电影里的妹子一样，跑吧，直到你找到了通向乌雷国王的狭窄桥梁。居里斯可汗会从坟墓中召唤更多的爪牙，他不难杀，这个关卡的难点在于躲避爪牙的攻击并引开他们。')
+    .replace('Defeat Juris Khan on Hell difficulty to get the <span class="unique">Eternal Bone Pile</span>.',
+             '击败居里斯可汗可获得 <span class="unique">永恒骨堆</span>。')
+    .replace('unique">Eternal Bone Pile', 'unique">永恒骨堆<br>Eternal Bone Pile<br>（奖杯：2% 复活为: 随机怪物 (包括精英)）')
+    .replace("If you're feeling like releasing more powerful beings, there are also 5 orb seals which used toseal Kabraxis once. Each seal is for one element: Fire, Cold, Lightning, Magic and Physical. When oneis destroyed, it will unseal an Ultra Elemental, along with some normal elementals. The Ultra Elementalspawns new elementals, fires a powerful spell and takes damage only from it's own element - so beprepared to have a source of damage for every one of the elements. Once defeated, each Ultra Elementalwill drop a Great Gem. Transmute all 5 Gems with <span class=\"unique\">The Black Road</span> obtained from Buyard Cholik to get additional bonuses.",
+             "如果你想释放更为强大的力量，这里也有5个曾经用来封印卡布拉西斯的封印球体。每个封印对应一种元素：火、冰、电、魔法和物理。当封印被打碎时会解封一个超级元素，以及一些普通元素。超级元素会召唤新的普通元素，释放强力的法术并且只承受自己的元素类型的伤害。所以请准备好每种不同的元素伤害来源来针对它们。每个超级元素死亡时会掉落一个巨大宝石。将5种巨大宝石与拜耶德邱立克掉落的<span class=\"unique\">黑暗之路</span>合成以获取额外的奖励。")
+    .replace("The Black Road + 5x Great Gems → The Black Road with added bonuses",
+             '黑暗之路 + 5 种巨大宝石 → 黑暗之路（增加属性）')
+    .replace("Cube with Rune to Open Time Rift", '与符文合成开启时间裂隙（Lv.125 浮兹坦维尔入口）')
 
 
 
@@ -669,7 +705,7 @@
 		.replace(/ to Mana Sweep/g, 'Mana Sweep（法力扫荡 -吸法、伤害）')
 		.replace(/ to Mana Tide Totem/g, 'Mana Tide Totem（法力潮汐图腾）')
 		.replace(/ Bloodlust/g, 'hb1 嗜血hb2"https://vignette.wikia.nocookie.net/median-xl/images/9/97/Bloodlust.gif/revision/latest?cb=20171030123459"hb3（Bloodlust）Buff - 增强你的所有伤害hb4')
-		.replace(/ Banish/g, 'Banish（放逐，诅咒 -减敌最大生命）')
+		.replace(/ Banish /g, 'Banish（放逐，诅咒 -减敌最大生命）')
 		.replace(/ Frog Prince/g, 'Frog Prince（青蛙王子 -施放冰环）')
 		.replace(/ Shower of Rocks/g, 'hb1 落石hb2"https://vignette.wikia.nocookie.net/median-xl/images/c/c2/Shower_of_Rocks.gif/revision/latest?cb=20180123022550"hb3（Shower of Rocks）从天而降的岩石伤害并降低敌人的防御和攻速hb4')
 		.replace(/ Spike Nova/g, 'hb1 尖刺新星hb5（Spike Nova）射出一支飞行中不断施放尖刺新星的标枪hb4')
@@ -893,6 +929,7 @@
 
     //怪物
     //普通
+    .replace(" Random monster", ' 随机怪物')
     .replace(/ Knight of Famine/g, '<span style="color:gray;"> 饥荒骑士（Knight of Famine）</span>')
     .replace(/ Blur/g, '<span style="color:gray;"> 小恶魔（Blur）</span>')
     .replace(/ Parrot \(Critter\)/g, '<span style="color:gray;"> 性感鹦鹉在线卖萌</span>')
@@ -1088,24 +1125,24 @@
     .replace(/ Faster Cast Rate/g, ' 快速施法（FCR）')
     .replace(/ Life stolen per Hit/g, ' 生命偷取（LL）')
     .replace(/ Mana stolen per Hit/g, ' 法力偷取（LM）')
-    .replace(/Maximum Fire Resist /g, '最大火焰抗性 ')
-    .replace(/Maximum Cold Resist /g, '最大冰冷抗性 ')
-    .replace(/Maximum Lightning Resist /g, '最大闪电抗性 ')
-    .replace(/Maximum Poison Resist /g, '最大毒素抗性 ')
-    .replace(/ to Maximum Fire Damage/g, ' 最大火焰伤害 ')
-    .replace(/ to Maximum Cold Damage/g, ' 最大冰冷伤害 ')
-    .replace(/ to Maximum Lightning Damage/g, ' 最大闪电伤害 ')
-    .replace(/ to Maximum Poison Damage/g, ' 最大毒素伤害 ')
-    .replace(/ Enemy Fire Resistance/g, ' 敌人火焰抗性')
-    .replace(/ Enemy Cold Resistance/g, ' 敌人冰冷抗性')
-    .replace(/ Enemy Lightning Resistance/g, ' 敌人闪电抗性')
-    .replace(/ Enemy Poison Resistance/g, ' 敌人毒素抗性')
-    .replace(/ Enemy Fire Resist/g, ' 敌人火焰抗性')
-    .replace(/ Enemy Cold Resist/g, ' 敌人冰冷抗性')
-    .replace(/ Enemy Lightning Resist/g, ' 敌人闪电抗性')
-    .replace(/ Enemy Poison Resist/g, ' 敌人毒素抗性')
-    .replace(/ Enemy Fire and Lightning Resistsance/g, '敌人火焰和闪电抗性')
-    .replace(/ Enemy Fire and Lightning Resists/g, '敌人火焰和闪电抗性')
+    .replace(/Maximum Fire Resist/g, '最大火焰抗性')
+    .replace(/Maximum Cold Resist/g, '最大冰冷抗性')
+    .replace(/Maximum Lightning Resist/g, '最大闪电抗性')
+    .replace(/Maximum Poison Resist/g, '最大毒素抗性')
+    .replace(/Maximum Fire Damage/g, '最大火焰伤害 ')
+    .replace(/Maximum Cold Damage/g, '最大冰冷伤害 ')
+    .replace(/Maximum Lightning Damage/g, '最大闪电伤害 ')
+    .replace(/Maximum Poison Damage/g, '最大毒素伤害 ')
+    .replace(/Enemy Fire Resistance/g, '敌人火焰抗性')
+    .replace(/Enemy Cold Resistance/g, '敌人冰冷抗性')
+    .replace(/Enemy Lightning Resistance/g, '敌人闪电抗性')
+    .replace(/Enemy Poison Resistance/g, '敌人毒素抗性')
+    .replace(/Enemy Fire Resist/g, '敌人火焰抗性')
+    .replace(/Enemy Cold Resist/g, '敌人冰冷抗性')
+    .replace(/Enemy Lightning Resist/g, '敌人闪电抗性')
+    .replace(/Enemy Poison Resist/g, '敌人毒素抗性')
+    .replace(/Enemy Fire and Lightning Resistsance/g, '敌人火焰和闪电抗性')
+    .replace(/Enemy Fire and Lightning Resists/g, '敌人火焰和闪电抗性')
     .replace(/Fire Resist /g, '火焰抗性 ')
     .replace(/Slow Target /g, '减慢目标 ')
     .replace(/Cold Resist /g, '冰冷抗性 ')
