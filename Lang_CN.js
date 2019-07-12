@@ -2,14 +2,13 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在、唔喵王
 // @copyright    2019 黑本
-// @version      0.6.1
+// @version      0.6.2
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
 // @match        https://docs.median-xl.com/*
-// @downloadURL  https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
-// @updateURL    https://raw.githubusercontent.com/hibem/MedianXLDocCN/master/Lang_CN.js
 // @run-at       document-end
+// @namespace https://greasyfork.org/users/301775
 // ==/UserScript==
 (function() {
     'use strict';
@@ -669,6 +668,19 @@
     .replace("The Black Road + 5x Great Gems → The Black Road with added bonuses",
              '黑暗之路 + 5 种巨大宝石 → 黑暗之路（增加属性）')
     .replace("Cube with Rune to Open Time Rift", '与符文合成开启时间裂隙（Lv.125 浮兹坦维尔入口）')
+
+
+    .replace(/4>LORD OF LIES/i, '4>谎言之王')
+    .replace("Realm of Lies (Act 4: Chaos Sanctuary)", '谎言之境（Act4: 混沌避难所）')
+    .replace("Kill Maghda to obtain a Key of Lies, right click it to open a portal to the Realm of Lies.",
+             '击杀玛格妲掉落谎言之钥，右击后开启红门可以抵达谎言之境')
+    .replace('After his defeat in the civil war in Hell, the Lord of Lies and infernal King of Rats was banished toSanctuary where he plots his return. The icy caves under Harrogath offered him both proximity to thepowerful Worldstone and a dark moist breeding ground for his rodent servants.',
+             '在燃烧地狱的那场内战中失败后，谎言之王和炼狱鼠王被驱逐到避难所，他窝在这里策划着如何重返地狱。这个位于哈洛加斯地下的冰穴，既靠近世界之石，同时拥有黑暗潮湿的环境，这让他的啮齿类爪牙们得以疯狂繁殖。')
+    .replace("As the Lord of Lies, Belial prefers to cheat in battle. His main offence consists of his clones which will keep him safe as he cowardly hides. Belial will use a powerful Comet spell, and continue to confuse you by summoning new copies. You will need fast killing speed or you will be overwhelmed by his minions.",
+             '作为谎言之王，彼列在战斗中从不按常理出牌。他懦弱的隐藏在数个分身中以避免在战斗中受到伤害。他在召唤高速彗星撞击你的同时，仍旧不忘记弄出分身来迷惑你。你必须拥有快速击杀他的能力，否则会被他烦死。')
+    .replace('Defeat Belial on Hell difficulty to get the <span class="unique">Book of Lies</span>.',
+             '击败彼列可获得 <span class="unique">谎言之书</span>。')
+    .replace('unique">Book of Lies', 'unique">谎言之书<br>Book of Lies')
 
 
 
