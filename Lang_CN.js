@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在、唔喵王
 // @copyright    2019 黑本
-// @version      0.6.2
+// @version      0.6.3
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -759,18 +759,18 @@
 		.replace(/ Frozen Soul/g, 'Frozen Soul（冰冻之魂）')
 		.replace(/ Bloodspeaker's Mark/g, 'Bloodspeaker\'s Mark（鲜血议长的标记 -短时召唤）')
 		.replace(/ While Tantrum is Active/g, '当 Tantrum 激活时')
-		//.replace(/ Tantrum/g, 'hb1 暴怒hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/fa/Tantrum.gif/revision/latest?cb=20171016154456"hb3（Tantrum）<br>将弹药投射在玩家周围造成多段伤害<br>需要弓和十字弓hb4')
+		.replace(/ Tantrum/g, 'hb1 暴怒hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/fa/Tantrum.gif/revision/latest?cb=20171016154456"hb3（Tantrum）<br>将弹药投射在玩家周围造成多段伤害<br>需要弓和十字弓hb4')
 		.replace(/ Meteor Shower/g, 'hb1 陨石雨hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/a9/Meteor_Shower.gif/revision/latest?cb=20171015144223"hb3（Meteor Shower）<br>在目标区域降下大范围的陨石雨hb4')
 		.replace(/ Rune of Fire/g, 'Rune of Fire（火焰符文 -原地放置）')
 		.replace(/ Rune of Ice/g, 'Rune of Ice（冰冻符文 -原地放置）')
 		.replace(/ Singularity/g, 'hb1 奇点hb2"https://vignette.wikia.nocookie.net/median-xl/images/5/5b/Singularity.gif/revision/latest?cb=20180208043132"hb3（Singularity）<br>法术 - 创造一个黑洞旋涡对敌人造成伤害hb4')
 		.replace(/ to Silver Dart/g, 'Silver Dart（银镖 -追踪穿透）')
-		.replace(/ Thunderstone/g, 'Thunderstone（雷电石 -法术）')
+		.replace(/ Thunderstone/g, 'hb1 雷电石hb2"https://vignette.wikia.nocookie.net/median-xl/images/3/39/Thunderstone.gif/revision/latest?cb=20180206211131"hb3（Thunderstone）<br>法术 - 投掷一块带电的石头，在撞击时发射出电火花hb4')
 		.replace(/ Terror Strike/g, 'hb1 恐怖打击hb2"https://vignette.wikia.nocookie.net/median-xl/images/a/a2/Terror_Strike.gif/revision/latest?cb=20180129021139"hb3（Terror Strike）<br>攻击后段时间内提升防御、法术伤害和准确率hb4')
 		.replace(/ Searing Glow/g, 'Searing Glow（灼热辉光）')
 		.replace(/ Amatoxin/g, 'hb1 菇毒hb5（Amatoxin）<br>被动 - 武器增加毒素伤害hb4')
 		.replace(/ Countdown/g, 'Countdown（法术 -大范围冰伤）')
-		.replace(/ Arachnomancy /g, 'Arachnomancy （蛛卜术 -毒伤）')
+		.replace(/ Arachnomancy/g, 'hb1 蛛卜术hb2"https://vignette.wikia.nocookie.net/median-xl/images/d/d0/Arachnomancy.gif/revision/latest?cb=20180206205357"hb3（Arachnomancy）<br>法术 - 一大群有毒的蜘蛛从目标身上迸发出来hb4')
 		.replace(/ Lightning Shield/g, 'Lightning Shield（闪电护盾）')
 		.replace(/ Supernova/g, 'hb1 超新星hb2"https://vignette.wikia.nocookie.net/median-xl/images/b/b9/Supernova.gif/revision/latest?cb=20180217022254"hb3（Supernova）电伤 - 施放一个超大范围多次打击的闪电新星hb4')
 		.replace(/ Lightning Wall/g, 'Lightning Wall（闪电墙 -晕眩）')
@@ -837,6 +837,7 @@
 		.replace(/ Stampede/g, 'hb1 涌动hb2"https://vignette.wikia.nocookie.net/median-xl/images/d/d4/Stampede.gif/revision/latest?cb=20180131032018"hb3（Stampede）<br>完成一次多重投掷hb4')
 		.replace(/ Bear Claw Nova/g, 'hb1 熊爪新星hb2"https://vignette.wikia.nocookie.net/median-xl/images/b/be/Bear_Claw_Nova.gif/revision/latest?cb=20190302180716"hb3（Bear Claw Nova）<br>以新星形式投射出大量可造成击退和晕眩的熊爪hb4')
 		.replace(/ Demon Blood Aura/g, 'hb1 恶魔之血光环hb2"https://vignette.wikia.nocookie.net/median-xl/images/5/56/Skeletal_Flayer.png/revision/latest?cb=20180131202726"hb3（Demon Blood Aura）<br>光环 - 增加最大生命值和元素法术伤害hb4')
+		.replace(/ Nephalem Aura/g, 'hb1 奈非天光环hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/fc/Nephalem_Spirit.png/revision/latest?cb=20180122021143"hb3（Nephalem Aura）<br>光环 - 基于力敏体增加你的冰火电3系伤害hb4')
 		.replace(/ Slayer/g, 'hb1 杀戮hb2"https://vignette.wikia.nocookie.net/median-xl/images/6/6e/Slayer.png/revision/latest?cb=20180129022109"hb3（Slayer）<br>在目标处召唤向的敌人射击魔法射线的幽灵。hb4')
 		.replace(/ Stormfront/g, 'hb1 风暴前线hb2"https://vignette.wikia.nocookie.net/median-xl/images/3/30/Stormfront.gif/revision/latest?cb=20190218213457"hb3（Stormfront）<br>施放闪电长矛，在击中敌人是爆发，形成多次打击的电能场<br>每25级增加一根闪电长矛hb4')
 		.replace(/ Avalanche/g, 'hb1 冰霜奔袭hb2"https://vignette.wikia.nocookie.net/median-xl/images/0/00/Avalanche.gif/revision/latest?cb=20171012142622"hb3（Avalanche）<br>施放两道平行的冰霜通道hb4')
@@ -934,6 +935,10 @@
 		.replace(/ Magic Missiles/g, 'hb1 魔法飞弹hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/f9/Magic_Missiles.gif/revision/latest?cb=20180716020439"hb3（Magic Missiles）<br>法术 - 发射中距离追踪的魔法飞弹<br>每 5 级增加投射物（最多15弹）hb4')
 		.replace(/ ATMG Sentry/g, 'hb1 机枪岗哨hb2"https://vignette.wikia.nocookie.net/median-xl/images/d/d3/ATMG.gif/revision/latest?cb=20171009161529"hb3（ATMG Sentry）<br>陷进 - 丢下一个自动射击的机枪岗哨hb4')
 		.replace(/ Cluster Bomb/g, 'hb1 子母弹hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/f9/Cluster_Bomb.gif/revision/latest?cb=20180408015144"hb3（Cluster Bomb）<br>扔出一枚炸弹，落地后炸开并散落一地的火焰碎片hb4')
+		.replace(/ Powder Keg/g, 'hb1 火药桶hb2"https://vignette.wikia.nocookie.net/median-xl/images/f/f3/Powder_Keg.gif/revision/latest?cb=20180328222229"hb3（Powder Keg）<br>抛出一个火药桶，稍后点燃引信爆炸。hb4')
+		.replace(/ Scepter Mastery/g, 'hb1 权杖支配hb5（Scepter Mastery）<br>被动 - 增加权杖类武器的伤害和命中hb4')
+		.replace(/ Scorpion Blade/g, 'hb1 蝎刀hb2"https://vignette.wikia.nocookie.net/median-xl/images/1/1b/Scorpion_Blade.gif/revision/latest?cb=20180208043130"hb3（Scorpion Blade）<br>投射多个剧毒的飞刀hb4')
+
 
 
 
@@ -960,6 +965,7 @@
     .replace(/ Crystal Lord/g, '<span style="color:gray;"> 水晶领主（Crystal Lord）</span>')
     .replace(/ Frozen Lord/g, '<span style="color:gray;"> 寒冰领主（Frozen Lord）</span>')
     .replace(/ Skeleton/g, '<span style="color:gray;"> 骷髅（Skeleton）</span>')
+    .replace(/ Obsidian Lord/g, '<span style="color:gray;"> 黑曜石领主（Obsidian Lord）</span>')
 
 
     //未分类
@@ -972,6 +978,7 @@
     .replace(/ Void Archon/g, '<span style="color:yellow;">  虚空执政官（Void Archon）</span>')
     .replace(/ Buzzsaw/g, '<span style="color:yellow;">  把子骚（Buzzsaw）</span>')
     .replace(/ Serafiend/g, '<span style="color:yellow;">  恶魔统领（Serafiend）</span>')
+    .replace(/ Silverbolt/g, '<span style="color:yellow;">  银弹（Silverbolt）</span>')
 
     //Uber
     .replace(/ Slain Soul/g, '<span style="color:#c70000;"> 失魂者（ Slain Soul）</span>')
@@ -995,6 +1002,9 @@
 
 
 //其他
+    .replace(/of Minion Damage Increases Added as/g, '的增强仆从伤害加成至')
+    .replace(/of Minion Life Increases Added as Total Character Defense/g, '的增强仆从生命加成至角色整体防御')
+    .replace(/Your Attacks Ignore the Physical Resistance of the Undead/g, '忽视不死生物的防御')
     .replace(/Grants 1% Deadly Strike Per Base Level/g, '每基础等级额外增加 1% 的 Deadly Strike')
     .replace(/has Twice as Many Firebolts/g, '双份不加价')
     .replace(/Deal No Elemental or Magic Damage/g, '不再造成元素和魔法伤害')
@@ -1062,6 +1072,8 @@
 
 
   //装备属性词条
+    .replace(/ of Your Total Character Defense Bonus Added as Vitality/g, ' 的角色总防御加成到体力')
+    .replace(/ Weapon Physical Damage if Wielding a/g, ' 增加武器物理伤害当使用')
     .replace(/Freezes Target/g, '冻结目标')
     .replace(/Ethereal \(Cannot be Repaired\)/g, '无形（无法修复）')
     .replace(/Pierce Chance to/g, '穿刺几率至')
@@ -1349,15 +1361,6 @@
     .replace(/Sorceress Poison Set/g, '毒法套')
     .replace(/Elemental Set/g, '超级元素套')
     .replace(/Fire Set/g, '超级火焰套')
-    .replace(/Set Bonus with/g, '穿戴')
-    .replace(/or more set items:/g, '件以上时获得额外加成：')
-    .replace(/ complete set:/g, '全套时获得额外加成：')
-    .replace(/ Vitality/g, ' 体力')
-    .replace(/ Strength/g, ' 力量')
-    .replace(/ Energy/g, ' 精力')
-    .replace(/ Dexterity/g, ' 敏捷')
-    .replace(/ damage/g, ' 物理伤害')
-    .replace(/ Damage/g, ' 物理伤害')
 
 
 //菜单及基础单词
@@ -1381,6 +1384,7 @@
     .replace("SACRED UNIQUES", '神圣暗金装备')
     .replace("FULL ITEM LIST", '装备图鉴')
     .replace("WEAPONS LIST", '武器图鉴')
+    .replace("ARMOR LIST", '防具图鉴')
     .replace('e">Quests', 'e">hb0i 新增任务')
     .replace(">Challenges", '>hb0d 前期挑战')
     .replace(">Dungeons</p>", '>Boss挑战</p><p>本页面挑战都在地狱难度下进行</p>')
@@ -1391,11 +1395,7 @@
     .replace(/Tier 2/g, '品级 2 阶')
     .replace(/Tier 3/g, '品级 3 阶')
     .replace(/Tier 4/g, '品级 4 阶')
-    .replace(/>Sacred</g, '>神圣 Sacred<')
     .replace(/b>Attack Modifiers/g, 'b style="color:#fff;">特殊攻击')
-    .replace(/>Swords</g, '>剑<')
-    .replace(/>Axes</g, '>斧<')
-    .replace(/>Two-Handed Axes</g, '>双手斧<')
     .replace(/<p>See <a/g, '<p>点击 <a')
     .replace(/>THIS PAGE</g, '>这个页面<')
     .replace(/> for more information about /g, '> 查看更多信息关于 ')
@@ -1407,7 +1407,7 @@
     .replace(/b>Sockets</g, 'b style="color:#fff;">孔数<')
     .replace(/b>Channelling</g, 'b style="color:#fff;">快速施法<')
     .replace(/Quality level: /g, 'QLv: ')
-    .replace(/ Enhanced Defense/g, '增强防御')
+    .replace(/ Enhanced Defense/g, ' 增强防御')
     .replace(/ Defense vs. Melee/g, ' 对投射物的防御')
     .replace(/ Defense/g, ' 防御值')
     .replace(/Defense:/g, '防御: ')
@@ -1474,865 +1474,14 @@
     .replace(/Skull</g, '骷髅<')
     .replace(/Flawless /g, '无瑕的')
     .replace(/Perfect /g, '完美的')
-    //符文
-    .replace(/El Rune/g, '1# El')
-    .replace(/Eld Rune/g, '2# Eld')
-    .replace(/Tir Rune/g, '3# Tir')
-    .replace(/Nef Rune/g, '4# Nef')
-    .replace(/Eth Rune/g, '5# Eth')
-    .replace(/Ith Rune/g, '6# Ith')
-    .replace(/Tal Rune/g, '7# Tal')
-    .replace(/Ral Rune/g, '8# Ral')
-    .replace(/Ort Rune/g, '9# Ort')
-    .replace(/Thul Rune/g, '10# Thul')
-    .replace(/Amn Rune/g, '11# Amn')
-    .replace(/Sol Rune/g, '12# Sol')
-    .replace(/Shael Rune/g, '13# Shael')
-    .replace(/Dol Rune/g, '14# Dol')
-    .replace(/Hel Rune/g, '15# Hel')
-    .replace(/Io Rune/g, '16# Io')
-    .replace(/Lum Rune/g, '17# Lum')
-    .replace(/Ko Rune/g, '18# Ko')
-    .replace(/Fal Rune/g, '19# Fal')
-    .replace(/Lem Rune/g, '20# Lem')
-    .replace(/Pul Rune/g, '21# Pul')
-    .replace(/Um Rune/g, '22# Um')
-    .replace(/Mal Rune/g, '23# Mal')
-    .replace(/Ist Rune/g, '24# Ist')
-    .replace(/Gul Rune/g, '25# Gul')
-    .replace(/Vex Rune/g, '26# Vex')
-    .replace(/Ohm Rune/g, '27# Ohm')
-    .replace(/Lo Rune/g, '28# Lo')
-    .replace(/Sur Rune/g, '29# Sur')
-    .replace(/Ber Rune/g, '30# Ber')
-    .replace(/Jah Rune/g, '31# Jah')
-    .replace(/Cham Rune/g, '32# Cham')
-    .replace(/Zod Rune/g, '33# Zod')
-    .replace(/Sha Rune/g, '34# Sha')
-    .replace(/Lah Rune/g, '35# Lah')
-    .replace(/Kur Rune/g, '36# Kur')
-    .replace(/Ix Rune/g, '37# Ix')
-    .replace(/Thur Rune/g, '38# Thur')
-    .replace(/Nas Rune/g, '39# Nas')
-    .replace(/Ath Rune/g, '40# Ath')
-    .replace(/Kra Rune/g, '41# Kra')
-    .replace(/Vith Rune/g, '42# Vith')
-    .replace(/No Rune/g, '43# No')
-    .replace(/Yul Rune/g, '44# Yul')
-    .replace(/Thai Rune/g, '45# Thai')
-    .replace(/Rha Rune/g, '46# Rha')
-    .replace(/Xar Rune/g, '47# Xar')
-    .replace(/Nih Rune/g, '48# Nih')
-    .replace(/Lai Rune/g, '49# Lai')
-    .replace(/On Rune/g, '50# On')
-    .replace(/Taha Rune/g, '51# Taha')
-    .replace(/Ghal Rune/g, '52# Ghal')
-    .replace(/Qor Rune/g, '53# Qor')
-    .replace(/Krys Rune/g, '54# Krys')
-    .replace(/Auhe Rune/g, '55# Auhe')
-    .replace(/Shaad Rune/g, '56# Shaad')
-    .replace(/Ma Rune/g, '魔法')
-    .replace(/Po Rune/g, '毒素')
-    .replace(/Fi Rune/g, '火焰')
-    .replace(/Ea Rune/g, '大地')
-    .replace(/Co Rune/g, '寒冰')
-    .replace(/Li Rune/g, '闪电')
-    .replace(/Xis Rune/g, '卡布')
-    //装备名称
-    .replace(/>Short Sword</g, '>短剑 Short Sword<')
-    .replace(/>Scimitar</g, '>弯刀 Scimitar<')
-    .replace(/>Saber</g, '>军刀 Saber<')
-    .replace(/>Falchion</g, '>弯型大刀 Falchion<')
-    .replace(/>Broad Sword</g, '>阔剑 Broad Sword<')
-    .replace(/>Long Sword</g, '>长剑 Long Sword<')
-    .replace(/>War Sword</g, '>巨战之剑 War Sword<')
-    .replace(/>Two-Handed Swords</g, '>双手剑<')
-    .replace(/>Two-Handed Sword</g, '>双手剑 Two-Handed Sword<')
-    .replace(/>Claymore</g, '>双刃大刀 Claymore<')
-    .replace(/>Giant Sword</g, '>大剑 Giant Sword<')
-    .replace(/>Bastard Sword</g, '>巨剑 Bastard Sword<')
-    .replace(/>Flamberge</g, '>双手饰剑 Flamberge<')
-    .replace(/>Great Sword</g, '>卓越之剑  Great Sword<')
-    .replace(/>Crystal Swords</g, '>水晶剑<')
-    .replace(/>Crystal Sword</g, '>水晶剑 Crystal Sword<')
-    .replace(/>Hand Axe</g, '>手斧 Hand Axe<')
-    .replace(/>Axe</g, '>斧 Axe<')
-    .replace(/>Double Axe</g, '>双刃斧 Double Axe<')
-    .replace(/>Military Pick</g, '>军用锹 Military Pick<')
-    .replace(/>War Axe</g, '>巨战斧 War Axe<')
-    .replace(/>Large Axe</g, '>巨斧 Large Axe<')
-    .replace(/>Broad Axe</g, '>阔斧 Broad Axe<')
-    .replace(/>Battle Axe</g, '>战斗斧 Battle Axe<')
-    .replace(/>Great Axe</g, '>卓越之斧 Great Axe<')
-    .replace(/>Giant Axe</g, '>大斧 Giant Axe<')
-    .replace(/>Club</g, '>棍棒 Club<')
-    .replace(/>Spiked Club</g, '>狼牙棒 Spiked Club<')
-    .replace(/>Mace</g, '>钉头锤 Mace<')
-    .replace(/>Morning Star</g, '>流星锤 Morning Star<')
-    .replace(/>Flail</g, '>链枷 Flail<')
-    .replace(/>War Hammer</g, '>巨战铁槌 War Hammer<')
-    .replace(/>Maul</g, '>大头锤 Maul<')
-    .replace(/>Great Maul</g, '>卓越大头锤 Great Maul<')
-    .replace(/>Scepter</g, '>权杖 Scepter<')
-    .replace(/>Grand Scepter</g, '>雄伟权杖 Grand Scepter<')
-    .replace(/>War Scepter</g, '>巨战权杖 War Scepter<')
-    .replace(/>Javelin</g, '>标枪 Javelin<')
-    .replace(/>Pilum</g, '>短标枪 Pilum<')
-    .replace(/>Short Spear</g, '>短矛 Short Spear <')
-    .replace(/>Glaive</g, '>大长刀 Glaive<')
-    .replace(/>Throwing Spear</g, '>飞矛 Throwing Spear<')
-    .replace(/>Spear</g, '>长矛 Spear<')
-    .replace(/>Trident</g, '>三叉戟 Trident<')
-    .replace(/>Brandistock</g, '>叉 Brandistock<')
-    .replace(/>Spetum</g, '>大战戟 Spetum<')
-    .replace(/>Pike</g, '>矛 Pike<')
-    .replace(/>Scythe</g, '>镰刀 Scythe<')
-    .replace(/>Dagger</g, '>匕首 Dagger<')
-    .replace(/>Dirk</g, '>长匕首 Dirk<')
-    .replace(/>Kriss</g, '>波形刀 Kriss<')
-    .replace(/>Blade</g, '>短刀 Blade<')
-    .replace(/>Throwing Knife</g, '>飞刀 Throwing Knife<')
-    .replace(/>Flying Knife</g, '>飞刀 Flying Knife<')
-    .replace(/>Balanced Knife</g, '>平衡小刀 Balanced Knife<')
-    .replace(/>Throwing Axe</g, '>飞斧 Throwing Axe<')
-    .replace(/>Balanced Axe</g, '>平衡斧 Balanced Axe<')
-    .replace(/>Short Staff</g, '>短法杖 Short Staff<')
-    .replace(/>Long Staff</g, '>长法杖 Long Staff<')
-    .replace(/>Gnarled Staff</g, '>多节法杖 Gnarled Staff<')
-    .replace(/>Battle Staff</g, '>战斗法杖 Battle Staff<')
-    .replace(/>War Staff</g, '>巨战法杖 War Staff<')
-    .replace(/>Short Bow</g, '>短弓 Short Bow<')
-    .replace(/>Hunter's Bow</g, '>猎弓 Hunter\'s Bow<')
-    .replace(/>Long Bow</g, '>长弓 Long Bow<')
-    .replace(/>Composite Bow</g, '>复合弓 Composite Bow<')
-    .replace(/>Short Battle Bow</g, '>短战斗弓 Short Battle Bow<')
-    .replace(/>Long Battle Bow</g, '>长战斗弓 Long Battle Bow<')
-    .replace(/>Short War Bow</g, '>短巨战弓 Short War Bow<')
-    .replace(/>Long War Bow</g, '>长巨战弓 Long War Bow<')
-    .replace(/>Light Crossbow</g, '>轻弩 Light Crossbow<')
-    .replace(/>Crossbow</g, '>十字弓 Crossbow<')
-    .replace(/>Heavy Crossbow</g, '>重弩 Heavy Crossbow<')
-    .replace(/>Repeating Crossbow</g, '>连弩 Repeating Crossbow<')
-    .replace(/>Stag Bow</g, '>男性之弓 Stag Bow<')
-    .replace(/>Reflex Bow</g, '>反射之弓 Reflex Bow<')
-    .replace(/>Maiden Spear</g, '>女士之矛 Maiden Spear<')
-    .replace(/>Maiden Pike</g, '>女士长矛 Maiden Pike<')
-    .replace(/>Maiden Javelin</g, '>女士标枪 Maiden Javelin<')
-    .replace(/>Katar</g, '>拳剑 Katar<')
-    .replace(/>Scissors Katar</g, '>剪咬刀 Scissors Katarr<')
-    .replace(/>Katar</g, '>拳剑 Katar<')
-    .replace(/>Claws</g, '>爪 Claws<')
-    .replace(/>Wrist Blade</g, '>腕刃 Wrist Blade<')
-    .replace(/>Hatchet Hands</g, '>斧手 Hatchet Hands<')
-    .replace(/>Cestus</g, '>腰刀 Cestus<')
-    .replace(/>Claws</g, '>爪 Claws<')
-    .replace(/>Blade Talons</g, '>刃爪 Blade Talons<')
-    .replace(/>Scissor Katar</g, '>剪咬刀 Scissor Katar<')
-    .replace(/>Naginata</g, '>薙刀 Naginata（当前版本补丁译作眉尖刀）<')
-    .replace(/>Spatha</g, '>佩剑 Spatha<')
-    .replace(/>Backsword</g, '>单刃剑 Backsword<')
-    .replace(/>Ida</g, '>约鲁巴剑 Ida<')
-    .replace(/>Bronze Sword</g, '>青铜剑 Bronze Sword<')
-    .replace(/>Kriegsmesser</g, '>日耳曼战刀 Kriegsmesser<')
-    .replace(/>Mammen Axe</g, '>马门斧 Mammen Axe<')
-    .replace(/>Hammerhead Axe</g, '>锤头斧 Hammerhead Axe<')
-    .replace(/>Ono</g, '>东瀛斧 Ono<')
-    .replace(/>Valaska</g, '>放牧斧 Valaska<')
-    .replace(/>Labrys</g, '>双刃重斧 Labrys<')
-    .replace(/>Compound Bow</g, '>合成弓 Compound Bow<')
-    .replace(/>Serpent Bow</g, '>蟒蛇弓 Serpent Bow<')
-    .replace(/>Maple Bow</g, '>枫木弓 Maple Bow<')
-    .replace(/>Viper Bow</g, '>蝰蛇弓 Viper Bow<')
-    .replace(/>Recurve Bow</g, '>反曲弓 Recurve Bow<')
-    .replace(/>Flamen Staff</g, '>祭祀法杖 Flamen Staff<')
-    .replace(/>Marrow Staff</g, '>骨髓法杖 Marrow Staff<')
-    .replace(/>Hexblade</g, '>诅咒之刃 Hexblade<')
-    .replace(/>Spirit Edge</g, '>灵魂利刃 Spirit Edge<')
-    .replace(/>Raptor Scythe</g, '>迅猛镰刀 Raptor Scythe<')
-    .replace(/>Bonesplitter</g, '>裂骨者 Bonesplitter<')
-    .replace(/>Needle Crossbow</g, '>针弩 Needle Crossbow<')
-    .replace(/>Dart Thrower</g, '>掷镖器 Dart Thrower<')
-    .replace(/>Stinger Crossbow</g, '>蛰弩 Stinger Crossbow<')
-    .replace(/>Trebuchet</g, '>投石机 Trebuchet<')
-    .replace(/>Wand</g, '>手杖 Wand<')
-    .replace(/>Yew Wand</g, '>紫衫之杖 Yew Wand<')
-    .replace(/>Bone Wand</g, '>骨杖 Bone Wand<')
-    .replace(/>Grim Wand</g, '>残酷魔杖 Grim Wand<')
-    .replace(/>Bonebreaker</g, '>碎骨者 Bonebreaker<')
-    .replace(/>Goedendag</g, '>尖刺钉锤 Goedendag<')
-    .replace(/>Angel Star</g, '>天使之星 Angel Star<')
-    .replace(/>Hand of God</g, '>神之手 Hand of God<')
-    .replace(/>Holy Lance</g, '>圣枪 Holy Lance<')
-    .replace(/>Tepoztopilli</g, '>阿兹特克长矛 Tepoztopilli<')
-    .replace(/>Sorceress Orbs</g, '>法师法球<')
-    .replace(/>Eagle Orb</g, '>鹰眼法珠 Eagle Orb<')
-    .replace(/>Sacred Globe</g, '>神圣天球 Sacred Globe<')
-    .replace(/>Smoked Sphere</g, '>拢烟之球 Smoked Sphere<')
-    .replace(/>Clasped Orb</g, '>握扣法珠 Clasped Orb<')
-    .replace(/>Jared's Stone</g, '>贾里德之石 Jared\'s Stone<')
-    .replace(/>Warp Blade</g, '>扭曲之刃 Warp Blade<')
-    .replace(/>Quilted Armor</g, '>布甲 Quilted Armor<')
-    .replace(/>Leather Armor</g, '>皮甲 Leather Armor<')
-    .replace(/>Hard Leather Armor</g, '>硬皮甲 Hard Leather Armor<')
-    .replace(/>Studded Leather</g, '>镶嵌甲 Studded Leather<')
-    .replace(/>Ring Mail</g, '>锁环甲 Ring Mail<')
-    .replace(/>Scale Mail</g, '>鳞甲 Scale Mail<')
-    .replace(/>Chain Mail</g, '>锁子甲 Chain Mail<')
-    .replace(/>Breast Plate</g, '>胸甲 Breast Plate<')
-    .replace(/>Splint Mail</g, '>板甲 Splint Mail<')
-    .replace(/>Field Plate</g, '>实战铠甲 Field Plate<')
-    .replace(/>Light Plate</g, '>轻型装甲 Light Plate<')
-    .replace(/>Gothic Plate</g, '>歌德战甲 Gothic Plate<')
-    .replace(/>Full Plate Mail</g, '>高级战甲 Full Plate Mail<')
-    .replace(/>Plate Mail</g, '>铠甲 Plate Mail<')
-    .replace(/>Ancient Armor</g, '>古代装甲 Ancient Armor<')
-    .replace(/>Cap</g, '>帽子 Cap<')
-    .replace(/>Skull Cap</g, '>骷髅帽 Skull Cap<')
-    .replace(/>Helm</g, '>头盔 Helm<')
-    .replace(/>Full Helm</g, '>高级头盔 Full Helm<')
-    .replace(/>Great Helm</g, '>卓越头盔 Great Helm<')
-    .replace(/>Crown</g, '>皇冠 Crown<')
-    .replace(/>Circlet</g, '>头环 Circlet<')
-    .replace(/>Coronet</g, '>宝冠 Coronet<')
-    .replace(/>Tiara</g, '>三重冠 Tiara<')
-    .replace(/>Diadem</g, '>权冠 Diadem<')
-    .replace(/>Special Helms</g, '>特殊头盔<')
-    .replace(/>Mask</g, '>面具 Mask<')
-    .replace(/>Bone Helm</g, '>白骨头盔 Bone Helm<')
-    .replace(/>Buckler</g, '>圆盾 Buckler<')
-    .replace(/>Small Shield</g, '>小盾牌 Small Shield<')
-    .replace(/>Large Shield</g, '>大盾牌 Large Shield<')
-    .replace(/>Kite Shield</g, '>鸢盾 Kite Shield<')
-    .replace(/>Tower Shield</g, '>塔盾 Tower Shield<')
-    .replace(/>Gothic Shield</g, '>歌德盾牌 Gothic Shield<')
-    .replace(/>Special Shields</g, '>特殊盾牌<')
-    .replace(/>Bone Shield</g, '>白骨盾牌 Bone Shield<')
-    .replace(/>Spiked Shield</g, '>尖刺盾牌 Spiked Shield<')
-    .replace(/>Sash</g, '>裹腰 Sash<')
-    .replace(/>Light Belt</g, '>轻腰带 Light Belt<')
-    .replace(/>Belt</g, '>腰带 Belt<')
-    .replace(/>Heavy Belt</g, '>重腰带 Heavy Belt<')
-    .replace(/>Plated Belt</g, '>金属腰带 Plated Belt<')
-    .replace(/>Leather Gloves</g, '>皮手套Leather Gloves<')
-    .replace(/>Heavy Gloves</g, '>重手套 Heavy Gloves<')
-    .replace(/>Chain Gloves</g, '>锁链手套 Chain Gloves<')
-    .replace(/>Light Gauntlets</g, '>轻型铁手套 Light Gauntlets<')
-    .replace(/>Gauntlets</g, '>铁手套 Gauntlets<')
-    .replace(/<p><b>Boots</g, '<p><b style="color:#fff;">靴子<')
-    .replace(/\">Boots/g, '">短靴 Boots')
-    .replace(/>Boots</g, '>靴子<')
-    .replace(/>Heavy Boots</g, '>重靴 Heavy Boots<')
-    .replace(/>Chain Boots</g, '>锁链靴 Chain Boots<')
-    .replace(/>Light Plated Boots</g, '>轻型金属靴 Light Plated Boots<')
-    .replace(/>Greaves</g, '>护胫 Greaves<')
-    .replace(/>Morion</g, '>高顶头盔 Morion<')
-    .replace(/>Cervelliere</g, '>贴面骷髅帽 Cervelliere<')
-    .replace(/>Einherjar Helm</g, '>英灵盔 Einherjar Helm<')
-    .replace(/>Spangenhelm</g, '>施潘根头盔 Spangenhelm<')
-    .replace(/>Athulua's Hand</g, '>阿苏拉之手 Athulua\'s Hand<')
-    .replace(/>Phoenix Shield</g, '>凤凰盾 Phoenix Shield<')
-    .replace(/>Setzschild</g, '>骑兵盾 Setzschild<')
-    .replace(/>Parma</g, '>帕尔玛盾 Parma<')
-    .replace(/>Aspis</g, '>蝰蛇盾 Aspis<')
-    .replace(/>Totem Shield</g, '>图腾盾 Totem Shield<')
-    .replace(/>Bladed Shield</g, '>刀刃护盾 Bladed Shield<')
-    .replace(/>Bull Shield</g, '>牛头盾 Bull Shield<')
-    .replace(/>Bronze Shield</g, '>铜盾 Bronze Shield<')
-    .replace(/>Gilded Shield</g, '>镀金盾 Gilded Shield<')
-    .replace(/>Jawbone Cap</g, '>颚骨帽 Jawbone Cap<')
-    .replace(/>Fanged Helm</g, '>尖牙盔 Fanged Helm<')
-    .replace(/>Horned Helm</g, '>角盔 Horned Helm<')
-    .replace(/>Assault Helmet</g, '>突击盔 Assault Helmet<')
-    .replace(/>Avenger Guard</g, '>复仇者之盔  Avenger Guard<')
-    .replace(/>Wolf Head</g, '>狼头 Wolf Head<')
-    .replace(/>Hawk Helm</g, '>飞鹰头盔 Hawk Helm<')
-    .replace(/>Antlers</g, '>鹿角 Antlers<')
-    .replace(/>Falcon Mask</g, '>猎鹰面具 Falcon Mask<')
-    .replace(/>Spirit Mask</g, '>灵魂面具 Spirit Mask<')
-    .replace(/>Preserved Head</g, '>防腐之首 Preserved Head<')
-    .replace(/>Zombie Head</g, '>僵尸之首 Zombie Head<')
-    .replace(/>Unraveller Head</g, '>揭露者之首 Unraveller Head<')
-    .replace(/>Gargoyle Head</g, '>石像鬼之首 Gargoyle Head<')
-    .replace(/>Demon Head</g, '>恶魔之首 Demon Head<')
-    .replace(/>Hundsgugel</g, '>骑士遮罩 Hundsgugel<')
-    .replace(/>Blackguard Helm</g, '>黑守卫头盔 Blackguard Helm<')
-    .replace(/>Targe</g, '>小盾 Targe<')
-    .replace(/>Rondache</g, '>装饰盾牌 Rondache<')
-    .replace(/>Heraldic Shield</g, '>纹章盾 Heraldic Shield<')
-    .replace(/>Aerin Shield</g, '>艾尔之盾 Aerin Shield<')
-    .replace(/>Crown Shield</g, '>皇冠之盾 Crown Shield<')
-    .replace(/>Gambeson</g, '>紧身软甲 Gambeson<')
-    .replace(/>Kazarghand</g, '>卡扎甘战甲 Kazarghand<')
-    .replace(/>Lamellar Armor</g, '>札甲 Lamellar Armor<')
-    .replace(/>Banded Plate</g, '>板条甲 Banded Plate<')
-    .replace(/>Ceremonial Armor</g, '>纪念装甲 Ceremonial Armor<')
-
-    //暗金
-
-    .replace(/\(Short Sword\)/g, '(短剑 Short Sword)')
-    .replace(/\(Scimitar\)/g, '(弯刀 Scimitar)')
-    .replace(/\(Saber\)/g, '(军刀 Saber)')
-    .replace(/\(Falchion\)/g, '(弯型大刀 Falchion)')
-    .replace(/\(Broad Sword\)/g, '(阔剑 Broad Sword)')
-    .replace(/\(Long Sword\)/g, '(长剑 Long Sword)')
-    .replace(/\(War Sword\)/g, '(巨战之剑 War Sword)')
-    .replace(/\(Two-Handed Swords\)/g, '(双手剑)')
-    .replace(/\(Two-Handed Sword\)/g, '(双手剑 Two-Handed Sword)')
-    .replace(/\(Claymore\)/g, '(双刃大刀 Claymore)')
-    .replace(/\(Giant Sword\)/g, '(大剑 Giant Sword)')
-    .replace(/\(Bastard Sword\)/g, '(巨剑 Bastard Sword)')
-    .replace(/\(Flamberge\)/g, '(双手饰剑 Flamberge)')
-    .replace(/\(Great Sword\)/g, '(卓越之剑  Great Sword)')
-    .replace(/\(Crystal Swords\)/g, '(水晶剑)')
-    .replace(/\(Crystal Sword\)/g, '(水晶剑 Crystal Sword)')
-    .replace(/\(Hand Axe\)/g, '(手斧 Hand Axe)')
-    .replace(/\(Axe\)/g, '(斧 Axe)')
-    .replace(/\(Double Axe\)/g, '(双刃斧 Double Axe)')
-    .replace(/\(Military Pick\)/g, '(军用锹 Military Pick)')
-    .replace(/\(War Axe\)/g, '(巨战斧 War Axe)')
-    .replace(/\(Large Axe\)/g, '(巨斧 Large Axe)')
-    .replace(/\(Broad Axe\)/g, '(阔斧 Broad Axe)')
-    .replace(/\(Battle Axe\)/g, '(战斗斧 Battle Axe)')
-    .replace(/\(Great Axe\)/g, '(卓越之斧 Great Axe)')
-    .replace(/\(Giant Axe\)/g, '(大斧 Giant Axe)')
-    .replace(/\(Club\)/g, '(棍棒 Club)')
-    .replace(/\(Spiked Club\)/g, '(狼牙棒 Spiked Club)')
-    .replace(/\(Mace\)/g, '(钉头锤 Mace)')
-    .replace(/\(Morning Star\)/g, '(流星锤 Morning Star)')
-    .replace(/\(Flail\)/g, '(链枷 Flail)')
-    .replace(/\(War Hammer\)/g, '(巨战铁槌 War Hammer)')
-    .replace(/\(Maul\)/g, '(大头锤 Maul)')
-    .replace(/\(Great Maul\)/g, '(卓越大头锤 Great Maul)')
-    .replace(/\(Scepter\)/g, '(权杖 Scepter)')
-    .replace(/\(Grand Scepter\)/g, '(雄伟权杖 Grand Scepter)')
-    .replace(/\(War Scepter\)/g, '(巨战权杖 War Scepter)')
-    .replace(/\(Javelin\)/g, '(标枪 Javelin)')
-    .replace(/\(Pilum\)/g, '(短标枪 Pilum)')
-    .replace(/\(Short Spear\)/g, '(短矛 Short Spear )')
-    .replace(/\(Glaive\)/g, '(大长刀 Glaive)')
-    .replace(/\(Throwing Spear\)/g, '(飞矛 Throwing Spear)')
-    .replace(/\(Spear\)/g, '(长矛 Spear)')
-    .replace(/\(Trident\)/g, '(三叉戟 Trident)')
-    .replace(/\(Brandistock\)/g, '(叉 Brandistock)')
-    .replace(/\(Spetum\)/g, '(大战戟 Spetum)')
-    .replace(/\(Pike\)/g, '(矛 Pike)')
-    .replace(/\(Scythe\)/g, '(镰刀 Scythe)')
-    .replace(/\(Dagger\)/g, '(匕首 Dagger)')
-    .replace(/\(Dirk\)/g, '(长匕首 Dirk)')
-    .replace(/\(Kriss\)/g, '(波形刀 Kriss)')
-    .replace(/\(Blade\)/g, '(短刀 Blade)')
-    .replace(/\(Throwing Knife\)/g, '(飞刀 Throwing Knife)')
-    .replace(/\(Flying Knife\)/g, '(飞刀 Flying Knife)')
-    .replace(/\(Balanced Knife\)/g, '(平衡小刀 Balanced Knife)')
-    .replace(/\(Throwing Axe\)/g, '(飞斧 Throwing Axe)')
-    .replace(/\(Balanced Axe\)/g, '(平衡斧 Balanced Axe)')
-    .replace(/\(Short Staff\)/g, '(短法杖 Short Staff)')
-    .replace(/\(Long Staff\)/g, '(长法杖 Long Staff)')
-    .replace(/\(Gnarled Staff\)/g, '(多节法杖 Gnarled Staff)')
-    .replace(/\(Battle Staff\)/g, '(战斗法杖 Battle Staff)')
-    .replace(/\(War Staff\)/g, '(巨战法杖 War Staff)')
-    .replace(/\(Short Bow\)/g, '(短弓 Short Bow)')
-    .replace(/\(Hunter's Bow\)/g, '(猎弓 Hunter\'s Bow)')
-    .replace(/\(Long Bow\)/g, '(长弓 Long Bow)')
-    .replace(/\(Composite Bow\)/g, '(复合弓 Composite Bow)')
-    .replace(/\(Short Battle Bow\)/g, '(短战斗弓 Short Battle Bow)')
-    .replace(/\(Long Battle Bow\)/g, '(长战斗弓 Long Battle Bow)')
-    .replace(/\(Short War Bow\)/g, '(短巨战弓 Short War Bow)')
-    .replace(/\(Long War Bow\)/g, '(长巨战弓 Long War Bow)')
-    .replace(/\(Light Crossbow\)/g, '(轻弩 Light Crossbow)')
-    .replace(/\(Crossbow\)/g, '(十字弓 Crossbow)')
-    .replace(/\(Heavy Crossbow\)/g, '(重弩 Heavy Crossbow)')
-    .replace(/\(Repeating Crossbow\)/g, '(连弩 Repeating Crossbow)')
-    .replace(/\(Stag Bow\)/g, '(男性之弓 Stag Bow)')
-    .replace(/\(Reflex Bow\)/g, '(反射之弓 Reflex Bow)')
-    .replace(/\(Maiden Spear\)/g, '(女士之矛 Maiden Spear)')
-    .replace(/\(Maiden Pike\)/g, '(女士长矛 Maiden Pike)')
-    .replace(/\(Maiden Javelin\)/g, '(女士标枪 Maiden Javelin)')
-    .replace(/\(Katar\)/g, '(拳剑 Katar)')
-    .replace(/\(Scissors Katar\)/g, '(剪咬刀 Scissors Katarr)')
-    .replace(/\(Katar\)/g, '(拳剑 Katar)')
-    .replace(/\(Claws\)/g, '(爪 Claws)')
-    .replace(/\(Wrist Blade\)/g, '(腕刃 Wrist Blade)')
-    .replace(/\(Hatchet Hands\)/g, '(斧手 Hatchet Hands)')
-    .replace(/\(Cestus\)/g, '(腰刀 Cestus)')
-    .replace(/\(Claws\)/g, '(爪 Claws)')
-    .replace(/\(Blade Talons\)/g, '(刃爪 Blade Talons)')
-    .replace(/\(Scissor Katar\)/g, '(剪咬刀 Scissor Katar)')
-    .replace(/\(Naginata\)/g, '(薙刀 Naginata（当前版本补丁译作眉尖刀）)')
-    .replace(/\(Spatha\)/g, '(佩剑 Spatha)')
-    .replace(/\(Backsword\)/g, '(单刃剑 Backsword)')
-    .replace(/\(Ida\)/g, '(约鲁巴剑 Ida)')
-    .replace(/\(Bronze Sword\)/g, '(青铜剑 Bronze Sword)')
-    .replace(/\(Kriegsmesser\)/g, '(日耳曼战刀 Kriegsmesser)')
-    .replace(/\(Mammen Axe\)/g, '(马门斧 Mammen Axe)')
-    .replace(/\(Hammerhead Axe\)/g, '(锤头斧 Hammerhead Axe)')
-    .replace(/\(Ono\)/g, '(东瀛斧 Ono)')
-    .replace(/\(Valaska\)/g, '(放牧斧 Valaska)')
-    .replace(/\(Labrys\)/g, '(双刃重斧 Labrys)')
-    .replace(/\(Compound Bow\)/g, '(合成弓 Compound Bow)')
-    .replace(/\(Serpent Bow\)/g, '(蟒蛇弓 Serpent Bow)')
-    .replace(/\(Maple Bow\)/g, '(枫木弓 Maple Bow)')
-    .replace(/\(Viper Bow\)/g, '(蝰蛇弓 Viper Bow)')
-    .replace(/\(Recurve Bow\)/g, '(反曲弓 Recurve Bow)')
-    .replace(/\(Flamen Staff\)/g, '(祭祀法杖 Flamen Staff)')
-    .replace(/\(Marrow Staff\)/g, '(骨髓法杖 Marrow Staff)')
-    .replace(/\(Hexblade\)/g, '(诅咒之刃 Hexblade)')
-    .replace(/\(Spirit Edge\)/g, '(灵魂利刃 Spirit Edge)')
-    .replace(/\(Raptor Scythe\)/g, '(迅猛镰刀 Raptor Scythe)')
-    .replace(/\(Bonesplitter\)/g, '(裂骨者 Bonesplitter)')
-    .replace(/\(Needle Crossbow\)/g, '(针弩 Needle Crossbow)')
-    .replace(/\(Dart Thrower\)/g, '(掷镖器 Dart Thrower)')
-    .replace(/\(Stinger Crossbow\)/g, '(蛰弩 Stinger Crossbow)')
-    .replace(/\(Trebuchet\)/g, '(投石机 Trebuchet)')
-    .replace(/\(Wand\)/g, '(手杖 Wand)')
-    .replace(/\(Yew Wand\)/g, '(紫衫之杖 Yew Wand)')
-    .replace(/\(Bone Wand\)/g, '(骨杖 Bone Wand)')
-    .replace(/\(Grim Wand\)/g, '(残酷魔杖 Grim Wand)')
-    .replace(/\(Bonebreaker\)/g, '(碎骨者 Bonebreaker)')
-    .replace(/\(Goedendag\)/g, '(尖刺钉锤 Goedendag)')
-    .replace(/\(Angel Star\)/g, '(天使之星 Angel Star)')
-    .replace(/\(Hand of God\)/g, '(神之手 Hand of God)')
-    .replace(/\(Holy Lance\)/g, '(圣枪 Holy Lance)')
-    .replace(/\(Tepoztopilli\)/g, '(阿兹特克长矛 Tepoztopilli)')
-    .replace(/\(Sorceress Orbs\)/g, '(法师法球)')
-    .replace(/\(Eagle Orb\)/g, '(鹰眼法珠 Eagle Orb)')
-    .replace(/\(Sacred Globe\)/g, '(神圣天球 Sacred Globe)')
-    .replace(/\(Smoked Sphere\)/g, '(拢烟之球 Smoked Sphere)')
-    .replace(/\(Clasped Orb\)/g, '(握扣法珠 Clasped Orb)')
-    .replace(/\(Jared's Stone\)/g, '(贾里德之石 Jared\'s Stone)')
-    .replace(/\(Warp Blade\)/g, '(扭曲之刃 Warp Blade)')
-    .replace(/\(Quilted Armor\)/g, '(布甲 Quilted Armor)')
-    .replace(/\(Leather Armor\)/g, '(皮甲 Leather Armor)')
-    .replace(/\(Hard Leather Armor\)/g, '(硬皮甲 Hard Leather Armor)')
-    .replace(/\(Studded Leather\)/g, '(镶嵌甲 Studded Leather)')
-    .replace(/\(Ring Mail\)/g, '(锁环甲 Ring Mail)')
-    .replace(/\(Scale Mail\)/g, '(鳞甲 Scale Mail)')
-    .replace(/\(Chain Mail\)/g, '(锁子甲 Chain Mail)')
-    .replace(/\(Breast Plate\)/g, '(胸甲 Breast Plate)')
-    .replace(/\(Splint Mail\)/g, '(板甲 Splint Mail)')
-    .replace(/\(Field Plate\)/g, '(实战铠甲 Field Plate)')
-    .replace(/\(Light Plate\)/g, '(轻型装甲 Light Plate)')
-    .replace(/\(Gothic Plate\)/g, '(歌德战甲 Gothic Plate)')
-    .replace(/\(Full Plate Mail\)/g, '(高级战甲 Full Plate Mail)')
-    .replace(/\(Plate Mail\)/g, '(铠甲 Plate Mail)')
-    .replace(/\(Ancient Armor\)/g, '(古代装甲 Ancient Armor)')
-    .replace(/\(Cap\)/g, '(帽子 Cap)')
-    .replace(/\(Skull Cap\)/g, '(骷髅帽 Skull Cap)')
-    .replace(/\(Helm\)/g, '(头盔 Helm)')
-    .replace(/\(Full Helm\)/g, '(高级头盔 Full Helm)')
-    .replace(/\(Great Helm\)/g, '(卓越头盔 Great Helm)')
-    .replace(/\(Crown\)/g, '(皇冠 Crown)')
-    .replace(/\(Circlet\)/g, '(头环 Circlet)')
-    .replace(/\(Coronet\)/g, '(宝冠 Coronet)')
-    .replace(/\(Tiara\)/g, '(三重冠 Tiara)')
-    .replace(/\(Diadem\)/g, '(权冠 Diadem)')
-    .replace(/\(Special Helms\)/g, '(特殊头盔)')
-    .replace(/\(Mask\)/g, '(面具 Mask)')
-    .replace(/\(Bone Helm\)/g, '(白骨头盔 Bone Helm)')
-    .replace(/\(Buckler\)/g, '(圆盾 Buckler)')
-    .replace(/\(Small Shield\)/g, '(小盾牌 Small Shield)')
-    .replace(/\(Large Shield\)/g, '(大盾牌 Large Shield)')
-    .replace(/\(Kite Shield\)/g, '(鸢盾 Kite Shield)')
-    .replace(/\(Tower Shield\)/g, '(塔盾 Tower Shield)')
-    .replace(/\(Gothic Shield\)/g, '(歌德盾牌 Gothic Shield)')
-    .replace(/\(Special Shields\)/g, '(特殊盾牌)')
-    .replace(/\(Bone Shield\)/g, '(白骨盾牌 Bone Shield)')
-    .replace(/\(Spiked Shield\)/g, '(尖刺盾牌 Spiked Shield)')
-    .replace(/\(Sash\)/g, '(裹腰 Sash)')
-    .replace(/\(Light Belt\)/g, '(轻腰带 Light Belt)')
-    .replace(/\(Belt\)/g, '(腰带 Belt)')
-    .replace(/\(Heavy Belt\)/g, '(重腰带 Heavy Belt)')
-    .replace(/\(Plated Belt\)/g, '(金属腰带 Plated Belt)')
-    .replace(/\(Leather Gloves\)/g, '(皮手套Leather Gloves)')
-    .replace(/\(Heavy Gloves\)/g, '(重手套 Heavy Gloves)')
-    .replace(/\(Chain Gloves\)/g, '(锁链手套 Chain Gloves)')
-    .replace(/\(Light Gauntlets\)/g, '(轻型铁手套 Light Gauntlets)')
-    .replace(/\(Gauntlets\)/g, '(铁手套 Gauntlets)')
-    .replace(/\(Boots\)/g, '(短靴 Boots)')
-    .replace(/\(Heavy Boots\)/g, '(重靴 Heavy Boots)')
-    .replace(/\(Chain Boots\)/g, '(锁链靴 Chain Boots)')
-    .replace(/\(Light Plated Boots\)/g, '(轻型金属靴 Light Plated Boots)')
-    .replace(/\(Greaves\)/g, '(护胫 Greaves)')
-    .replace(/\(Morion\)/g, '(高顶头盔 Morion)')
-    .replace(/\(Cervelliere\)/g, '(贴面骷髅帽 Cervelliere)')
-    .replace(/\(Einherjar Helm\)/g, '(英灵盔 Einherjar Helm)')
-    .replace(/\(Spangenhelm\)/g, '(施潘根头盔 Spangenhelm)')
-    .replace(/\(Athulua's Hand\)/g, '(阿苏拉之手 Athulua\'s Hand)')
-    .replace(/\(Phoenix Shield\)/g, '(凤凰盾 Phoenix Shield)')
-    .replace(/\(Setzschild\)/g, '(骑兵盾 Setzschild)')
-    .replace(/\(Parma\)/g, '(帕尔玛盾 Parma)')
-    .replace(/\(Aspis\)/g, '(蝰蛇盾 Aspis)')
-    .replace(/\(Totem Shield\)/g, '(图腾盾 Totem Shield)')
-    .replace(/\(Bladed Shield\)/g, '(刀刃护盾 Bladed Shield)')
-    .replace(/\(Bull Shield\)/g, '(牛头盾 Bull Shield)')
-    .replace(/\(Bronze Shield\)/g, '(铜盾 Bronze Shield)')
-    .replace(/\(Gilded Shield\)/g, '(镀金盾 Gilded Shield)')
-    .replace(/\(Jawbone Cap\)/g, '(颚骨帽 Jawbone Cap)')
-    .replace(/\(Fanged Helm\)/g, '(尖牙盔 Fanged Helm)')
-    .replace(/\(Horned Helm\)/g, '(角盔 Horned Helm)')
-    .replace(/\(Assault Helmet\)/g, '(突击盔 Assault Helmet)')
-    .replace(/\(Avenger Guard\)/g, '(复仇者之盔  Avenger Guard)')
-    .replace(/\(Wolf Head\)/g, '(狼头 Wolf Head)')
-    .replace(/\(Hawk Helm\)/g, '(飞鹰头盔 Hawk Helm)')
-    .replace(/\(Antlers\)/g, '(鹿角 Antlers)')
-    .replace(/\(Falcon Mask\)/g, '(猎鹰面具 Falcon Mask)')
-    .replace(/\(Spirit Mask\)/g, '(灵魂面具 Spirit Mask)')
-    .replace(/\(Preserved Head\)/g, '(防腐之首 Preserved Head)')
-    .replace(/\(Zombie Head\)/g, '(僵尸之首 Zombie Head)')
-    .replace(/\(Unraveller Head\)/g, '(揭露者之首 Unraveller Head)')
-    .replace(/\(Gargoyle Head\)/g, '(石像鬼之首 Gargoyle Head)')
-    .replace(/\(Demon Head\)/g, '(恶魔之首 Demon Head)')
-    .replace(/\(Hundsgugel\)/g, '(骑士遮罩 Hundsgugel)')
-    .replace(/\(Blackguard Helm\)/g, '(黑守卫头盔 Blackguard Helm)')
-    .replace(/\(Targe\)/g, '(小盾 Targe)')
-    .replace(/\(Rondache\)/g, '(装饰盾牌 Rondache)')
-    .replace(/\(Heraldic Shield\)/g, '(纹章盾 Heraldic Shield)')
-    .replace(/\(Aerin Shield\)/g, '(艾尔之盾 Aerin Shield)')
-    .replace(/\(Crown Shield\)/g, '(皇冠之盾 Crown Shield)')
-    .replace(/\(Gambeson\)/g, '(紧身软甲 Gambeson)')
-    .replace(/\(Kazarghand\)/g, '(卡扎甘战甲 Kazarghand)')
-    .replace(/\(Lamellar Armor\)/g, '(札甲 Lamellar Armor)')
-    .replace(/\(Banded Plate\)/g, '(板条甲 Banded Plate)')
-    .replace(/\(Ceremonial Armor\)/g, '(纪念装甲 Ceremonial Armor)')
-//套装
-
-    .replace(/Short Sword \(Sacred\)/g, '短剑 Short Sword (神圣)')
-    .replace(/Scimitar \(Sacred\)/g, '弯刀 Scimitar (神圣)')
-    .replace(/Saber \(Sacred\)/g, '军刀 Saber (神圣)')
-    .replace(/Falchion \(Sacred\)/g, '弯型大刀 Falchion (神圣)')
-    .replace(/Broad Sword \(Sacred\)/g, '阔剑 Broad Sword (神圣)')
-    .replace(/Long Sword \(Sacred\)/g, '长剑 Long Sword (神圣)')
-    .replace(/War Sword \(Sacred\)/g, '巨战之剑 War Sword (神圣)')
-    .replace(/Two-Handed Swords \(Sacred\)/g, '双手剑 (神圣)')
-    .replace(/Two-Handed Sword \(Sacred\)/g, '双手剑 Two-Handed Sword (神圣)')
-    .replace(/Claymore \(Sacred\)/g, '双刃大刀 Claymore (神圣)')
-    .replace(/Giant Sword \(Sacred\)/g, '大剑 Giant Sword (神圣)')
-    .replace(/Bastard Sword \(Sacred\)/g, '巨剑 Bastard Sword (神圣)')
-    .replace(/Flamberge \(Sacred\)/g, '双手饰剑 Flamberge (神圣)')
-    .replace(/Great Sword \(Sacred\)/g, '卓越之剑  Great Sword (神圣)')
-    .replace(/Crystal Swords \(Sacred\)/g, '水晶剑 (神圣)')
-    .replace(/Crystal Sword \(Sacred\)/g, '水晶剑 Crystal Sword (神圣)')
-    .replace(/Hand Axe \(Sacred\)/g, '手斧 Hand Axe (神圣)')
-    .replace(/Axe \(Sacred\)/g, '斧 Axe (神圣)')
-    .replace(/Double Axe \(Sacred\)/g, '双刃斧 Double Axe (神圣)')
-    .replace(/Military Pick \(Sacred\)/g, '军用锹 Military Pick (神圣)')
-    .replace(/War Axe \(Sacred\)/g, '巨战斧 War Axe (神圣)')
-    .replace(/Large Axe \(Sacred\)/g, '巨斧 Large Axe (神圣)')
-    .replace(/Broad Axe \(Sacred\)/g, '阔斧 Broad Axe (神圣)')
-    .replace(/Battle Axe \(Sacred\)/g, '战斗斧 Battle Axe (神圣)')
-    .replace(/Great Axe \(Sacred\)/g, '卓越之斧 Great Axe (神圣)')
-    .replace(/Giant Axe \(Sacred\)/g, '大斧 Giant Axe (神圣)')
-    .replace(/Club \(Sacred\)/g, '棍棒 Club (神圣)')
-    .replace(/Spiked Club \(Sacred\)/g, '狼牙棒 Spiked Club (神圣)')
-    .replace(/Mace \(Sacred\)/g, '钉头锤 Mace (神圣)')
-    .replace(/Morning Star \(Sacred\)/g, '流星锤 Morning Star (神圣)')
-    .replace(/Flail \(Sacred\)/g, '链枷 Flail (神圣)')
-    .replace(/War Hammer \(Sacred\)/g, '巨战铁槌 War Hammer (神圣)')
-    .replace(/Maul \(Sacred\)/g, '大头锤 Maul (神圣)')
-    .replace(/Great Maul \(Sacred\)/g, '卓越大头锤 Great Maul (神圣)')
-    .replace(/Grand Scepter \(Sacred\)/g, '雄伟权杖 Grand Scepter (神圣)')
-    .replace(/War Scepter \(Sacred\)/g, '巨战权杖 War Scepter (神圣)')
-    .replace(/Scepter \(Sacred\)/g, '权杖 Scepter (神圣)')
-    .replace(/Pilum \(Sacred\)/g, '短标枪 Pilum (神圣)')
-    .replace(/Short Spear \(Sacred\)/g, '短矛 Short Spear  (神圣)')
-    .replace(/Glaive \(Sacred\)/g, '大长刀 Glaive (神圣)')
-    .replace(/Throwing Spear \(Sacred\)/g, '飞矛 Throwing Spear (神圣)')
-    .replace(/Throwing Knife \(Sacred\)/g, '飞刀 Throwing Knife (神圣)')
-    .replace(/Flying Knife \(Sacred\)/g, '飞刀 Flying Knife (神圣)')
-    .replace(/Balanced Knife \(Sacred\)/g, '平衡小刀 Balanced Knife (神圣)')
-    .replace(/Throwing Axe \(Sacred\)/g, '飞斧 Throwing Axe (神圣)')
-    .replace(/Balanced Axe \(Sacred\)/g, '平衡斧 Balanced Axe (神圣)')
-    .replace(/Short Staff \(Sacred\)/g, '短法杖 Short Staff (神圣)')
-    .replace(/Long Staff \(Sacred\)/g, '长法杖 Long Staff (神圣)')
-    .replace(/Gnarled Staff \(Sacred\)/g, '多节法杖 Gnarled Staff (神圣)')
-    .replace(/Battle Staff \(Sacred\)/g, '战斗法杖 Battle Staff (神圣)')
-    .replace(/War Staff \(Sacred\)/g, '巨战法杖 War Staff (神圣)')
-    .replace(/Short Bow \(Sacred\)/g, '短弓 Short Bow (神圣)')
-    .replace(/Hunter's Bow \(Sacred\)/g, '猎弓 Hunter\'s Bow (神圣)')
-    .replace(/Long Bow \(Sacred\)/g, '长弓 Long Bow (神圣)')
-    .replace(/Composite Bow \(Sacred\)/g, '复合弓 Composite Bow (神圣)')
-    .replace(/Short Battle Bow \(Sacred\)/g, '短战斗弓 Short Battle Bow (神圣)')
-    .replace(/Long Battle Bow \(Sacred\)/g, '长战斗弓 Long Battle Bow (神圣)')
-    .replace(/Short War Bow \(Sacred\)/g, '短巨战弓 Short War Bow (神圣)')
-    .replace(/Long War Bow \(Sacred\)/g, '长巨战弓 Long War Bow (神圣)')
-    .replace(/Light Crossbow \(Sacred\)/g, '轻弩 Light Crossbow (神圣)')
-    .replace(/Crossbow \(Sacred\)/g, '十字弓 Crossbow (神圣)')
-    .replace(/Heavy Crossbow \(Sacred\)/g, '重弩 Heavy Crossbow (神圣)')
-    .replace(/Repeating Crossbow \(Sacred\)/g, '连弩 Repeating Crossbow (神圣)')
-    .replace(/Stag Bow \(Sacred\)/g, '男性之弓 Stag Bow (神圣)')
-    .replace(/Reflex Bow \(Sacred\)/g, '反射之弓 Reflex Bow (神圣)')
-    .replace(/Maiden Spear \(Sacred\)/g, '女士之矛 Maiden Spear (神圣)')
-    .replace(/Maiden Pike \(Sacred\)/g, '女士长矛 Maiden Pike (神圣)')
-    .replace(/Maiden Javelin \(Sacred\)/g, '女士标枪 Maiden Javelin (神圣)')
-    .replace(/Katar \(Sacred\)/g, '拳剑 Katar (神圣)')
-    .replace(/Scissors Katar \(Sacred\)/g, '剪咬刀 Scissors Katarr (神圣)')
-    .replace(/Katar \(Sacred\)/g, '拳剑 Katar (神圣)')
-    .replace(/Claws \(Sacred\)/g, '爪 Claws (神圣)')
-    .replace(/Wrist Blade \(Sacred\)/g, '腕刃 Wrist Blade (神圣)')
-    .replace(/Hatchet Hands \(Sacred\)/g, '斧手 Hatchet Hands (神圣)')
-    .replace(/Cestus \(Sacred\)/g, '腰刀 Cestus (神圣)')
-    .replace(/Claws \(Sacred\)/g, '爪 Claws (神圣)')
-    .replace(/Blade Talons \(Sacred\)/g, '刃爪 Blade Talons (神圣)')
-    .replace(/Scissor Katar \(Sacred\)/g, '剪咬刀 Scissor Katar (神圣)')
-    .replace(/Naginata \(Sacred\)/g, '薙刀 Naginata（当前版本补丁译作眉尖刀） (神圣)')
-    .replace(/Spatha \(Sacred\)/g, '佩剑 Spatha (神圣)')
-    .replace(/Backsword \(Sacred\)/g, '单刃剑 Backsword (神圣)')
-    .replace(/Ida \(Sacred\)/g, '约鲁巴剑 Ida (神圣)')
-    .replace(/Bronze Sword \(Sacred\)/g, '青铜剑 Bronze Sword (神圣)')
-    .replace(/Kriegsmesser \(Sacred\)/g, '日耳曼战刀 Kriegsmesser (神圣)')
-    .replace(/Mammen Axe \(Sacred\)/g, '马门斧 Mammen Axe (神圣)')
-    .replace(/Hammerhead Axe \(Sacred\)/g, '锤头斧 Hammerhead Axe (神圣)')
-    .replace(/Ono \(Sacred\)/g, '东瀛斧 Ono (神圣)')
-    .replace(/Valaska \(Sacred\)/g, '放牧斧 Valaska (神圣)')
-    .replace(/Labrys \(Sacred\)/g, '双刃重斧 Labrys (神圣)')
-    .replace(/Compound Bow \(Sacred\)/g, '合成弓 Compound Bow (神圣)')
-    .replace(/Serpent Bow \(Sacred\)/g, '蟒蛇弓 Serpent Bow (神圣)')
-    .replace(/Maple Bow \(Sacred\)/g, '枫木弓 Maple Bow (神圣)')
-    .replace(/Viper Bow \(Sacred\)/g, '蝰蛇弓 Viper Bow (神圣)')
-    .replace(/Recurve Bow \(Sacred\)/g, '反曲弓 Recurve Bow (神圣)')
-    .replace(/Flamen Staff \(Sacred\)/g, '祭祀法杖 Flamen Staff (神圣)')
-    .replace(/Marrow Staff \(Sacred\)/g, '骨髓法杖 Marrow Staff (神圣)')
-    .replace(/Hexblade \(Sacred\)/g, '诅咒之刃 Hexblade (神圣)')
-    .replace(/Spirit Edge \(Sacred\)/g, '灵魂利刃 Spirit Edge (神圣)')
-    .replace(/Raptor Scythe \(Sacred\)/g, '迅猛镰刀 Raptor Scythe (神圣)')
-    .replace(/Bonesplitter \(Sacred\)/g, '裂骨者 Bonesplitter (神圣)')
-    .replace(/Needle Crossbow \(Sacred\)/g, '针弩 Needle Crossbow (神圣)')
-    .replace(/Dart Thrower \(Sacred\)/g, '掷镖器 Dart Thrower (神圣)')
-    .replace(/Stinger Crossbow \(Sacred\)/g, '蛰弩 Stinger Crossbow (神圣)')
-    .replace(/Trebuchet \(Sacred\)/g, '投石机 Trebuchet (神圣)')
-    .replace(/Yew Wand \(Sacred\)/g, '紫衫之杖 Yew Wand (神圣)')
-    .replace(/Bone Wand \(Sacred\)/g, '骨杖 Bone Wand (神圣)')
-    .replace(/Grim Wand \(Sacred\)/g, '残酷魔杖 Grim Wand (神圣)')
-    .replace(/Bonebreaker \(Sacred\)/g, '碎骨者 Bonebreaker (神圣)')
-    .replace(/Goedendag \(Sacred\)/g, '尖刺钉锤 Goedendag (神圣)')
-    .replace(/Angel Star \(Sacred\)/g, '天使之星 Angel Star (神圣)')
-    .replace(/Hand of God \(Sacred\)/g, '神之手 Hand of God (神圣)')
-    .replace(/Holy Lance \(Sacred\)/g, '圣枪 Holy Lance (神圣)')
-    .replace(/Tepoztopilli \(Sacred\)/g, '阿兹特克长矛 Tepoztopilli (神圣)')
-    .replace(/Sorceress Orbs \(Sacred\)/g, '法师法球 (神圣)')
-    .replace(/Eagle Orb \(Sacred\)/g, '鹰眼法珠 Eagle Orb (神圣)')
-    .replace(/Sacred Globe \(Sacred\)/g, '神圣天球 Sacred Globe (神圣)')
-    .replace(/Smoked Sphere \(Sacred\)/g, '拢烟之球 Smoked Sphere (神圣)')
-    .replace(/Clasped Orb \(Sacred\)/g, '握扣法珠 Clasped Orb (神圣)')
-    .replace(/Jared's Stone \(Sacred\)/g, '贾里德之石 Jared\'s Stone (神圣)')
-    .replace(/Warp Blade \(Sacred\)/g, '扭曲之刃 Warp Blade (神圣)')
-    .replace(/Quilted Armor \(Sacred\)/g, '布甲 Quilted Armor (神圣)')
-    .replace(/Hard Leather Armor \(Sacred\)/g, '硬皮甲 Hard Leather Armor (神圣)')
-    .replace(/Studded Leather \(Sacred\)/g, '镶嵌甲 Studded Leather (神圣)')
-    .replace(/Ring Mail \(Sacred\)/g, '锁环甲 Ring Mail (神圣)')
-    .replace(/Scale Mail \(Sacred\)/g, '鳞甲 Scale Mail (神圣)')
-    .replace(/Chain Mail \(Sacred\)/g, '锁子甲 Chain Mail (神圣)')
-    .replace(/Breast Plate \(Sacred\)/g, '胸甲 Breast Plate (神圣)')
-    .replace(/Splint Mail \(Sacred\)/g, '板甲 Splint Mail (神圣)')
-    .replace(/Field Plate \(Sacred\)/g, '实战铠甲 Field Plate (神圣)')
-    .replace(/Light Plate \(Sacred\)/g, '轻型装甲 Light Plate (神圣)')
-    .replace(/Gothic Plate \(Sacred\)/g, '歌德战甲 Gothic Plate (神圣)')
-    .replace(/Full Plate Mail \(Sacred\)/g, '高级战甲 Full Plate Mail (神圣)')
-    .replace(/Leather Armor \(Sacred\)/g, '皮甲 Leather Armor (神圣)')
-    .replace(/Plate Mail \(Sacred\)/g, '铠甲 Plate Mail (神圣)')
-    .replace(/Ancient Armor \(Sacred\)/g, '古代装甲 Ancient Armor (神圣)')
-    .replace(/Cap \(Sacred\)/g, '帽子 Cap (神圣)')
-    .replace(/Skull Cap \(Sacred\)/g, '骷髅帽 Skull Cap (神圣)')
-    .replace(/Full Helm \(Sacred\)/g, '高级头盔 Full Helm (神圣)')
-    .replace(/Great Helm \(Sacred\)/g, '卓越头盔 Great Helm (神圣)')
-    .replace(/Crown \(Sacred\)/g, '皇冠 Crown (神圣)')
-    .replace(/Circlet \(Sacred\)/g, '头环 Circlet (神圣)')
-    .replace(/Coronet \(Sacred\)/g, '宝冠 Coronet (神圣)')
-    .replace(/Tiara \(Sacred\)/g, '三重冠 Tiara (神圣)')
-    .replace(/Diadem \(Sacred\)/g, '权冠 Diadem (神圣)')
-    .replace(/Special Helms \(Sacred\)/g, '特殊头盔 (神圣)')
-    .replace(/Mask \(Sacred\)/g, '面具 Mask (神圣)')
-    .replace(/Bone Helm \(Sacred\)/g, '白骨头盔 Bone Helm (神圣)')
-    .replace(/Buckler \(Sacred\)/g, '圆盾 Buckler (神圣)')
-    .replace(/Small Shield \(Sacred\)/g, '小盾牌 Small Shield (神圣)')
-    .replace(/Large Shield \(Sacred\)/g, '大盾牌 Large Shield (神圣)')
-    .replace(/Kite Shield \(Sacred\)/g, '鸢盾 Kite Shield (神圣)')
-    .replace(/Tower Shield \(Sacred\)/g, '塔盾 Tower Shield (神圣)')
-    .replace(/Gothic Shield \(Sacred\)/g, '歌德盾牌 Gothic Shield (神圣)')
-    .replace(/Special Shields \(Sacred\)/g, '特殊盾牌 (神圣)')
-    .replace(/Bone Shield \(Sacred\)/g, '白骨盾牌 Bone Shield (神圣)')
-    .replace(/Spiked Shield \(Sacred\)/g, '尖刺盾牌 Spiked Shield (神圣)')
-    .replace(/Sash \(Sacred\)/g, '裹腰 Sash (神圣)')
-    .replace(/Light Belt \(Sacred\)/g, '轻腰带 Light Belt (神圣)')
-    .replace(/Heavy Belt \(Sacred\)/g, '重腰带 Heavy Belt (神圣)')
-    .replace(/Plated Belt \(Sacred\)/g, '金属腰带 Plated Belt (神圣)')
-    .replace(/Leather Gloves \(Sacred\)/g, '皮手套 Leather Gloves (神圣)')
-    .replace(/Heavy Gloves \(Sacred\)/g, '重手套 Heavy Gloves (神圣)')
-    .replace(/Chain Gloves \(Sacred\)/g, '锁链手套 Chain Gloves (神圣)')
-    .replace(/Light Gauntlets \(Sacred\)/g, '轻型铁手套 Light Gauntlets (神圣)')
-    .replace(/Gauntlets \(Sacred\)/g, '铁手套 Gauntlets (神圣)')
-    .replace(/Heavy Boots \(Sacred\)/g, '重靴 Heavy Boots (神圣)')
-    .replace(/Chain Boots \(Sacred\)/g, '锁链靴 Chain Boots (神圣)')
-    .replace(/Light Plated Boots \(Sacred\)/g, '轻型金属靴 Light Plated Boots (神圣)')
-    .replace(/Greaves \(Sacred\)/g, '护胫 Greaves (神圣)')
-    .replace(/Boots \(Sacred\)/g, '短靴 Boots (神圣)')
-    .replace(/Morion \(Sacred\)/g, '高顶头盔 Morion (神圣)')
-    .replace(/Cervelliere \(Sacred\)/g, '贴面骷髅帽 Cervelliere (神圣)')
-    .replace(/Einherjar Helm \(Sacred\)/g, '英灵盔 Einherjar Helm (神圣)')
-    .replace(/Spangenhelm \(Sacred\)/g, '施潘根头盔 Spangenhelm (神圣)')
-    .replace(/Athulua's Hand \(Sacred\)/g, '阿苏拉之手 Athulua\'s Hand (神圣)')
-    .replace(/Phoenix Shield \(Sacred\)/g, '凤凰盾 Phoenix Shield (神圣)')
-    .replace(/Setzschild \(Sacred\)/g, '骑兵盾 Setzschild (神圣)')
-    .replace(/Parma \(Sacred\)/g, '帕尔玛盾 Parma (神圣)')
-    .replace(/Aspis \(Sacred\)/g, '蝰蛇盾 Aspis (神圣)')
-    .replace(/Totem Shield \(Sacred\)/g, '图腾盾 Totem Shield (神圣)')
-    .replace(/Bladed Shield \(Sacred\)/g, '刀刃护盾 Bladed Shield (神圣)')
-    .replace(/Bull Shield \(Sacred\)/g, '牛头盾 Bull Shield (神圣)')
-    .replace(/Bronze Shield \(Sacred\)/g, '铜盾 Bronze Shield (神圣)')
-    .replace(/Gilded Shield \(Sacred\)/g, '镀金盾 Gilded Shield (神圣)')
-    .replace(/Jawbone Cap \(Sacred\)/g, '颚骨帽 Jawbone Cap (神圣)')
-    .replace(/Fanged Helm \(Sacred\)/g, '尖牙盔 Fanged Helm (神圣)')
-    .replace(/Horned Helm \(Sacred\)/g, '角盔 Horned Helm (神圣)')
-    .replace(/Assault Helmet \(Sacred\)/g, '突击盔 Assault Helmet (神圣)')
-    .replace(/Avenger Guard \(Sacred\)/g, '复仇者之盔  Avenger Guard (神圣)')
-    .replace(/Wolf Head \(Sacred\)/g, '狼头 Wolf Head (神圣)')
-    .replace(/Hawk Helm \(Sacred\)/g, '飞鹰头盔 Hawk Helm (神圣)')
-    .replace(/Antlers \(Sacred\)/g, '鹿角 Antlers (神圣)')
-    .replace(/Falcon Mask \(Sacred\)/g, '猎鹰面具 Falcon Mask (神圣)')
-    .replace(/Spirit Mask \(Sacred\)/g, '灵魂面具 Spirit Mask (神圣)')
-    .replace(/Preserved Head \(Sacred\)/g, '防腐之首 Preserved Head (神圣)')
-    .replace(/Zombie Head \(Sacred\)/g, '僵尸之首 Zombie Head (神圣)')
-    .replace(/Unraveller Head \(Sacred\)/g, '揭露者之首 Unraveller Head (神圣)')
-    .replace(/Gargoyle Head \(Sacred\)/g, '石像鬼之首 Gargoyle Head (神圣)')
-    .replace(/Demon Head \(Sacred\)/g, '恶魔之首 Demon Head (神圣)')
-    .replace(/Hundsgugel \(Sacred\)/g, '骑士遮罩 Hundsgugel (神圣)')
-    .replace(/Blackguard Helm \(Sacred\)/g, '黑守卫头盔 Blackguard Helm (神圣)')
-    .replace(/Targe \(Sacred\)/g, '小盾 Targe (神圣)')
-    .replace(/Rondache \(Sacred\)/g, '装饰盾牌 Rondache (神圣)')
-    .replace(/Heraldic Shield \(Sacred\)/g, '纹章盾 Heraldic Shield (神圣)')
-    .replace(/Aerin Shield \(Sacred\)/g, '艾尔之盾 Aerin Shield (神圣)')
-    .replace(/Crown Shield \(Sacred\)/g, '皇冠之盾 Crown Shield (神圣)')
-    .replace(/Gambeson \(Sacred\)/g, '紧身软甲 Gambeson (神圣)')
-    .replace(/Kazarghand \(Sacred\)/g, '卡扎甘战甲 Kazarghand (神圣)')
-    .replace(/Lamellar Armor \(Sacred\)/g, '札甲 Lamellar Armor (神圣)')
-    .replace(/Banded Plate \(Sacred\)/g, '板条甲 Banded Plate (神圣)')
-    .replace(/Ceremonial Armor \(Sacred\)/g, '纪念装甲 Ceremonial Armor (神圣)')
-    .replace(/Javelin \(Sacred\)/g, '标枪 Javelin (神圣)')
-    .replace(/Helm \(Sacred\)/g, '头盔 Helm (神圣)')
-    .replace(/Belt \(Sacred\)/g, '腰带 Belt (神圣)')
-    .replace(/Wand \(Sacred\)/g, '手杖 Wand (神圣)')
-    .replace(/Spear \(Sacred\)/g, '长矛 Spear (神圣)')
-    .replace(/Trident \(Sacred\)/g, '三叉戟 Trident (神圣)')
-    .replace(/Brandistock \(Sacred\)/g, '叉 Brandistock (神圣)')
-    .replace(/Spetum \(Sacred\)/g, '大战戟 Spetum (神圣)')
-    .replace(/Pike \(Sacred\)/g, '矛 Pike (神圣)')
-    .replace(/Scythe \(Sacred\)/g, '镰刀 Scythe (神圣)')
-    .replace(/Dagger \(Sacred\)/g, '匕首 Dagger (神圣)')
-    .replace(/Dirk \(Sacred\)/g, '长匕首 Dirk (神圣)')
-    .replace(/Kriss \(Sacred\)/g, '波形刀 Kriss (神圣)')
-    .replace(/Blade \(Sacred\)/g, '短刀 Blade (神圣)')
-    //装备分类
-    .replace(/Weapons<br>/g, '武器<br>')
-    .replace(/Throwing Knives/g, '飞刀')
-    .replace(/Amazon Javelins/g, '亚马逊专属标枪')
-    .replace(/Necromancer Wands/g, '死灵法师手杖')
-    .replace(/Paladin Clubs/g, '圣骑士专属棍棒')
-    .replace(/Paladin Hammers/g, '圣骑士专属锤')
-    .replace(/Paladin Spears/g, '圣骑士专属矛')
-    .replace(/Necromancer Scythes/g, '死灵法师专属镰刀')
-    .replace(/Throwing Axes/g, '飞斧')
-    .replace(/Amazon Spears/g, '亚马逊专属矛')
-    .replace(/Paladin Spears/g, '圣骑士专属矛')
-    .replace(/Paladin Clubs, Paladin Maces, Paladin Hammers/g, '圣骑士专属钝器')
-    .replace(/Spears/g, '长矛')
-    .replace(/Sorceress Orbs/g, '法师单手法球')
-    .replace(/Sorceress Crystal Swords/g, '法师专属水晶剑')
-    .replace(/Sorceress Body Armor/g, '法师专属盔甲')
-    .replace(/Paladin Shields/g, '圣骑士专属盾')
-    .replace(/Paladin Auric Shields/g, '圣骑士专属盾')
-    .replace(/Barbarian Shields/g, '野蛮人专属盾')
-    .replace(/Assassin Shields/g, '刺客专属盾')
-    .replace(/Necromancer Shields/g, '死灵法师专属盾')
-    .replace(/Necromancer Voodoo Heads/g, '死灵法师专属盾')
-    .replace(/Amazon Shields/g, '亚马逊专属盾')
-    .replace(/Scythes/g, '镰刀')
-    .replace(/Sceptres/g, '权杖')
-    .replace(/One-Handed Swords/g, '单手剑')
-    .replace(/One-Handed Axes/g, '单手斧')
-    .replace(/Paladin Helms/g, '圣骑士专属头盔')
-    .replace(/Paladin Clubs, Paladin Maces, Paladin Hammers/g, '圣骑士专属钝器')
-    .replace(/Paladin Blunt Weapons/g, '圣骑士专属钝器')
-    .replace(/Barbarian Swords/g, '野蛮人专属剑')
-    .replace(/Barbarian One-Handed Axes/g, '野蛮人单手斧')
-    .replace(/Barbarian Two-Handed Axes/g, '野蛮人双手斧')
-    .replace(/Necromancer Wands/g, '死灵法师单手短杖')
-    .replace(/Necromancer Staves/g, '死灵法师双手长杖')
-    .replace(/Necromancer Daggers/g, '死灵法师专属匕首')
-    .replace(/Necromancer Crossbows/g, '死灵法师专属十字弓')
-    .replace(/Druid Staves/g, '德鲁伊专属法杖')
-    .replace(/Druid Helms/g, '德鲁伊专属头盔')
-    .replace(/Druid Pelts/g, '德鲁伊专属头盔')
-    .replace(/Maces/g, '钉锤')
-    .replace(/Hammers/g, '锤子')
-    .replace(/Amazon Javelins/g, '亚马逊专属标枪')
-    .replace(/Javelins/g, '标枪')
-    .replace(/Barbarian Helms/g, '野蛮人专属头盔')
-    .replace(/Barbarian Primal Helms/g, '野蛮人专属头盔')
-    .replace(/Barbarian Weapons/g, '野蛮人专属武器')
-    .replace(/Staves/g, '长柄法杖')
-    .replace(/Crossbows/g, '十字弓')
-    .replace(/Druid Bows/g, '德鲁伊专属弓')
-    .replace(/Amazon Bows/g, '亚马逊专属弓')
-    .replace(/Amazon Helms/g, '亚马逊专属头盔')
-    .replace(/Bows/g, '弓')
-    .replace(/Daggers/g, '匕首')
-    .replace(/Assassin Claws/g, '刺客爪')
-    .replace(/Assassin Naginatas/g, '眉间刀（刺客）')
-    .replace(/Body Armor/g, '盔甲')
-    .replace(/Circlets/g, '头环')
-    .replace(/Special Shields/g, '特殊盾牌')
-    .replace(/Shields/g, '盾牌')
-    .replace(/Belts/g, '腰带')
-    .replace(/Special Helms/g, '特殊头盔')
-    .replace(/Helms/g, '头盔')
-    .replace(/>Gloves</g, '>手套<')
-    .replace(/Crystal Swords/g, '水晶剑')
-    .replace(/Two-Handed Axes/g, '双手斧')
-    .replace(/Amulets/g, '项链')
-    .replace(/Rings/g, '戒指')
-    .replace(/Jewels/g, '珠宝')
-    .replace(/Arrow Quivers/g, '箭袋')
-    .replace(/Crossbow Quivers/g, '十字箭袋')
-    .replace(/\(Sacred\)/g, '（神圣）')
 
 
-    //角色名
 
-    .replace(/ to Druid/g, ' 德鲁伊')
-    .replace(/ to Assassin/g, ' 刺客')
-    .replace(/ to Barbarian/g, ' 野蛮人')
-    .replace(/ to Amazon/g, ' 亚马逊')
-    .replace(/ to Sorceress/g, ' 法师')
-    .replace(/ to Necromancer/g, ' 死灵法师')
-    .replace(/ to Paladin/g, ' 圣骑士')
-    .replace(/Amazon Only/g, '限亚马逊')
-    .replace(/Druid Only/g, '限德鲁伊')
-    .replace(/Assassin Only/g, '限刺客')
-    .replace(/Barbarian Only/g, '限野蛮人')
-    .replace(/Sorceress Only/g, '限法师')
-    .replace(/Necromancer Only/g, '限死灵法师')
-    .replace(/Paladin Only/g, '限圣骑士')
-    .replace(/\[AMZ\]/g, '亚马逊')
-    .replace(/\[ASN\]/g, '刺客')
-    .replace(/\[BAR\]/g, '野蛮人')
-    .replace(/\[DRU\]/g, '德鲁伊')
-    .replace(/\[NEC\]/g, '死灵法师')
-    .replace(/\[PAL\]/g, '圣骑士')
-    .replace(/\[SOR\]/g, '法师')
-   // .replace(/Amazon/g, '亚马逊')
-    .replace(/Assassin/g, '刺客')
-    .replace(/Barbarian/g, '野蛮人')
-    .replace(/Druid/g, '德鲁伊')
-    .replace(/Necromancer/g, '死灵法师')
-    .replace(/Paladin/g, '圣骑士')
-    .replace(/Sorceress/g, '法师')
-    .replace(/ Damage to/g, '的伤害至')
+
+
     .replace(/b>Oskills/g, 'b style="color:#fff;">装备技能 Oskills')
     .replace(/b>Sacred Sets Only!/g, 'b style="color:#fff;">没有普通套装，只有神圣套装！')
     .replace(/b>Variations/g, 'b style="color:#fff;">SU、SSU 和 SSSU')
-    .replace(/eg\. /g, '例如 ')
-    .replace(/Like the /g, '类似于')
-    .replace(/Gematria	/g, '字数对应法')
 
     .replace(/ per Base Level in the Bow Tree/g, '（基于投入弓系的技能点）')
     .replace(/ per Base Level/g, ' 每基础等级')
@@ -2343,7 +1492,10 @@
     .replace(/Additional /g, '额外')
     .replace(/Reduces /g, '降低 ')
     .replace(/Deals /g, '造成 ')
-    .replace(/ Strength/g, ' 力量')
+    .replace(/ to Strength/g, ' 力量')
+    .replace(/ to Dexterity/g, ' 敏捷')
+    .replace(/ to Vitality/g, ' 体力')
+    .replace(/ to Energy/g, ' 精力')
     .replace(/ Life/g, ' 生命值')
 
 //格式化
@@ -2386,6 +1538,433 @@
    .replace(/ *to *[<,>]/g,handleHanzi)
 
 
+;
+var replaceArry = [
+
+      [/Short Sword/i, '短剑'],
+      [/Scimitar/i, '弯刀'],
+      [/Saber/i, '军刀'],
+      [/Falchion/i, '弯型大刀'],
+      [/Broad Sword/i, '阔剑'],
+      [/Long Sword/i, '长剑'],
+      [/War Sword/i, '巨战之剑'],
+      [/Two-Handed Swords/i, '双手剑'],
+      [/Two-Handed Sword/i, '双手剑'],
+      [/Claymore/i, '双刃大刀'],
+      [/Giant Sword/i, '大剑'],
+      [/Bastard Sword/i, '巨剑'],
+      [/Flamberge/i, '双手饰剑'],
+      [/Great Sword/i, '卓越之剑'],
+      [/Hand Axe/i, '手斧'],
+      [/Double Axe/i, '双刃斧'],
+      [/Military Pick/i, '军用锹'],
+      [/War Axe/i, '巨战斧'],
+      [/Large Axe/i, '巨斧'],
+      [/Broad Axe/i, '阔斧'],
+      [/Battle Axe/i, '战斗斧'],
+      [/Great Axe/i, '卓越之斧'],
+      [/Giant Axe/i, '大斧'],
+      [/Spiked Club/i, '狼牙棒'],
+      [/Morning Star/i, '流星锤'],
+      [/Flail/i, '链枷'],
+      [/War Hammer/i, '巨战铁槌'],
+      [/Great Maul/i, '卓越大头锤'],
+      [/Maul/i, '大头锤'],
+      [/Grand Scepter/i, '雄伟权杖'],
+      [/War Scepter/i, '巨战权杖'],
+      [/Pilum/i, '短标枪'],
+      [/Short Spear/i, '短矛'],
+      [/Glaive/i, '大长刀'],
+      [/Throwing Spear/i, '飞矛'],
+      [/Trident/i, '三叉戟'],
+      [/Brandistock/i, '叉'],
+      [/Spetum/i, '大战戟'],
+      [/Dirk/i, '长匕首'],
+      [/Kriss/i, '波形刀'],
+      [/Throwing Knife/i, '飞刀 Throwing Knife'],
+      [/Flying Knife/i, '飞刀 Flying Knife'],
+      [/Balanced Knife/i, '平衡小刀'],
+  [/Throwing Axes/i, '飞斧'],
+      [/Throwing Axe/i, '飞斧'],
+      [/Balanced Axe/i, '平衡斧'],
+      [/Short Staff/i, '短法杖'],
+      [/Long Staff/i, '长法杖'],
+      [/Gnarled Staff/i, '多节法杖'],
+      [/Battle Staff/i, '战斗法杖'],
+      [/War Staff/i, '巨战法杖'],
+      [/Short Bow/i, '短弓'],
+      [/Hunter's Bow/i, '猎弓'],
+      [/Long Bow/i, '长弓'],
+      [/Composite Bow/i, '复合弓'],
+      [/Short Battle Bow/i, '短战斗弓'],
+      [/Long Battle Bow/i, '长战斗弓'],
+      [/Short War Bow/i, '短巨战弓'],
+      [/Long War Bow/i, '长巨战弓'],
+      [/Light Crossbow/i, '轻弩'],
+      [/Heavy Crossbow/i, '重弩'],
+      [/Repeating Crossbow/i, '连弩'],
+      [/Stag Bow/i, '男性之弓'],
+      [/Reflex Bow/i, '反射之弓'],
+      [/Maiden Spear/i, '女士之矛'],
+      [/Maiden Pike/i, '女士长矛'],
+      [/Maiden Javelin/i, '女士标枪'],
+      [/Scissors Katar/i, '剪咬刀'],
+      [/Katar/i, '拳剑'],
+      [/Wrist Blade/i, '腕刃'],
+      [/Hatchet Hands/i, '斧手'],
+      [/Cestus/i, '腰刀'],
+      [/Blade Talons/i, '刃爪'],
+      [/Naginatas/i, '薙刀'],
+      [/Naginata/i, '薙刀'],
+      [/Spatha/i, '佩剑'],
+      [/Backsword/i, '单刃剑'],
+      [/Ida/i, '约鲁巴剑'],
+      [/Bronze Sword/i, '青铜剑'],
+      [/Kriegsmesser/i, '日耳曼战刀'],
+      [/Mammen Axe/i, '马门斧'],
+      [/Hammerhead Axe/i, '锤头斧'],
+      [/Ono/i, '东瀛斧'],
+      [/Valaska/i, '放牧斧'],
+      [/Labrys/i, '双刃重斧'],
+      [/Compound Bow/i, '合成弓'],
+      [/Serpent Bow/i, '蟒蛇弓'],
+      [/Maple Bow/i, '枫木弓'],
+      [/Viper Bow/i, '蝰蛇弓'],
+      [/Recurve Bow/i, '反曲弓'],
+      [/Flamen Staff/i, '祭祀法杖'],
+      [/Marrow Staff/i, '骨髓法杖'],
+      [/Hexblade/i, '诅咒之刃'],
+      [/Spirit Edge/i, '灵魂利刃'],
+      [/Bonesplitter/i, '裂骨者'],
+      [/Needle Crossbow/i, '针弩'],
+      [/Dart Thrower/i, '掷镖器'],
+      [/Stinger Crossbow/i, '蛰弩'],
+      [/Trebuchet/i, '投石机'],
+      [/Yew Wand/i, '紫衫之杖'],
+      [/Bone Wand/i, '骨杖'],
+      [/Grim Wand/i, '残酷魔杖'],
+      [/Bonebreaker/i, '碎骨者'],
+      [/Goedendag/i, '尖刺钉锤'],
+      [/Angel Star/i, '天使之星'],
+      [/Hand of God/i, '神之手'],
+      [/Holy Lance/i, '圣枪'],
+      [/Tepoztopilli/i, '阿兹特克长矛'],
+      [/Sorceress Orbs/i, '法师法球'],
+      [/Eagle Orb/i, '鹰眼法珠'],
+      [/Sacred Globe/i, '神圣天球'],
+      [/Smoked Sphere/i, '拢烟之球'],
+      [/Clasped Orb/i, '握扣法珠'],
+      [/Jared's Stone/i, '贾里德之石'],
+      [/Warp Blade/i, '扭曲之刃'],
+      [/Quilted Armor/i, '布甲'],
+      [/Hard Leather Armor/i, '硬皮甲'],
+      [/Leather Armor/i, '皮甲'],
+      [/Studded Leather/i, '镶嵌甲'],
+      [/Ring Mail/i, '锁环甲'],
+      [/Scale Mail/i, '鳞甲'],
+      [/Chain Mail/i, '锁子甲'],
+      [/Breast Plate/i, '胸甲'],
+      [/Splint Mail/i, '板甲'],
+      [/Field Plate/i, '实战铠甲'],
+      [/Gothic Plate/i, '歌德战甲'],
+      [/Full Plate Mail/i, '高级战甲'],
+      [/Plate Mail/i, '铠甲'],
+      [/Ancient Armor/i, '古代装甲'],
+      [/Skull Cap/i, '骷髅帽'],
+      [/Full Helm/i, '高级头盔'],
+      [/Great Helm/i, '卓越头盔'],
+  [/Circlets/i, '头环'],
+      [/Circlet/i, '头环'],
+      [/Coronet/i, '宝冠'],
+      [/Tiara/i, '三重冠'],
+      [/Diadem/i, '权冠'],
+      [/Special Helms/i, '特殊头盔'],
+      [/Bone Helm/i, '白骨头盔'],
+      [/Buckler/i, '圆盾'],
+      [/Small Shield/i, '小盾牌'],
+      [/Large Shield/i, '大盾牌'],
+      [/Kite Shield/i, '鸢盾'],
+      [/Tower Shield/i, '塔盾'],
+      [/Gothic Shield/i, '歌德盾牌'],
+      [/Special Shields/i, '特殊盾牌'],
+      [/Bone Shield/i, '白骨盾牌'],
+      [/Spiked Shield/i, '尖刺盾牌'],
+      [/Sash/i, '裹腰'],
+      [/Light Belt/i, '轻腰带'],
+      [/Heavy Belt/i, '重腰带'],
+      [/Plated Belt/i, '金属腰带'],
+      [/Leather Gloves/i, '皮手套'],
+      [/Heavy Gloves/i, '重手套'],
+      [/Chain Gloves/i, '锁链手套'],
+      [/Light Gauntlets/i, '轻型铁手套'],
+      [/Gauntlets/i, '铁手套'],
+      [/Heavy Boots/i, '重靴'],
+      [/Chain Boots/i, '锁链靴'],
+      [/Light Plated Boots/i, '轻型金属靴'],
+      [/Greaves/i, '护胫'],
+      [/Morion/i, '高顶头盔'],
+      [/Cervelliere/i, '贴面骷髅帽'],
+      [/Einherjar Helm/i, '英灵盔'],
+      [/Spangenhelm/i, '施潘根头盔'],
+      [/Athulua's Hand/i, '阿苏拉之手'],
+      [/Phoenix Shield/i, '凤凰盾'],
+      [/Setzschild/i, '骑兵盾'],
+      [/Parma/i, '帕尔玛盾'],
+      [/Aspis/i, '蝰蛇盾'],
+      [/Totem Shield/i, '图腾盾'],
+      [/Bladed Shield/i, '刀刃护盾'],
+      [/Bull Shield/i, '牛头盾'],
+      [/Bronze Shield/i, '铜盾'],
+      [/Gilded Shield/i, '镀金盾'],
+      [/Jawbone Cap/i, '颚骨帽'],
+      [/Fanged Helm/i, '尖牙盔'],
+      [/Horned Helm/i, '角盔'],
+      [/Assault Helmet/i, '突击盔'],
+      [/Avenger Guard/i, '复仇者之盔'],
+      [/Wolf Head/i, '狼头'],
+      [/Hawk Helm/i, '飞鹰头盔'],
+      [/Antlers/i, '鹿角'],
+      [/Falcon Mask/i, '猎鹰面具'],
+      [/Spirit Mask/i, '灵魂面具'],
+      [/Preserved Head/i, '防腐之首'],
+      [/Zombie Head/i, '僵尸之首'],
+      [/Unraveller Head/i, '揭露者之首'],
+      [/Gargoyle Head/i, '石像鬼之首'],
+      [/Demon Head/i, '恶魔之首'],
+      [/Hundsgugel/i, '骑士遮罩'],
+      [/Blackguard Helm/i, '黑守卫头盔'],
+      [/Targe/i, '小盾'],
+      [/Rondache/i, '装饰盾牌'],
+      [/Heraldic Shield/i, '纹章盾'],
+      [/Aerin Shield/i, '艾尔之盾'],
+      [/Crown Shield/i, '皇冠之盾'],
+      [/Gambeson/i, '紧身软甲'],
+      [/Kazarghand/i, '卡扎甘战甲'],
+      [/Lamellar Armor/i, '札甲'],
+      [/Banded Plate/i, '板条甲'],
+      [/Ceremonial Armor/i, '纪念装甲'],
+  [/Throwing Knives/i, '飞刀'],
+  [/Amazon Javelins/i, '亚马逊专属标枪'],
+  [/Necromancer Wands/i, '死灵法师手杖'],
+  [/Paladin Clubs/i, '圣骑士专属棍棒'],
+  [/Paladin Hammers/i, '圣骑士专属锤'],
+  [/Paladin Spears/i, '圣骑士专属矛'],
+  [/Necromancer Scythes/i, '死灵法师专属镰刀'],
+  [/Amazon Spears/i, '亚马逊专属矛'],
+  [/Paladin Spears/i, '圣骑士专属矛'],
+  [/Paladin Clubs, Paladin Maces, Paladin Hammers/i, '圣骑士专属钝器'],
+  [/Sorceress Orbs/i, '法师单手法球'],
+  [/Sorceress Crystal Swords/i, '法师专属水晶剑'],
+  [/Sorceress Body Armor/i, '法师专属盔甲'],
+  [/Paladin Shields/i, '圣骑士专属盾'],
+  [/Paladin Auric Shields/i, '圣骑士专属盾'],
+  [/Barbarian Shields/i, '野蛮人专属盾'],
+  [/Assassin Shields/i, '刺客专属盾'],
+  [/Necromancer Shields/i, '死灵法师专属盾'],
+  [/Necromancer Voodoo Heads/i, '死灵法师专属盾'],
+  [/Amazon Shields/i, '亚马逊专属盾'],
+  [/Raptor Scythe/i, '猛禽镰刀'],
+  [/Scythes/i, '镰刀'],
+  [/Scythe/i, '镰刀'],
+  [/Sceptres/i, '权杖'],
+  [/One-Handed Swords/i, '单手剑'],
+  [/One-Handed Axes/i, '单手斧'],
+  [/Paladin Helms/i, '圣骑士专属头盔'],
+  [/Paladin Clubs, Paladin Maces, Paladin Hammers/i, '圣骑士专属钝器'],
+  [/Paladin Blunt Weapons/i, '圣骑士专属钝器'],
+  [/Barbarian Swords/i, '野蛮人专属剑'],
+  [/Barbarian One-Handed Axes/i, '野蛮人单手斧'],
+  [/Barbarian Two-Handed Axes/i, '野蛮人双手斧'],
+  [/Necromancer Wands/i, '死灵法师单手短杖'],
+  [/Necromancer Staves/i, '死灵法师双手长杖'],
+  [/Necromancer Daggers/i, '死灵法师专属匕首'],
+  [/Necromancer Crossbows/i, '死灵法师专属十字弓'],
+  [/Druid Staves/i, '德鲁伊专属法杖'],
+  [/Druid Helms/i, '德鲁伊专属头盔'],
+  [/Druid Pelts/i, '德鲁伊专属头盔'],
+  [/Maces/i, '钉锤'],
+  [/Hammers/i, '锤子'],
+  [/Amazon Javelins/i, '亚马逊专属标枪'],
+  [/Javelins/i, '标枪'],
+  [/Barbarian Helms/i, '野蛮人专属头盔'],
+  [/Barbarian Primal Helms/i, '野蛮人专属头盔'],
+  [/Barbarian Weapons/i, '野蛮人专属武器'],
+  [/Staves/i, '长柄法杖'],
+  [/Crossbows/i, '十字弓'],
+  [/Druid Bows/i, '德鲁伊专属弓'],
+  [/Amazon Bows/i, '亚马逊专属弓'],
+  [/Amazon Helms/i, '亚马逊专属头盔'],
+  [/Bows/i, '弓'],
+  [/Daggers/i, '匕首'],
+  [/Assassin Claws/i, '刺客爪'],
+  [/Assassin Naginatas/i, '眉间刀（刺客）'],
+  [/Body Armor/i, '盔甲'],
+  [/Special Shields/i, '特殊盾牌'],
+  [/Shields/i, '盾牌'],
+  [/Belts/i, '腰带'],
+  [/Special Helms/i, '特殊头盔'],
+  [/Helms/i, '头盔'],
+  [/Gloves/i, '手套'],
+  [/Crystal Swords/i, '水晶剑'],
+  [/Two-Handed Axes/i, '双手斧'],
+  [/Amulets/i, '项链'],
+  [/Rings/i, '戒指'],
+  [/Jewels/i, '珠宝'],
+  [/Arrow Quivers/i, '箭袋'],
+  [/Crossbow Quivers/i, '十字箭袋'],
+  [/Axe/i, '斧'],
+  [/\(Sacred\)/i, '（神圣）'],
+      [/Pike/i, '矛'],
+      [/Club/i, '棍棒'],
+  [/Spears/i, '长矛'],
+      [/Spear/i, '长矛 '],
+      [/Scepter/i, '权杖'],
+      [/Javelin/i, '标枪'],
+      [/Blade/i, '短刀'],
+      [/Claws/i, '爪'],
+      [/Dagger/i, '匕首'],
+      [/Crossbow/i, '十字弓'],
+      [/Wand/i, '手杖'],
+  [/Weapons/i, '武器'],
+      [/Crystal Swords/i, '水晶剑'],
+      [/Crystal Sword/i, '水晶剑'],
+      [/Cap/i, '帽子'],
+      [/Helm/i, '头盔'],
+      [/Boots/i, '靴子'],
+      [/Belt/i, '腰带'],
+      [/Light Plate/i, '轻型装甲'],
+      [/Mask/i, '面具'],
+      [/Crown/i, '皇冠'],
+      [/Mace/i, '钉头锤'],
+    //角色名
+
+    [/ to Druid/i, ' 德鲁伊'],
+    [/ to Assassin/i, ' 刺客'],
+    [/ to Barbarian/i, ' 野蛮人'],
+    [/ to Amazon/i, ' 亚马逊'],
+    [/ to Sorceress/i, ' 法师'],
+    [/ to Necromancer/i, ' 死灵法师'],
+    [/ to Paladin/i, ' 圣骑士'],
+    [/Amazon Only/i, '限亚马逊'],
+    [/Druid Only/i, '限德鲁伊'],
+    [/Assassin Only/i, '限刺客'],
+    [/Barbarian Only/i, '限野蛮人'],
+    [/Sorceress Only/i, '限法师'],
+    [/Necromancer Only/i, '限死灵法师'],
+    [/Paladin Only/i, '限圣骑士'],
+    [/\[AMZ\]/i, '亚马逊'],
+    [/\[ASN\]/i, '刺客'],
+    [/\[BAR\]/i, '野蛮人'],
+    [/\[DRU\]/i, '德鲁伊'],
+    [/\[NEC\]/i, '死灵法师'],
+    [/\[PAL\]/i, '圣骑士'],
+    [/\[SOR\]/i, '法师'],
+    [/Amazon/i, '亚马逊'],
+    [/Assassin/i, '刺客'],
+    [/Barbarian/i, '野蛮人'],
+    [/Druid/i, '德鲁伊'],
+    [/Necromancer/i, '死灵法师'],
+    [/Paladin/i, '圣骑士'],
+    [/Sorceress/i, '法师'],
+    [/Damage to/i, '的伤害至'],
+    [/Like the /i, '类似于'],
+    [/Gematria	/i, '字数对应法'],
+    //符文
+[/El Rune/i, '1# El'],
+[/Eld Rune/i, '2# Eld'],
+[/Tir Rune/i, '3# Tir'],
+[/Nef Rune/i, '4# Nef'],
+[/Eth Rune/i, '5# Eth'],
+[/Ith Rune/i, '6# Ith'],
+[/Tal Rune/i, '7# Tal'],
+[/Ral Rune/i, '8# Ral'],
+[/Ort Rune/i, '9# Ort'],
+[/Thul Rune/i, '10# Thul'],
+[/Amn Rune/i, '11# Amn'],
+[/Sol Rune/i, '12# Sol'],
+[/Shael Rune/i, '13# Shael'],
+[/Dol Rune/i, '14# Dol'],
+[/Hel Rune/i, '15# Hel'],
+[/Io Rune/i, '16# Io'],
+[/Lum Rune/i, '17# Lum'],
+[/Ko Rune/i, '18# Ko'],
+[/Fal Rune/i, '19# Fal'],
+[/Lem Rune/i, '20# Lem'],
+[/Pul Rune/i, '21# Pul'],
+[/Um Rune/i, '22# Um'],
+[/Mal Rune/i, '23# Mal'],
+[/Ist Rune/i, '24# Ist'],
+[/Gul Rune/i, '25# Gul'],
+[/Vex Rune/i, '26# Vex'],
+[/Ohm Rune/i, '27# Ohm'],
+[/Lo Rune/i, '28# Lo'],
+[/Sur Rune/i, '29# Sur'],
+[/Ber Rune/i, '30# Ber'],
+[/Jah Rune/i, '31# Jah'],
+[/Cham Rune/i, '32# Cham'],
+[/Zod Rune/i, '33# Zod'],
+[/Sha Rune/i, '34# Sha'],
+[/Lah Rune/i, '35# Lah'],
+[/Kur Rune/i, '36# Kur'],
+[/Ix Rune/i, '37# Ix'],
+[/Thur Rune/i, '38# Thur'],
+[/Nas Rune/i, '39# Nas'],
+[/Ath Rune/i, '40# Ath'],
+[/Kra Rune/i, '41# Kra'],
+[/Vith Rune/i, '42# Vith'],
+[/No Rune/i, '43# No'],
+[/Yul Rune/i, '44# Yul'],
+[/Thai Rune/i, '45# Thai'],
+[/Rha Rune/i, '46# Rha'],
+[/Xar Rune/i, '47# Xar'],
+[/Nih Rune/i, '48# Nih'],
+[/Lai Rune/i, '49# Lai'],
+[/On Rune/i, '50# On'],
+[/Taha Rune/i, '51# Taha'],
+[/Ghal Rune/i, '52# Ghal'],
+[/Qor Rune/i, '53# Qor'],
+[/Krys Rune/i, '54# Krys'],
+[/Auhe Rune/i, '55# Auhe'],
+[/Shaad Rune/i, '56# Shaad'],
+[/Ma Rune/i, '魔法'],
+[/Po Rune/i, '毒素'],
+[/Fi Rune/i, '火焰'],
+[/Ea Rune/i, '大地'],
+[/Co Rune/i, '寒冰'],
+[/Li Rune/i, '闪电'],
+[/Xis Rune/i, '卡布'],
+    //属性词条
+[/Repairs 1 Durability in 25 Seconds/i, '每 25 秒恢复 1 点装备耐久'],
+[/Xis Rune/i, '卡布'],
+[/damage/i, '伤害'],
+[/Deal No/i, '不再造成'],
+];
+
+
+var numTerms= replaceArry.length;
+var txtWalker= document.createTreeWalker (
+    document.body,
+    NodeFilter.SHOW_TEXT,
+    {acceptNode: function (node) {
+            //-- Skip whitespace-only nodes
+            if (node.nodeValue.trim() )
+                return NodeFilter.FILTER_ACCEPT;
+
+            return NodeFilter.FILTER_SKIP;
+        }
+    },
+    false
+);
+var txtNode = null;
+
+while (txtNode = txtWalker.nextNode () ) {
+    var oldTxt = txtNode.nodeValue;
+
+    for (var J = 0; J < numTerms; J++) {
+        oldTxt = oldTxt.replace (replaceArry[J][0], replaceArry[J][1]);
+    }
+    txtNode.nodeValue = oldTxt;
+}
 ;
 
 
