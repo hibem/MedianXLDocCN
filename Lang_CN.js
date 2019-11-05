@@ -2,7 +2,7 @@
 // @name         魔电官网文档中文化脚本
 // @description  协助名单：在在在、唔喵王
 // @copyright    2019 黑本
-// @version      0.6.3
+// @version      0.6.4
 // @author       黑本
 // @license      MIT
 // @homepageURL  https://space.bilibili.com/12221554
@@ -12,7 +12,6 @@
 // ==/UserScript==
 (function() {
     'use strict';
-
     document.body.innerHTML = document.body.innerHTML
 //大段文字
     .replace(/\r\n/g, '')
@@ -36,11 +35,11 @@
     .replace(/\(all 6 different\) \+ Runestone/g, 'X6 (6种不同) + 空白符文石')
     .replace(/LIST OF GEMS/g, '宝石图鉴')
     .replace(/LIST OF RUNES/g, '符文图鉴')
-    .replace("There are no low level sets. All set items are sacred and drop only in some uber areas of the Nightmare difficulty and anywhere in Hell difficulty - with the exception of some items from the 2 Yashrii Uberquest sets, which drop only there (bosses and guards). Sets in Median XL are advanced equipment for high level heroes.",
-             '魔电的套装只有神圣版本，掉落于地狱难度全图以及噩梦难度的一些特殊区域，仅有两套高级套装的部分散件需要在特定的区域击杀守卫或者BOSS获得。<br>成套的套装加成十分强力，只有少数人才能集齐它们。')
+    .replace("There are no low level sets. All set items are sacred and drop only from mid-Nightmare difficulty onwards - with the exception of some items from the 2 Yshari Uberquest sets, which drop only there (bosses and guards). Sets in Median XL are advanced equipment for high level heroes.",
+             '魔电的套装只有神圣版本，它们从噩梦中期开始掉落，仅有两套高级套装的部分散件需要在特定的区域击杀守卫或者BOSS获得。<br>成套的套装加成十分强力，只有少数人才能集齐它们。')
 
 
-    .replace("There are over 35 sets in Median XL, containing over 150 set items.", '魔电拥有35套绿装，包含了超过150个套装散件。')
+    .replace("There are over 45 sets in Median XL, containing over 180 set items.", '魔电拥有45套绿装，包含了超过180个套装散件。')
     .replace("Each regular item has one unique version that can drop anywhere in the game. The stats of each unique depend on the tier of the base item: higher tier versions of the same unique are improved in all aspects, but have higher requirements.",
              '每件装备都有它的暗金版本，品级暗金装备为世界掉落。它们的属性值基于装备品级，更高的品级有更好的属性和更高的等级和任人物属性需求。')
     .replace("page for details on item tiers.", '这个页面来查看关于物品品级的更多细节。')
@@ -54,9 +53,10 @@
     .replace("All sacred uniques aside from jewelry come in 2 or 3 different variations.", '')
     .replace("Their position within the table dictates what variation they come as \(SU is leftmost, SSU is center \(rightmost in a 2 column arrangement\), ", '')
     .replace("and SSSU is rightmost \(in a 3 column arrangement\), jewelry not included\).", '')
-    .replace("The SU variants are typically found beginning at Area Levels of 104 and beyond, SSU variants begin dropping in Area Level 117 areas, and SSSUs start dropping in Area Level 130 areas.", '')
-    .replace("The Flamen staves and Marrow staves are an exception to this rule, both the ending staves being SSU.",
-             '除了珠宝以外，所有神圣暗金装备都有2-3种的变体，下表中从左到右分别被称为SU，SSU，SSSU。<br>104+地图掉落SU，117+地图掉落SSU，130+地图掉落SSSU。<br>德鲁伊和死灵法师的专属双手杖是一个例外，它们的第二、三个变体都属于SSU，也就是没有SSSU版本。')
+    .replace("The SU variants are typically found beginning at Area Levels of 104 and beyond, SSU variants begin dropping in Area Level 119 areas, and SSSUs start dropping in Area Level 130 areas.",
+             '除了珠宝以外，所有神圣暗金装备都有2-3种的变体，下表中从左到右分别被称为SU，SSU，SSSU。<br>104+地图掉落SU，119+地图掉落SSU，130+地图掉落SSSU。')
+    .replace("The Flamen staves are an exception to this rule, the ending staff being SSU.",
+             '<br>德鲁伊专属双手杖是一个例外，它的第二、三个变体都属于SSU，也就是没有SSSU版本。')
     .replace("then the bonus is an 'oskill', giving this skill to any class for free.", '这个技能就叫做装备技能（oskill），任何职业都可以使用它。')
     .replace("The Sacred tier of items has, on average, two unique versions that are different from the tiered unique. Some items don't have a sacred variant. Sacred uniques can only drop in Hell difficulty. The best rings, amulets, jewels and quivers are also marked as sacred uniques.",
         '神圣的暗金装备独立于品级之外，平均下来，每件拥有两个形态，当然，也有些神圣装备没有暗金形态。<br>神圣暗金装备无法被制造，只能在地狱以后掉落。<br>虽然没有在游戏中被标注，但最屌的首饰、珠宝还有箭袋也属于神圣暗金。')
@@ -78,8 +78,8 @@
 //合成公式
     .replace("Far from being the interesting magical gimmick you may be used to, the Median XL cube is a powerful weapon of war.", '跟原版里无足轻重的公式不同，赫拉迪克宝箱在魔电里起到了极为重要的作用。')
     .replace("These reagents can be found by killing the appropriate monster:", '获取方式')
-    .replace("Catalyst of Disenchantment: kill the Smith on Normal difficulty", '分解催化剂：普通难度下消灭铁匠（A1 军营）')
-    .replace("Catalyst of Learning: kill Izual on Nightmare difficulty", '学习催化剂：噩梦难度下消灭衣卒尔（A4 绝望平原）')
+    .replace("Catalyst of Disenchantment: kill Andariel on Normal difficulty", '分解催化剂：普通难度下消灭安达利亚（A1 关底Boss）')
+    .replace("Catalyst of Learning: kill the Summoner on Nightmare difficulty", '学习催化剂：噩梦难度下消灭召唤者（A2 神秘避难所）')
     .replace(/>Oils</g, '>油剂<')
     .replace('These reagents can be bought from a vendor in each town, except Oil of Conjuration which must be found.', '每一关的有特定商人出售：<br>Act1 基德 Gheed<br>Act2 卓格南 Drognan<br>Act3 艾柯 Alkor<br>Act4 哈尔布 Halbu<br>Act5 拉祖克 Larzuk')
     .replace(/>Arcane Shards</g, '>奥术碎片<')
@@ -101,6 +101,8 @@
     .replace('Arcane Shards x5 \→ Arcane Crystal', '奥术碎片 x5 → 奥术水晶')
     .replace('You can also create an Arcane Cluster for easier Arcane Crystal safekeeping', '使用下列公式制造奥术簇群来储存大量的奥术水晶')
     .replace('Arcane Crystal \+ Oil of Craft \→ Arcane Cluster', '奥术水晶 + 锻造油 → 奥术簇群（1）</div></p><p><div class="reagent" style="max-width: 750px">奥术簇群（n） + 奥术水晶 x X → 奥术簇群（n + X）</div></p>')
+
+    .replace('Arcane Cluster can be right-clicked to collect all Arcane Crystals from the inventory, cube and stash.', '通过鼠标右击奥术簇群可以将所有奥术水晶收集起来（背包、宝盒和仓库）')
     .replace(/>Signets of Learning</g, '>学识图章<')
     .replace('Destroy up to 25 spare sacred unique or set items to create Signets of Learning. Click the signet to gain 1 attribute point permanently.', '分解神圣暗金或者套装装备来获得学识图章，一次最多放25件<br>右击学识图章可以得到永久的额外属性点。')
     .replace('Any sacred unique\/set item \+ Catalyst of Learning \→ Signet of Learning \+ Catalyst of Learning', '神圣 暗金/套装 物品 + 学习催化剂 → 学识图章 + 学习催化剂')
@@ -170,7 +172,7 @@
     .replace(/ class\=\"brightgreen\"\>Already upgraded\!\</g, ' style="color:#02c109;"> 已升级！<')
     .replace(/. Items marked as such cannot be used for this recipe./g, '的词条，被标记的装备无法再次使用同类升级公式。')
     .replace("Any item \+ Oil of Luck \→ returns item, may add bonuses", '任意装备 + 幸运油 → 装备附加词条')
-    .replace("This recipe has 20% chance to add any of the following bonuses:", '该公式只有20%的成功几率，附加词条如下：')
+    .replace("This recipe has 20% chance to add any of the following bonuses:", '该公式只有20%的成功几率，附加词条如下（and/or 的意思是多词条可能同时存在，也可能只有一条）：')
     .replace(/Magical Bonus/g, '魔法加成')
     .replace("In some of the more powerful areas, you might find the Oil of Conjuration, which is a concoction highly sought after by many mages. Any item that has been transmuted with this recipe will show up as",
              '在一些危险的区域，你会发现一种戏法之油 Oil of Conjuration，它是法师们的最爱。<br>任何使用过该公式的装备会增加一个')
@@ -179,8 +181,8 @@
     .replace("Adventurers say they have heard of powerful evil monsters creating these in locations such as the Icy Cellar, Abaddon, Pit of Acheron and Infernal Pit.",
              '危险区域：Icy Cellar（冰窖）, Abaddon（阿巴顿）, Pit of Acheron（阿切尔龙穴） 和 Infernal Pit（炼狱洞穴）。')
     .replace(/Lottery Bonus/g, '超级加成')
-    .replace("This recipe works exactly like the lucky upgrade one, but it has only a 5% chance of adding the bonus. Any item that has been transmuted with this recipe will show up as",
-             '跟上面两个公式一样，不过它更加强大，更加难得,需要与BOSS掉落的护符合成。<br>任何使用过该公式的装备会增加一个')
+    .replace("This recipe works exactly like the lucky upgrade one, but it has only a 3% chance of adding the bonus. Any item that has been transmuted with this recipe will show up as",
+             '跟上面两个公式一样，不过它更加强大，更加难得，需要与BOSS掉落的护符合成。<br>任何使用过该公式的装备会增加一个')
     .replace("Any Unique\/Set Weapon \+ Legacy of Blood", '暗金或套装武器 + 血之遗产')
     .replace("Any Unique\/Set Armor \+ Idol of Vanity", '暗金或套装护甲 + 虚荣雕像')
     .replace("Any Unique Amulet \+ Moon of the Spider", '暗金项链 + 蜘蛛之月')
@@ -188,7 +190,7 @@
     .replace("Any Unique Quiver \+ Azmodan's Heart", '暗金箭袋 + 阿兹莫丹之心')
     .replace("Any Unique Jewel \+ Sunstone of the Gods", '暗金珠宝 + 诸神的太阳石')
     .replace("returns item, may add bonuses", '装备附加词条')
-    .replace("This recipe has 5% chance to add any of the following bonuses:", '该公式只有5%的成功几率，附加词条如下：')
+    .replace("This recipe has 3% chance to add any of the following bonuses:", '该公式只有3%的成功几率，附加词条如下：')
     .replace("SHRINES AND CRAFTING", '圣坛和手工')
     .replace("CALL ON DIVINE FORCES TO CRAFT YOUR OWN ITEMS", '为自己创造独一无二的物品')
     .replace("In Nightmare and Hell difficulty, you may find blessed relics from the ancient labyrinth beneath Tristram, stolen before its collapse.",
@@ -217,6 +219,8 @@
     .replace("Each shrine comes with 10 charges. Each use in the cube will drain one charge. When you use up the last charge, it disappears.",
              '每个圣坛掉落时都有10点能量，每次合成消耗一点，消耗完毕时，该圣坛便会消失。')
     .replace("Experiment, learn and create some of the most powerful items in all of Sanctuary.", '')
+    .replace("Shrine Vessels can be right-clicked to collect all Shrines of the same type from the inventory, cube and stash.",
+             '通过鼠标右击圣坛容器可以将所有相同类型的圣坛收集起来（背包、宝盒和仓库）')
     .replace(/Shrine Vessels/g, '圣坛容器')
     .replace("Carrying many holy relics can be a burden. Store your full shrines into a corresponding holy vessel that can hold up to 1000 shrines:",
              '使用下列公式将相同容器堆叠，以免占用太多仓库容量，最高堆叠上限：1000')
@@ -285,8 +289,8 @@
     .replace("Want to show the common rabble in your game how rich and powerful you are\? This recipe consumes some of the rarest trophies in the game and returns a completely useless item that grants you a glowing red aura. Show it to friends and strangers so they know that you are strong, powerful and wealthy enough to waste trophies on a worthless item.",
              '这个公式消耗了几件极难获得的奖杯来制造一个没有任何属性的物品，带着这件物品会使你发出红色的光芒，去别人的房间里展示吧，你这个超级肝帝！')
     .replace("See the Uberquests section for more information.", '')
-    .replace("Archbishop Lazarus Trophy \+ Kabraxis Trophy \+ Uldyssian Trophy \+ Vial of Elder Blood \→ I Am Rich Gem",
-             '大主教拉扎鲁斯的奖杯 + 卡布拉西斯的奖杯 + 乌迪贤的奖杯 + 长老之血 → 我他妈贼有钱之石')
+    .replace("Yshari Sanctum Trophy \+ Void Trophy \+ Uldyssian Trophy \+ Vial of Elder Blood \→ I Am Rich Gem",
+             'Yshari Sanctum的奖杯 + Void的奖杯 + 乌迪贤的奖杯 + 长老之血 → 我他妈贼有钱之石')
     .replace("I Am Rich", '马云公式')
     .replace("This recipe is inspired by the \$1000 iPhone application that does nothing.", '灵感来源于价值1000美元屁用都没的APP。')
 
@@ -338,10 +342,10 @@
     .replace("death. Aside from their healing effect on humans and other animals, the juice of the Glor-An-Fhaidha's", '')
     .replace("fruits can be applied to armour, making it as hard as the bark of a thousand year tree.", '')
     .replace("Passive effect: provides a bonus to maximum life and defense", '--- 安静的做一棵大树。')
-    .replace("BLACK MASS", '黑色物质<br>black Mass')
-    .replace("The dragon god of death Trag’Oul takes his faithful under his wings, turning aside blades and arrows.", '效果 - 引导型技能，按住不动以保护自己和召唤物')
-    .replace("This powerful spell requires total concentration and is easily broken when the caster is disturbed.", '')
-    .replace("Effect: press and hold to protect self and nearby minions", '--- 对，谁动谁就是孙子！')
+    .replace("TALON'S HOLD", '利刃之握<br>talon\'s hold')
+    .replace("Fallen enemies of the Cult may see the error of their ways when they stand before the Dragon God on the plane of the dead. Trag’Oul sometimes grants the gift of unlife to his new converts..."
+             , '被动效果 - 减速怪物，并有几率将其复活为 拉马斯祭司')
+    .replace("Passive effect: slows targets and reanimates the dead as Rathma Priests", '--- 是的，怪物也不许动！')
     .replace("DIVINE APPARITION", '神圣显现<br>Divine Apparition')
     .replace("Like a deus ex machina, the paladin of Zakarum descends upon the battlefield, his mere appearance chilling his", '效果 - 瞬移并冻结目标附近怪物')
     .replace("heathen enemies to the bone.", '')
@@ -362,15 +366,20 @@
     .replace("Veterans", '它们分别是<br>')
     .replace("Clawstorm Terror", 'Act1 - 利爪风暴<br><img src="https://forum.median-xl.com/images/monsters/ClawstormTerror.png"><br>位置：监牢第一层至关底<br>')
     .replace("Fairy Witch", 'Act2 - 精灵巫师<br><img src="https://forum.median-xl.com/images/monsters/FairyWitch.png"><br>位置：推荐刷术士峡谷<br>')
-    .replace("lowing Blob", 'Act3 - 光斑<br><img src="https://forum.median-xl.com/images/monsters"lowingBlob.png"><br>位置：推荐刷崔凡克<br>')
+    .replace("lowing Blob", 'Act3 - 光斑<br><img src="https://forum.median-xl.com/images/monsters/LowingBlob.png"><br>位置：推荐刷崔凡克<br>')
     .replace("Landmass", 'Act4 - 地皮<br><img src="https://forum.median-xl.com/images/monsters/Landmass.png"><br>位置：火焰之河至关底<br>')
     .replace("Bane Hunter", 'Act5 - 灾厄猎人<br><img src="https://forum.median-xl.com/images/monsters/BaneHunter.png"><br>位置：亚瑞特巅峰杀完3爹进门后搜寻至关底')
     .replace("\[Class Charm\] \+ each of the 5 tokens → returns \[Class Charm\] with added bonuses", '角色护符 + 5种不同的眼球 → 角色护符升级版')
     .replace(/This upgrade recipe adds the following bonuses:/g, '升级后会增加下列属性：')
     .replace(/to \[Your class\] Skill Levels/g, '[你的职业]技能等级')
 //Boss战
+
+    .replace("Dungeons are quest-like zones which usually consist of defeating a boss for a unique charm reward.",
+             'Boss挑战通常是在一个特定的区域进行，每个BOSS都会掉落独特的暗金护符作为奖励')
+    .replace("Certain bosses may also drop a trophy fragment for additional upgrades, but they are rare."
+, '一些Boss还会掉落额外的奖杯，可以与护符合成获得额外属性，但是掉落几率很低。')
     .replace("smallbonus", 'small bonus')
-    .replace(/chance to drop a trophy on Hell difficulty. Cube the trophy with the charm for a small bonus./g, '的机会掉落一个奖杯，使用奖杯和该护符合成以得到额外的属性。')
+    .replace(/chance to drop a trophy fragment on Hell difficulty./g, '的机会掉落一个奖杯 。')
     .replace(/Maximum Skill Level Increased by/g, '技能等级上限提高')
     .replace("4>Horror Under Tristram", '4>崔斯特姆地下的恐惧')
     .replace("Butcher's Lair \(Act 1: Tristram\)", '屠夫的巢穴 ( Act1 ➤ 石块旷野 ➤ 崔斯特瑞姆 ➤ 西北角的屋子内，无红门，鼠标移动到屋子内可见入口 )<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44318356/">av44318356</a>')
@@ -407,14 +416,16 @@
     .replace("Laser Focus Crystal<\/span>.<\/p>", '激光对焦水晶</span>.</p>')
     .replace("Laser Focus Crystal", '激光对焦水晶<br>Laser Focus Crystal')
     .replace(">Assault on Mount Arreat", '>亚瑞特圣峰之战')
-    .replace("Arreat Summit \(Act 5: Arreat Summit\)", 'Act5 ➤ 远古之路 ➤ 亚瑞特山脉之巅<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526">av44420526</a>')
+    .replace("Arreat Summit \(Act 5: Arreat Summit\)", 'Act5 ➤ 远古之路 ➤ 亚瑞特山脉之巅')
     .replace("In ages past, Diablo himself attempted to invade Mount Arreat to destroy the Worldstone and was repelled", '')
     .replace("by the Bear tribe defenders and their king, the shaman Koth. This is a reenaction of that battle", '')
     .replace("on the peak of Mount Arreat, with you as Diablo.", '略')
-    .replace("Kill Narthal to open a portal to the old Arreat Summit.", '杀死3爹的守卫 那骚儿（Narthal）开启红门去回顾那一场远古的战役')
-    .replace("The Bear Shamans wield the Hawk Talons ability, a trap which releases axes, the ability to cast a Guard Tower, as well as throwing axes at the player. Thanks to their connection to the primal forces, all shamans have an innate 50% resistance to all. ", '玩家扮演迪亚波罗进攻亚瑞特圣峰，圣峰的野蛮人守卫们拥有50%的伤害免疫，并会投掷让人僵直的斧头，召唤箭塔陷阱。')
-    .replace("King Koth, on the other hand who wields dual swords, can also cast Hawk Talons, but instead of Guard Tower, he casts Fortress.", '科什大王手持双剑，还会施放堡垒陷阱。')
-    .replace("In many aspects this is the physical version of the Tal Rasha fight.", '<br>避免陷入不断的僵直，并快速的清理附近的野蛮人守卫后，与科什大王战斗。')
+    .replace("<i>Kill Narthal to open a portal to the old Arreat Summit.</i>", '杀死3爹的守卫 那骚儿（Narthal）开启红门去回顾那一场远古的战役<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44420526">av44420526</a>')
+    .replace("The Bear Shamans wield the Hawk Talons ability, a trap which releases axes, the ability to cast a Guard Tower, as well as throwing axes at the player. Thanks to their connection to the primal forces, all shamans have an innate 50% resistance to all.",
+             '<br>野熊萨满们会用飞斧击晕你，还会释放警戒塔。你需要逐个击败这些强大的敌人，他们拥有50%的所有抗性。<br>Boss科什大王，挥舞着双剑，除了飞斧之外，还会释放警戒塔的群体版本（堡垒）。如果没有足够的打击恢复能力，可能会比较难打。')
+
+    .replace("King Koth, on the other hand who wields dual swords, can also cast Hawk Talons, but instead of Guard Tower, he casts Fortress.", '')
+    .replace("In many aspects this is the physical version of the Tal Rasha fight.", '')
     .replace("Defeat King Koth on Hell difficulty to get the", '击败科什大王可获得')
     .replace("Sacred Worldstone Key<\/span>.<\/p>", '神圣世界之石钥匙</span>.</p>')
     .replace("Sacred Worldstone Key", '神圣世界之石钥匙<br>Sacred Worldstone Key')
@@ -450,11 +461,12 @@
     .replace("to heal when they slay a minion or hero. Akarat himself is blessed in another way as well: the spirits of the", '')
     .replace("Light repel a percentage of all incoming attacks.", '在丛林的最东方，阿卡拉特带领他的信徒们驻扎于此，他有一个无敌BUFF，杀死他的白衣教众可以短暂的破除他的BUFF，你必须在几秒内杀死他，否则他会再次无敌并释放治疗法术快速恢复，如果伤害不够，可以试着雇佣Act 3的瘟疫法师协助你完成这个任务。')
     .replace("Defeat Akarat on Hell difficulty to get the", '击败阿卡拉特可获得')
-    .replace("Visions of Akarat<\/span>.<\/p>", '阿卡拉特的视界</span>.</p>')
-    .replace('unique">Visions of Akarat', 'unique">阿卡拉特的视界<br>Visions of Akarat<br>（奖杯：增加最大生命和法力值 5%）')
+    .replace("Visions of Akarat", '阿卡拉特的视界')
     .replace("4>Lord Aldric Jitan", '4>领主艾德瑞克·吉坦')
     .replace("Driven mad by nightmares, the Western aristocrat Lord Aldric Jitan hopes to summon a terrible demon", '')
     .replace("and plunge the land into darkness. Stop him before he succeeds.", '略')
+    .replace("The guardsmen are tougher than anything that came before and will inflict tri-elemental"
+, '现在这群佣兵比以往任何时候都要强大，他们造成三系元素伤害。<br>')
     .replace("The demonic powers guiding his actions imbue him and his guardsmen", '')
     .replace("with 50% all resistances and the ability to harmlessly deflect a percentage of incoming attacks.", '')
     .replace("The guardsmen are tougher than anything that came before and will heal themselves, inflict tri-elemental", '')
@@ -562,10 +574,12 @@
     .replace("Kill Ghom to obtain a Key of Sin, right click it to open a portal to the Realm of Sin.", '')
     .replace("The Lord of Sin walks the earth. In his weakened state, he hides in the catacombs of Kurast, where his mere presence turned the surrounding area into a hellish landscape, feasting", '')
     .replace("on the dark rituals of Mephisto\'s chosen. Destroy him before he becomes a threat.", '略')
+    .replace("High maximum fire resistance will help against these threats, but not as much as against Azmodan himself."
+, '')
     .replace("Azmodan is accompanied by a legion of Balrogs that cast Fire Fountain and Ravening Beasts which unleash molten boulders.", '')
     .replace("High maximum fire resistance will help against these threats, but not as much as against Azmodan himself. ", '')
     .replace("Though he uses Flamestrike, it is very strong even against high fire resistance. And as for an attack that\'s not fire damage based, he will cast Fortress", '')
-    .replace("which can subdue his ranged attackers. Movement here is key.", '远离阿兹莫丹施放的堡垒，随时注意地面标记，他施放的烈焰一击足以秒杀任何人，附近还潜伏着隐形的火球怪，躲避他们的伤害，使用你的最强技能回城是最好的方法。')
+    .replace("which can subdue his ranged attackers. Movement here is key.", '远离阿兹莫丹施放的堡垒，随时注意地面标记，他施放的烈焰一击足以秒杀任何人，附近还潜伏着隐形的火球怪，躲避他们的伤害，提高你的最大火焰抗性，最后忠告：使用你的最强技能回城是最好的方法。')
     .replace("Defeat Azmodan on Hell difficulty to get", '击败阿兹莫丹可获得')
     .replace("Azmodan's Heart</span>.</p>", '阿兹莫丹之心</span>.</p>')
     .replace('unique">Azmodan\'s Heart', 'unique">阿兹莫丹之心<br>Azmodan\'s Heart<br>（奖杯：+150 生命和法力）')
@@ -600,19 +614,38 @@
     .replace('Act 5: The Worldstone Chamber', 'Act 5 ➤ 世界之石大殿')
     .replace("Much is known about Tor'Baalos, more commonly referred to as Baal, the Lord of Destruction: his battles during the Great Conflict, his bloodlust during the Sin Wars and his incinerating lust for revenge following the Dark Exile. Now all of the strife, devastation and horror he had wrought through the ages has been channeled into the Shard of Destruction. He seeks to fuse it with the Worldstone and reveal Sanctuary to the full onslaught of Hell once and for all. You must stop him before it is too late.",
              '著名的特巴罗，也就是大家熟知的毁灭之王 巴尔。他以大冲突时期的战斗，原罪之战中的嗜血以及流放之后燃烧的复仇欲望而令众人惊惧。他多年来所经历的冲突、毁灭和恐怖都被注入在毁灭之刃中。现在，他试图融合世界之石并发起对避难所的全面猛攻以取得永远的胜利。你必须在成功之前阻止他。')
-    .replace('The Lord of Destruction prefers fighting in close quarters where his spells will be harder to dodge. Heroes which attempt to flee or hide behind walls will be punished for their cowardice. "Defile", his most dangerous ability, marks an area on the ground in pulsating darkness which explodes after a few seconds dealing heavy magic damage. Also Baal will often incinerate all mana from your hero with his "Inferno"; so having a way to recover it quickly is recommended. The Lord of Destruction may call on his minions to aid him in battle, which buff their master and so must be killed quickly. He may also rarely haunt your hero with "Visions of Evil" which inhibit your Nephalem powers and thus render him untouchable; free yourself of these evils as fast as you can, lest you be overwhelmed into madness. Your best chance of defeating Baal lies in staying on your feet; but beware, the larger your party the more horrors will rise up to defend their master.',
+    .replace('The Lord of Destruction prefers fighting in close quarters where his spells will be harder to dodge. Heroes which attempt to flee',
              '毁灭之王巴尔更喜欢在狭窄的地方战斗，这样他的法术就更难被躲开。英雄们会因试图逃跑或躲在墙后面的懦弱而受到惩罚。“亵渎”是他最为危险的技能，这个技能用涌动的黑暗标记地上的一片区域，短暂延迟后降下多段打击的黑暗力量，造成非常强力的魔法伤害。巴尔也会经常使用他的技能“狱火”来吸干你的英雄的魔法，因此你需要提升一下快速回复魔法的能力。在战斗中，巴尔会召唤他的仆从来帮助他，这些仆从会给予他们的主人巴尔强力的增益效果，因此要快速击杀他们。巴尔也会使用“恶魔幻象”来干扰你的英雄，抑制你的奈非天之力，从而使你无法伤害到巴尔。尽快击杀这些恶魔幻象，不然你可能会疯掉。能站的住才有机会击败巴尔，但是请注意，你的队伍越庞大，他召唤的仆从就会越多。')
-    .replace('Defeat Baal on Hell difficulty to have a chance to get the <span class="unique">Spirit of Creation</span> charm. Not a guaranteed drop.</p>',
-             '击败巴尔将有机会获得 <span class="unique">创造之魂</span>，嗯，不是必掉。')
-    .replace("Spirit of Creation", '创造之魂<br>Spirit of Creation')
+    .replace("or hide behind walls will be punished for their cowardice. \"Defile\", his most dangerous ability, marks an area on the ground in pulsating"
+, '')
+    .replace("darkness which explodes after a few seconds dealing heavy magic damage. Also Baal will often incinerate all mana from your hero with his"
+, '')
+    .replace("\"Inferno\"; so having a way to recover it quickly is recommended. The Lord of Destruction may call on his minions to aid him in battle,"
+, '')
+    .replace("which buff their master and so must be killed quickly. He may also rarely haunt your hero with \"Visions of Evil\" which inhibit your"
+, '')
+    .replace("Nephalem powers and thus render him untouchable; free yourself of these evils as fast as you can, lest you be overwhelmed into madness."
+, '')
+    .replace("Your best chance of defeating Baal lies in staying on your feet; but beware, the larger your party the more horrors will rise up to defend their master."
+, '')
+    .replace(' Defeat Baal on Hell difficulty to get the <span class="unique">Spirit of Creation</span> charm.</p>',
+             '击败巴尔将获得 <span class="unique">创造之魂</span>。')
     .replace(/Bonus quest/g, '进阶挑战')
 
     .replace("4>Quov Tsin", '4>阔夫•琴')
     .replace('Vizjerei Temple (Caldeum)', 'Act 3 ➤ 卡尔蒂姆 ➤ 维兹杰雷神庙')
     .replace("Hungry for power and misled by Diablo, the irritable Vizjerei mage Quov Tsin set out to find Ureh, the fabled ancient city that had supposedly ascended up to the Heavens. Aided by Kentril Dumon and his mercenary company, which included Gorst the infamous barbarian, they succeeded in their task. However what they discovered within the deepest ruins of the grand city was no portal to Heaven, but a twisted nightmare of horrors - the Kingdom of Shadow. They were never seen again. It is rumoured that their spirits still clings to realityin a place they once called home, and that the ancient Vizjerei lies in waiting for a suitable mortal vessel that will allow him to rise once more.",
              '因渴望力量，加上迪亚波罗的误导，暴躁的维兹杰雷法师阔夫•琴开始寻找乌雷城，一座传说中可以通向天堂的古城。阔夫•琴受到肯特尔•杜蒙和他的雇佣兵队伍的帮助，其中包括臭名远扬的野蛮人哥斯特。当他们成功的抵达时，却他妈的发现乌雷城的废墟深处压根没有天堂之门，这里是阴影之国，遍布着扭曲的恐怖梦魇。至此，再也没有人见过阔夫•琴等人。据传言，他们的灵魂仍然坚守在曾被其称为家的地方，远古的维兹杰雷法师长眠此地，等待着一具合适的凡躯容器助他东山再起。')
-    .replace('As a former Vizjerei in life, Quov Tsin wields the elements. His most devastating attack is a streamingblast of fire, cold and lightning bolts powerful enough to annihilate any hero in a moment. He may cast the curse, Mythal,to reduce your resistances. He also uses a bone nova at a distance. Prepare for this battle by equipping resistance items, and try to find some absorb items to further cut the damage.His contingency spells protect him by teleporting him to safety when struck by any attack. Stay near cover in case he appears too close for comfort.',
+    .replace(' As a former Vizjerei in life, Quov Tsin wields the elements. His most devastating attack is a streaming',
              '生前作为维兹杰雷法师的阔夫•琴拥有操纵元素的力量。他会施放混合冰、火、电三种元素的法术通道，这个强大的技能可以瞬间毁灭任何英雄。他的迷锁诅咒能够降低你的元素抗性。他在近身时还会施放白骨新星。你需要为这场战斗准备增加元素抗性和吸收的装备，来降低受到的伤害。阔夫•琴受到伤害时会释放法术来传送到随机位置，借此来保护自身的安全。保持适中的距离，防止他给你一个骑脸杀。')
+    .replace("blast of fire, cold and lightning bolts powerful enough to annihilate any hero in a moment. He may cast the curse, Mythal,"
+, '')
+    .replace("to reduce your resistances. He also uses a bone nova at a distance."
+, '')
+    .replace("Prepare for this battle by equipping resistance items, and try to find some absorb items to further cut the damage."
+, '')
+    .replace("His contingency spells protect him by teleporting him to safety when struck by any attack. Stay near cover in case he appears too close for comfort."
+, '')
     .replace('Defeat Quov Tsin on Hell difficulty to get the <span class="unique">Silver Seal of Ureh</span>.',
              '击败阔夫•琴可获得 <span class="unique">乌雷的银印</span>。')
     .replace('unique">Silver Seal of Ureh', 'unique">乌雷的银印<br>Silver Seal of Ureh<br>（奖杯：+8% 至所有法术伤害）')
@@ -621,7 +654,7 @@
     .replace('Crystal Arch (Act 4: Silver Spire Level 2)', '水晶穹顶（Act 4 ➤ 银色尖塔第二层）')
     .replace('Halls of Valor (Imperius)', '勇气大厅（英普瑞斯）')
     .replace('Pools of Wisdom (Malthael)', '智慧之池（马萨伊尔）')
-    .replace("Kill Izual to open a Portal to the Diamond Gates and find your way to the Silver City. Therein lies the entrance to the first level of the Silver Spire.",
+    .replace("Kill Izual to open a Portal to the Diamond Gates and find your way to the Silver City. Therein lies the entrance tothe first level of the Silver Spire.",
              '击杀衣卒尔来开启通往金刚大门的传送点，并找到去往银色之城的路。在这里你可以找到通往银色尖塔第一层的传送点（铁匠旁边）。<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av46195763">av46195763</a>')
     .replace("When Uldyssian sacrificed his life at the Cathedral of Vanity in the battle between angels anddemons, his soul was thought to be blown to the far reaches of the universe. But a maliciousspirit in the High Heavens, watching over the battle from afar, snatched Uldyssian and his edyremon their way to oblivion. Imperius, archangel and high warlord of the Crystal Arch, had his ownopinions about Sanctuary and the human vermin inhabiting it. This taint on creation had to beeradicated. But his side of the argument, despite the support of Malthael, lost out in the AngirisCouncil due to the intervention of Tyrael, and the ensuing blood pact with Mephisto preventedhim from intervening on the mortal plane at all. A puppet had to be found, and Uldyssian wasjust what he sought. After a thorough brainwashing, Imperius sent his harbinger Dark Uldyssianto Sanctuary with the mission to exact divine justice and destroy the world...",
              '当乌迪西安在虚空大教堂那场正邪之战中牺牲时，他的灵魂飘散到遥远的宇宙深处。但在至高天，一股邪恶精神遥视着这场战斗，并在这条灵魂遗忘之路上捕获了乌迪西安和他的族人（被称作艾迪伦）们。<br>英普瑞斯，作为水晶穹顶的高阶天使和军官，对庇护所和人类的生存有着自己的看法，他认为必须消灭这种污点。然而，尽管拥有马萨伊尔的支持，随着天使泰瑞尔的介入，他的观点还是遭到了英格里斯议会的反对。接下来，与墨菲斯托签订的血之契约阻止了英普瑞斯介入凡人的位面。他必须找到一个傀儡、木偶，而乌迪西安恰好就是他所追求的人选。在经历了彻底的洗脑之后，英普瑞斯将黑暗乌迪西安送入了庇护所，以完成神圣审判和摧毁世界的任务……')
@@ -1002,6 +1035,10 @@
 
 
 //其他
+    .replace(/Set Bonus with 2 or more set items:/g, '装备2件以上时额外加成：')
+    .replace(/Set Bonus with 3 or more set items:/g, '装备3件以上时额外加成：')
+    .replace(/Set Bonus with 4 or more set items:/g, '装备4件以上时额外加成：')
+    .replace(/Set Bonus with complete set:/g, '装备全套时额外加成：')
     .replace(/of Minion Damage Increases Added as/g, '的增强仆从伤害加成至')
     .replace(/of Minion Life Increases Added as Total Character Defense/g, '的增强仆从生命加成至角色整体防御')
     .replace(/Your Attacks Ignore the Physical Resistance of the Undead/g, '忽视不死生物的防御')
@@ -1063,6 +1100,9 @@
              '许多神符之语仅需要一枚符文，但是你需要在镶嵌这枚符文之前，用珠宝填满前面的孔。<br>举个栗子，有一件装备有4个孔，你必须在<span class="item-red">镶嵌 3 枚珠宝之后，在最后一个孔里镶嵌入对应符文</span>。')
     .replace("Some people do not seem to know this. You can only make runewords in nonmagical socketed \(grey\) items!", '很多人看来不知道，你只能在普通带孔装备（灰色）上装备神符之语！')
 
+    .replace('Advanced runes', '<span class="genflat">高级符文</span>')
+    .replace('Some runes drop only in certain levels, while others are made using a recipe.',
+             '高级符文只出产于高级场景，还有一些需要用到合成公式。')
     .replace(/ contains 537 all-new runewords./g, ' 包含了 537 个全新的神符之语')
     .replace(/LIST OF RUNEWORDS/g, '神符之语图鉴')
     .replace(/RUNEWORDS/g, '神符之语')
@@ -1363,6 +1403,7 @@
     .replace(/Fire Set/g, '超级火焰套')
 
 
+
 //菜单及基础单词
     .replace("CUBE RECIPES", '合成公式')
     .replace('e">Cube Recipes', 'e">hb0d 合成公式')
@@ -1439,6 +1480,7 @@
     .replace(/Unique Quiver/g, '暗金箭袋')
     .replace(/Unique Jewel/g, '暗金珠宝')
     .replace(/>Weapon:/g, '>武器：')
+    .replace(/>Elemental Weapon:/g, '>元素武器：')
     .replace(/>Armour:/g, '>防具：')
     .replace(/>Amulet:/g, '>项链：')
     .replace(/>Ring:/g, '>戒指：')
@@ -1940,7 +1982,6 @@ var replaceArry = [
 [/Deal No/i, '不再造成'],
 ];
 
-
 var numTerms= replaceArry.length;
 var txtWalker= document.createTreeWalker (
     document.body,
@@ -1955,6 +1996,10 @@ var txtWalker= document.createTreeWalker (
     },
     false
 );
+
+
+
+
 var txtNode = null;
 
 while (txtNode = txtWalker.nextNode () ) {
@@ -1966,6 +2011,12 @@ while (txtNode = txtWalker.nextNode () ) {
     txtNode.nodeValue = oldTxt;
 }
 ;
+
+    for (var i = 0; i < 31; i++) {
+
+    document.getElementsByClassName('lore')[i].innerHTML=""
+}
+    document.getElementsByClassName('brc')[0].innerHTML="";
 
 
     function addGlobalStyle(css) {
