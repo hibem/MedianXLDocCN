@@ -12,7 +12,7 @@
 // ==/UserScript==
 (function() {
     'use strict';
-    document.body.innerHTML = document.body.innerHTML
+    var tx = document.body.innerHTML
 //大段文字
     .replace(/\r\n/g, '')
     .replace(/\n/g, '')
@@ -293,11 +293,11 @@
              'Yshari Sanctum的奖杯 + Void的奖杯 + 乌迪贤的奖杯 + 长老之血 → 我他妈贼有钱之石')
     .replace("I Am Rich", '马云公式')
     .replace("This recipe is inspired by the \$1000 iPhone application that does nothing.", '灵感来源于价值1000美元屁用都没的APP。')
-
+;
 
 //任务
     //等级挑战
-    .replace("After killing the Infernal Contraption in Normal difficulty, enter the portal to access Tran Athulua, here begins Level Challenge 1.", '普通难度下杀死炼狱装置（Act 5 巴尔前最后一波怪），开启红门后进入阿苏拉城（妹子岛 伪）。 ')
+    tx = tx.replace("After killing the Infernal Contraption in Normal difficulty, enter the portal to access Tran Athulua, here begins Level Challenge 1.", '普通难度下杀死炼狱装置（Act 5 巴尔前最后一波怪），开启红门后进入阿苏拉城（妹子岛 伪）。 ')
     .replace("Find and defeat the three Priestesses. Each will drop a shard of her respective element.", '找到并杀死三个祭司，分别会掉落火焰、冰冷和闪电碎片。')
     .replace("Cube all three shards below level 60 to create the Sunstone.", '将三枚元素碎片合成得到太阳石（60级以内）')
     .replace("Sunstone of the Twin Seas", 'Sunstone of the Twin Seas<br>双子海的太阳石')
@@ -552,8 +552,8 @@
     .replace("guard dogs are the real challenge. After several millennia in and around Rathma Square, his Gore Crawlers", '')
     .replace("can raise themselves from the dead. Shattering the corpse does not stop this, but the resurrection takes", '')
     .replace("10 seconds, during which you can attempt to run away and ditch them.", '首先说一下，这个地图不锁定，BOSS普莱姆斯不回血，可以拖尸体过。<br>真正恐怖的不是BOSS，而是大量的爬行者，这些爬行者死后会点亮一个火把，10秒后原地复活，杀死怪物回复平静或者毁掉他们的尸体都无法阻止他们复活，所以你一定要快，快速的找到普莱姆斯，杀死他，捡起战利品，退出，否则你将被狗群淹没。')
-
-    .replace("4>The Veiled Prophet", '4>蒙面先知')
+;
+    tx=tx.replace("4>The Veiled Prophet", '4>蒙面先知')
     .replace("Cathedral of Vanity \(Library of Fate\)", ' ( Act4 ➤ 绝望平原击杀衣卒尔开启金刚大门 ➤ 银城（记得点亮小站） ➤ 命运图书馆 ➤ 虚荣大教堂 )<br><br><b>参考视频: </b><a target="_blank" href="https://www.bilibili.com/video/av44878164">av44878164</a>')
     .replace("Defeat Inarius on Hell difficulty to get the", '击败伊纳瑞斯可获得')
     .replace("Idol of Vanity<\/span>.<\/p>", '虚荣雕像</span>.</p>')
@@ -714,12 +714,12 @@
     .replace('Defeat Belial on Hell difficulty to get the <span class="unique">Book of Lies</span>.',
              '击败彼列可获得 <span class="unique">谎言之书</span>。')
     .replace('unique">Book of Lies', 'unique">谎言之书<br>Book of Lies')
-
+;
 
 
 
     //亚马逊
-    .replace(/SUN STRIKE/g, 'SUNSTRIKe<br>炎阳击')
+    tx=tx.replace(/SUN STRIKE/g, 'SUNSTRIKe<br>炎阳击')
     .replace(/Effect: shoots a piercing fire arrow that leaves a trail behind/g, '投射物 - 射出一只可穿透的火箭并留下火焰')
     .replace(/BARRAGE/g, 'BARRAGe<br>弹幕')
     .replace(/Effect: shoots arrows in random directions/g, '投射物 - 密集箭矢的旋转射击')
@@ -999,10 +999,10 @@
     .replace(/ Frozen Lord/g, '<span style="color:gray;"> 寒冰领主（Frozen Lord）</span>')
     .replace(/ Skeleton/g, '<span style="color:gray;"> 骷髅（Skeleton）</span>')
     .replace(/ Obsidian Lord/g, '<span style="color:gray;"> 黑曜石领主（Obsidian Lord）</span>')
-
+;
 
     //未分类
-    .replace(/ Veil Terror/g, ' 恐惧帷幕（Veil Terror）')
+    tx=tx.replace(/ Veil Terror/g, ' 恐惧帷幕（Veil Terror）')
     .replace(/ Asatruar/g, ' 阿萨特鲁信徒（Asatruar）')
 
 
@@ -1539,9 +1539,9 @@
     .replace(/ to Vitality/g, ' 体力')
     .replace(/ to Energy/g, ' 精力')
     .replace(/ Life/g, ' 生命值')
-
+;
 //格式化
-    .replace(/% More /g, '% 更多')
+    tx=tx.replace(/% More /g, '% 更多')
     .replace(/ Arrow 在/g, 'hb1 箭hb5（Arrow）<br>就是射出去一支箭hb4 在')
     .replace(/ Bolt 在/g, 'hb1 飞弹hb5（Bolt）<br>就是射出去一颗飞弹hb4 在')
     .replace(/ Javelin 在/g, 'hb1 标枪hb5（Javelin）<br>就是射出去一支标枪hb4 在')
@@ -1579,7 +1579,7 @@
     .replace(/ *to *[\u4e00-\u9fa5]+/g,handleHanzi)
    .replace(/ *to *[<,>]/g,handleHanzi)
 
-
+document.body.innerHTML = tx;
 ;
 var replaceArry = [
 
@@ -2012,11 +2012,16 @@ while (txtNode = txtWalker.nextNode () ) {
 }
 ;
 
-    for (var i = 0; i < 31; i++) {
+var els=document.getElementsByClassName('lore')
+    for (var i = 0; i < els.length; i++) {
 
-    document.getElementsByClassName('lore')[i].innerHTML=""
+    els[i].innerHTML=""
 }
-    document.getElementsByClassName('brc')[0].innerHTML="";
+els=document.getElementsByClassName('brc')
+    for (var i = 0; i < els.length; i++) {
+
+    els[i].innerHTML=""
+}
 
 
     function addGlobalStyle(css) {
